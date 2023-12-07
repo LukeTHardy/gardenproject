@@ -35,7 +35,6 @@ class Plant(models.Model):
     spacing = models.IntegerField(null=True)
     height = models.IntegerField(null=True)
     days_to_mature = models.IntegerField(null=True)
-    block_size = models.IntegerField(null=True)
     zones = models.ManyToManyField(
         "Zone",
         through='PlantZonePairing',
