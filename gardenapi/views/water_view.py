@@ -25,14 +25,14 @@ class WaterViewSet(ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def create(self, request):
-        #get data from JSON payload
-        frequency = request.data.get('frequency')
-        water = Water.objects.create(
-            frequency=frequency
-        )
-        
-        serializer = WaterSerializer(water, context={'request': request})
-        return Response(serializer.data, status=status.HTTP_201_CREATED)
+        try:
+            frequency = request.data.get('frequency')
+            water = Water.objects.create(frequency=frequency)
+            serializer = WaterSerializer(water, context={'request': request})
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
     def destroy(self, request, pk=None):
         try:

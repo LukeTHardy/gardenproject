@@ -25,14 +25,14 @@ class LightViewSet(ViewSet):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     def create(self, request):
-        #get data from JSON payload
-        label = request.data.get('label')
-        light = Light.objects.create(
-            label=label
-        )
-        
-        serializer = LightSerializer(light, context={'request': request})
-        return Response(serializer.data, status=status.HTTP_201_CREATED)
+        try:
+            label = request.data.get('label')
+            light = Light.objects.create(label=label)
+            serializer = LightSerializer(light, context={'request': request})
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
     def destroy(self, request, pk=None):
         try:

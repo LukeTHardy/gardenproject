@@ -3,12 +3,16 @@ from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 from django.core.validators import FileExtensionValidator
 from PIL import Image
-
+from django.core.files.images import ImageFile
+    
 def validate_square_image(value):
-    img = Image.open(value)
-    width, height = img.size
-    if width != height:
-        raise ValidationError("The image must be square.")
+    if isinstance(value, ImageFile):
+        img = Image.open(value)
+        width, height = img.size
+        if width != height:
+            raise ValidationError("The image must be square.")
+    else:
+        raise ValidationError("Invalid image file.")
 
 class Plant(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='plants_added_by_this_user')

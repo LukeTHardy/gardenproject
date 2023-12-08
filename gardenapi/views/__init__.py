@@ -6,3 +6,7 @@ from .zone_view import ZoneViewSet
 from .crittertype_view import CritterTypeViewSet
 from .veggiecat_view import VeggieCatViewSet
 from .planttype_view import PlantTypeViewSet
+from .favorite_view import FavoriteViewSet
+from .plantcritterpairing_view import PlantCritterPairingViewSet
+from .plantzonepairing_view import PlantZonePairingViewSet
+from .companionpairing_view import CompanionPairingViewSet
