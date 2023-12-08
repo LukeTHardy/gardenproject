@@ -4,7 +4,7 @@ from gardenapi.views import register_user, login_user
 from rest_framework import routers
 from django.conf import settings
 from django.conf.urls.static import static
-from gardenapi.views import ZoneViewSet, WaterViewSet, LightViewSet, SoilViewSet
+from gardenapi.views import ZoneViewSet, WaterViewSet, LightViewSet, SoilViewSet, CritterTypeViewSet, VeggieCatViewSet, PlantTypeViewSet
 
 
 router = routers.DefaultRouter(trailing_slash=False)
@@ -12,6 +12,9 @@ router.register(r'zones', ZoneViewSet, 'zone')
 router.register(r'lights', LightViewSet, 'light')
 router.register(r'soils', SoilViewSet, 'soil')
 router.register(r'waters', WaterViewSet, 'water')
+router.register(r'crittertypes', CritterTypeViewSet, 'crittertype')
+router.register(r'veggiecats', VeggieCatViewSet, 'veggiecat')
+router.register(r'planttypes', PlantTypeViewSet, 'planttype')
 
 
 urlpatterns = [
@@ -20,4 +23,3 @@ urlpatterns = [
     path('login', login_user),
     path('admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
