@@ -1,0 +1,44 @@
+[
+  {
+    "model": "gardenapi.water",
+    "pk": 1,
+    "fields": {
+      "frequency": "Daily"
+    }
+  },
+  {
+    "model": "gardenapi.water",
+    "pk": 2,
+    "fields": {
+      "frequency": "Every other day"
+    }
+  },
+  {
+    "model": "gardenapi.water",
+    "pk": 3,
+    "fields": {
+      "frequency": "Few times a week"
+    }
+  },
+  {
+    "model": "gardenapi.water",
+    "pk": 4,
+    "fields": {
+      "frequency": "Weekly"
+    }
+  },
+  {
+    "model": "gardenapi.water",
+    "pk": 5,
+    "fields": {
+      "frequency": "Bi-weekly"
+    }
+  },
+  {
+    "model": "gardenapi.water",
+    "pk": 6,
+    "fields": {
+      "frequency": "Monthly"
+    }
+  }
+]

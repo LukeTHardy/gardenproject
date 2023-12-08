@@ -1,0 +1,51 @@
+[
+  {
+    "model": "gardenapi.soil",
+    "pk": 1,
+    "fields": {
+      "soil_type": "Loamy"
+    }
+  },
+  {
+    "model": "gardenapi.soil",
+    "pk": 2,
+    "fields": {
+      "soil_type": "Sandy"
+    }
+  },
+  {
+    "model": "gardenapi.soil",
+    "pk": 3,
+    "fields": {
+      "soil_type": "Clay"
+    }
+  },
+  {
+    "model": "gardenapi.soil",
+    "pk": 4,
+    "fields": {
+      "soil_type": "Silt"
+    }
+  },
+  {
+    "model": "gardenapi.soil",
+    "pk": 5,
+    "fields": {
+      "soil_type": "Peaty"
+    }
+  },
+  {
+    "model": "gardenapi.soil",
+    "pk": 6,
+    "fields": {
+      "soil_type": "Chalky"
+    }
+  },
+  {
+    "model": "gardenapi.soil",
+    "pk": 7,
+    "fields": {
+      "soil_type": "Acidic"
+    }
+  }
+]

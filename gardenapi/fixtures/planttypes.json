@@ -1,0 +1,30 @@
+[
+  {
+    "model": "gardenapi.planttype",
+    "pk": 1,
+    "fields": {
+      "label": "Veggie"
+    }
+  },
+  {
+    "model": "gardenapi.planttype",
+    "pk": 2,
+    "fields": {
+      "label": "Herb"
+    }
+  },
+  {
+    "model": "gardenapi.planttype",
+    "pk": 3,
+    "fields": {
+      "label": "Flower"
+    }
+  },
+  {
+    "model": "gardenapi.planttype",
+    "pk": 4,
+    "fields": {
+      "label": "Fruit"
+    }
+  }
+]

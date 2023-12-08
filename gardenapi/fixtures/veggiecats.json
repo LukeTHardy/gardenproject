@@ -1,0 +1,51 @@
+[
+  {
+    "model": "gardenapi.veggiecat",
+    "pk": 1,
+    "fields": {
+      "label": "Tomato"
+    }
+  },
+  {
+    "model": "gardenapi.veggiecat",
+    "pk": 2,
+    "fields": {
+      "label": "Pepper"
+    }
+  },
+  {
+    "model": "gardenapi.veggiecat",
+    "pk": 3,
+    "fields": {
+      "label": "Root"
+    }
+  },
+  {
+    "model": "gardenapi.veggiecat",
+    "pk": 4,
+    "fields": {
+      "label": "Green"
+    }
+  },
+  {
+    "model": "gardenapi.veggiecat",
+    "pk": 5,
+    "fields": {
+      "label": "Squash"
+    }
+  },
+  {
+    "model": "gardenapi.veggiecat",
+    "pk": 6,
+    "fields": {
+      "label": "Legume"
+    }
+  },
+  {
+    "model": "gardenapi.veggiecat",
+    "pk": 7,
+    "fields": {
+      "label": "Misc"
+    }
+  }
+]
