@@ -6,7 +6,7 @@ from gardenapi.models import Light
 class LightSerializer(serializers.ModelSerializer):
     class Meta:
         model = Light
-        fields = ['id', 'label']
+        fields = '__all__'
 
 
 class LightViewSet(ViewSet):

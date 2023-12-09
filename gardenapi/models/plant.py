@@ -18,18 +18,19 @@ class Plant(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='plants_added_by_this_user')
     name = models.CharField(max_length=500, null=True, blank=True)
     description = models.CharField(max_length=500, null=True, blank=True)
-    image = models.ImageField(upload_to='images/',
+    image = models.ImageField(upload_to='images/plants',
         height_field=None,
         width_field=None,
         max_length=None,
         null=True,
-        validators=[FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png']), validate_square_image]
+        validators=[FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png', 'webp', 'avif']), validate_square_image]
     )
-    icon = models.ImageField(upload_to='icons/',
+    icon = models.ImageField(upload_to='images/icons',
         height_field=None,
         width_field=None,
         max_length=None,
-        null=True)
+        null=True,
+        validators=[FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png', 'webp', 'avif']), validate_square_image])
     type = models.ForeignKey("PlantType", on_delete=models.CASCADE, related_name='plants_of_this_type')
     veggie_cat = models.ForeignKey("VeggieCat", on_delete=models.CASCADE, related_name='veggies_in_this_category')
     soil = models.ForeignKey("Soil", on_delete=models.CASCADE, related_name='plants_with_this_soil_type')

@@ -3,16 +3,33 @@ from rest_framework.response import Response
 from rest_framework import serializers, status
 from gardenapi.models import Favorite, Plant
 from django.contrib.auth.models import User
+from gardenapi.views.plant_view import PlantSerializer
 
 
 class FavoriteSerializer(serializers.ModelSerializer):
+    plant = PlantSerializer(many=False)
+
     class Meta:
         model = Favorite
         fields = ['id', 'user', 'plant']
 
 class FavoriteViewSet(ViewSet):
+    
     def list(self, request):
-        favorites = Favorite.objects.all()
+        # Get the query parameter 'user' from the request
+        user_param = request.query_params.get('user')
+
+        if user_param == 'current':
+            # If user_param is 'current', filter posts by the current user ID
+            try:
+                user_id = request.user.id
+                favorites = Favorite.objects.filter(user__id=user_id)
+            except ValueError:
+                return Response(status=status.HTTP_400_BAD_REQUEST)
+        else:
+            # If no 'user' parameter or 'user' is not 'current', return all posts
+            favorites = Favorite.objects.all()
+
         serializer = FavoriteSerializer(favorites, many=True, context={'request': request})
         return Response(serializer.data)
     

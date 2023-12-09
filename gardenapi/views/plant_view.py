@@ -11,11 +11,9 @@ from gardenapi.views.light_view import LightSerializer
 from gardenapi.views.plantzonepairing_view import PlantZonePairingSerializer
 from gardenapi.views.plantcritterpairing_view import PlantCritterPairingSerializer
 from gardenapi.views.companionpairing_view import CompanionPairingSerializer
+# import uuid
+import base64
 from django.core.files.base import ContentFile
-from base64 import b64decode
-from django.core.files.uploadedfile import InMemoryUploadedFile
-from PIL import Image
-import io
 
         
 class PlantSerializer(serializers.ModelSerializer):
@@ -32,19 +30,44 @@ class PlantSerializer(serializers.ModelSerializer):
         model = Plant
         fields = ['user', 'name', 'description', 'image', 'icon', 'type', 'veggie_cat', 'soil', 'water', 'light', 'annual', 'spacing', 'height', 'days_to_mature', 'zones', 'critters', 'companions']
 
-class PlantView(ViewSet):
+    def to_representation(self, instance):
+        representation = super().to_representation(instance)
+        request = self.context.get("request")
+        
+        if request and instance.id:
+            representation["zones"] = PlantZonePairingSerializer(
+                instance.zones.filter(plant=instance),
+                many=True,
+                context={"request": request}
+            ).data
+
+            representation["critters"] = PlantCritterPairingSerializer(
+                instance.critters.filter(plant=instance),
+                many=True,
+                context={"request": request}
+            ).data
+
+            representation["companions"] = CompanionPairingSerializer(
+                instance.companions.filter(plant1=instance) | instance.companions.filter(plant2=instance),
+                many=True,
+                context={"request": request}
+            ).data
+
+        return representation
+
+class PlantViewSet(ViewSet):
 
     def retrieve(self, request, pk):
         try:
             plant = Plant.objects.get(pk=pk)
-            serializer = PlantSerializer(plant)
-            return Response(serializer.data)
-        except Plant.DoesNotExist:
-            return Response(status=status.HTTP_404_NOT_FOUND)
+            plant_serializer = PlantSerializer(plant, context={"request": request})
+            return Response(plant_serializer.data)
+        except Plant.DoesNotExist as ex:
+            return Response({"message": ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
     def list(self, request):
         plants = Plant.objects.all()
-        serializer = PlantSerializer(plants, many=True)
+        serializer = PlantSerializer(plants, many=True, context={"request": request})
         return Response(serializer.data)
 
     def create(self, request):
@@ -66,13 +89,19 @@ class PlantView(ViewSet):
             plant.spacing = request.data.get('spacing')
             plant.height = request.data.get('height')
             plant.days_to_mature = request.data.get('days_to_mature')
-            if image_data:
-                # Process and save image data
-                plant.image.save("image.jpg", ContentFile(b64decode(image_data)), save=True)
+            
 
-            if icon_data:
-                # Process and save icon data
-                plant.icon.save("icon.jpg", ContentFile(b64decode(icon_data)), save=True)
+            image_format, image_str = request.data["image"].split(';base64,')
+            image_ext = image_format.split('/')[-1]
+            image_data = ContentFile(base64.b64decode(image_str), name=f'{request.data["name"]}.{image_ext}')
+
+            icon_format, icon_str = request.data["icon"].split(';base64,')
+            icon_ext = icon_format.split('/')[-1]
+            icon_data = ContentFile(base64.b64decode(icon_str), name=f'{request.data["name"]}-icon.{icon_ext}')
+
+            plant.image = image_data
+            plant.icon = icon_data
+
             plant.save()
             serializer = PlantSerializer(plant, many=False)
             return Response(serializer.data, status=status.HTTP_201_CREATED)
@@ -80,31 +109,15 @@ class PlantView(ViewSet):
         except Exception as e:
             return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         
-    def handle_uploaded_image(self, image_data):
-        # Decode base64 and create an InMemoryUploadedFile
-        image_data = b64decode(image_data)
-        image = Image.open(io.BytesIO(image_data))
-
-        # Convert image to JPEG format (you can adjust the format based on your needs)
-        with io.BytesIO() as output:
-            image.save(output, format='JPEG')
-            image_data = output.getvalue()
-
-        return InMemoryUploadedFile(
-            io.BytesIO(image_data),
-            'ImageField',
-            'image.jpg',
-            'image/jpeg',
-            len(image_data),
-            None
-        )
         
     def update(self, request, pk=None):
         try:
             plant = Plant.objects.get(pk=pk)
+            image_data = request.data.get('image', None)
+            icon_data = request.data.get('icon', None)
+
             serializer = PlantSerializer(data=request.data)
             if serializer.is_valid():
-                plant.label = serializer.validated_data['label']
                 plant.user = User.objects.get(pk=serializer.validated_data["user"])
                 plant.name = serializer.validated_data['name']
                 plant.description = serializer.validated_data['description']
@@ -117,17 +130,31 @@ class PlantView(ViewSet):
                 plant.spacing = serializer.validated_data['spacing']
                 plant.height = serializer.validated_data['height']
                 plant.days_to_mature = serializer.validated_data['days_to_mature']
-                plant.image
-                plant.icon
+
+                if image_data:
+                    # Process and save image data
+                    image_format, image_str = image_data.split(';base64,')
+                    image_ext = image_format.split('/')[-1]
+                    image_data = ContentFile(base64.b64decode(image_str), name=f'{serializer.validated_data["name"]}.{image_ext}')
+                    plant.image = image_data
+
+                if icon_data:
+                    # Process and save icon data
+                    icon_format, icon_str = icon_data.split(';base64,')
+                    icon_ext = icon_format.split('/')[-1]
+                    icon_data = ContentFile(base64.b64decode(icon_str), name=f'{serializer.validated_data["name"]}-icon.{icon_ext}')
+                    plant.icon = icon_data
+
                 plant.save()
                 
-                serializer = PlantTypeSerializer(plant, context={'request': request})
-                return Response(None, status.HTTP_204_NO_CONTENT)
+                serializer = PlantSerializer(plant, context={'request': request})
+                return Response(serializer.data, status=status.HTTP_200_OK)
 
-            return Response(serializer.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-        except PlantType.DoesNotExist:
+        except Plant.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
+
 
     def destroy(self, request, pk=None):
         try:

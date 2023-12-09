@@ -10,3 +10,5 @@ from .favorite_view import FavoriteViewSet
 from .plantcritterpairing_view import PlantCritterPairingViewSet
 from .plantzonepairing_view import PlantZonePairingViewSet
 from .companionpairing_view import CompanionPairingViewSet
+from .plant_view import PlantViewSet
+from .critter_view import CritterViewSet
