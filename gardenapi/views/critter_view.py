@@ -50,7 +50,6 @@ class CritterViewSet(ViewSet):
 
         try:
             image_data = request.data.get('image', None)
-            icon_data = request.data.get('icon', None)
 
             critter = Critter()
             critter.user = User.objects.get(pk=request.data["user"])
@@ -78,7 +77,6 @@ class CritterViewSet(ViewSet):
         try:
             critter = Critter.objects.get(pk=pk)
             image_data = request.data.get('image', None)
-            icon_data = request.data.get('icon', None)
 
             serializer = CritterSerializer(data=request.data)
             if serializer.is_valid():
