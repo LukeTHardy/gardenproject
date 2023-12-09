@@ -1,0 +1,30 @@
+[
+  {
+    "model": "gardenapi.light",
+    "pk": 1,
+    "fields": {
+      "label": "Full Sun"
+    }
+  },
+  {
+    "model": "gardenapi.light",
+    "pk": 2,
+    "fields": {
+      "label": "Part Sun"
+    }
+  },
+  {
+    "model": "gardenapi.light",
+    "pk": 3,
+    "fields": {
+      "label": "Part Shade"
+    }
+  },
+  {
+    "model": "gardenapi.light",
+    "pk": 4,
+    "fields": {
+      "label": "Full Shade"
+    }
+  }
+]

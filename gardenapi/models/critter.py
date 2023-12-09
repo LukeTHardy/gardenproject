@@ -13,12 +13,12 @@ def validate_square_image(value):
 class Critter(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='critters_added_by_this_user')
     name = models.CharField(max_length=500, null=True, blank=True)
-    image = models.ImageField(upload_to='images/',
+    image = models.ImageField(upload_to='images/critters',
         height_field=None,
         width_field=None,
         max_length=None,
         null=True,
-        validators=[FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png']), validate_square_image]
+        validators=[FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png', 'webp', 'avif']), validate_square_image]
     )
     description = models.CharField(max_length=500, null=True, blank=True)
     size = models.FloatField(null=True)

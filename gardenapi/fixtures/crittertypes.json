@@ -1,0 +1,23 @@
+[
+  {
+    "model": "gardenapi.crittertype",
+    "pk": 1,
+    "fields": {
+      "label": "harmful"
+    }
+  },
+  {
+    "model": "gardenapi.crittertype",
+    "pk": 2,
+    "fields": {
+      "label": "neutral"
+    }
+  },
+  {
+    "model": "gardenapi.crittertype",
+    "pk": 3,
+    "fields": {
+      "label": "helpful"
+    }
+  }
+]
