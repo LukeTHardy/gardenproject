@@ -1,0 +1,18 @@
+[
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 1,
+    "fields": {
+      "plant": 1,
+      "critter": 1
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 2,
+    "fields": {
+      "plant": 2,
+      "critter": 2
+    }
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "model": "gardenapi.critter",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "name": "Aphid",
+      "image": "images/critters/aphid.jpg",
+      "description": "A description of my critter",
+      "size": 0.1,
+      "type": 1,
+      "management": "Management details"
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "name": "Assassin Bug",
+      "image": "images/critters/assassin bug.jpg",
+      "description": "A description of my critter",
+      "size": 0.5,
+      "type": 3,
+      "management": "Management details"
+    }
+  }
+]

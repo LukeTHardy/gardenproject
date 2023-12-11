@@ -1,0 +1,20 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$TEkba4RLcYSl8UuBwe8a32$jI9wWq4wu4Zk/oSlCkhCW1xIAcFyWB7i0OUZCgeWdfk=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "luke",
+      "first_name": "Luke",
+      "last_name": "Hardy",
+      "email": "luke.taylor.hardy@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-12-07T20:27:29.542Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

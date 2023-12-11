@@ -1,0 +1,34 @@
+[
+  {
+    "model": "gardenapi.plantzonepairing",
+    "pk": 1,
+    "fields": {
+      "plant": 1,
+      "zone": 4
+    }
+  },
+  {
+    "model": "gardenapi.plantzonepairing",
+    "pk": 2,
+    "fields": {
+      "plant": 1,
+      "zone": 3
+    }
+  },
+  {
+    "model": "gardenapi.plantzonepairing",
+    "pk": 3,
+    "fields": {
+      "plant": 2,
+      "zone": 5
+    }
+  },
+  {
+    "model": "gardenapi.plantzonepairing",
+    "pk": 4,
+    "fields": {
+      "plant": 3,
+      "zone": 4
+    }
+  }
+]

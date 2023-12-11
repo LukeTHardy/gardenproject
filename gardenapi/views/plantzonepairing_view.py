@@ -3,7 +3,20 @@ from rest_framework.response import Response
 from rest_framework import serializers, status
 from gardenapi.models import PlantZonePairing, Plant, Zone
 
+class PlantSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Plant
+        fields = ['id', 'name']
+
+class ZoneSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Zone
+        fields = ['id', 'name']
+
 class PlantZonePairingSerializer(serializers.ModelSerializer):
+    plant = PlantSerializer(many=False)
+    zone = ZoneSerializer(many=False)
+    
     class Meta:
         model = PlantZonePairing
         fields = ['id', 'plant', 'zone']

@@ -1,0 +1,26 @@
+[
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1,
+    "fields": {
+      "plant1": 1,
+      "plant2": 2
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 2,
+    "fields": {
+      "plant1": 1,
+      "plant2": 3
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 3,
+    "fields": {
+      "plant1": 2,
+      "plant2": 3
+    }
+  }
+]
