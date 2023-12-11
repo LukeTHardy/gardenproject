@@ -1,0 +1,26 @@
+[
+  {
+    "model": "gardenapi.favorite",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "plant": 1
+    }
+  },
+  {
+    "model": "gardenapi.favorite",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "plant": 2
+    }
+  },
+  {
+    "model": "gardenapi.favorite",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "plant": 3
+    }
+  }
+]

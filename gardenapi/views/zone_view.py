@@ -6,8 +6,7 @@ from gardenapi.models import Zone
 class ZoneSerializer(serializers.ModelSerializer):
     class Meta:
         model = Zone
-        fields = ['id', 'name']
-
+        fields = '__all__'
 
 class ZoneViewSet(ViewSet):
 

@@ -2,34 +2,26 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
 from django.contrib.auth.models import User
-from gardenapi.models import Critter, CritterType
+from gardenapi.models import Critter, CritterType, Plant
 from gardenapi.views.crittertype_view import CritterTypeSerializer
-from gardenapi.views.plantcritterpairing_view import PlantCritterPairingSerializer
 # import uuid
 import base64
 from django.core.files.base import ContentFile
 
+class CritterPlantSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Plant
+        fields = ['id', 'name']
+
+
 class CritterSerializer(serializers.ModelSerializer):
     type = CritterTypeSerializer(many=False)
-    plants = PlantCritterPairingSerializer(many=True)
+    plants = CritterPlantSerializer(many=True)
 
     class Meta:
         model = Critter
         fields = '__all__'
 
-    def to_representation(self, instance):
-        representation = super().to_representation(instance)
-        request = self.context.get("request")
-        
-        if request and instance.id:
-
-            representation["plants"] = PlantCritterPairingSerializer(
-                instance.plants.filter(critter=instance),
-                many=True,
-                context={"request": request}
-            ).data
-
-        return representation
     
 class CritterViewSet(ViewSet):
 
@@ -50,7 +42,6 @@ class CritterViewSet(ViewSet):
 
         try:
             image_data = request.data.get('image', None)
-            icon_data = request.data.get('icon', None)
 
             critter = Critter()
             critter.user = User.objects.get(pk=request.data["user"])
@@ -78,7 +69,6 @@ class CritterViewSet(ViewSet):
         try:
             critter = Critter.objects.get(pk=pk)
             image_data = request.data.get('image', None)
-            icon_data = request.data.get('icon', None)
 
             serializer = CritterSerializer(data=request.data)
             if serializer.is_valid():

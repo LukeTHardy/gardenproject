@@ -1,20 +1,31 @@
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from gardenapi.models import Plant, PlantType, VeggieCat, Soil, Water, Light
+from gardenapi.models import Plant, PlantType, VeggieCat, Soil, Water, Light, Critter, CompanionPairing, Zone
 from django.contrib.auth.models import User
 from gardenapi.views.planttype_view import PlantTypeSerializer
 from gardenapi.views.veggiecat_view import VeggieCatSerializer
 from gardenapi.views.soil_view import SoilSerializer
 from gardenapi.views.water_view import WaterSerializer
 from gardenapi.views.light_view import LightSerializer
-from gardenapi.views.plantzonepairing_view import PlantZonePairingSerializer
-from gardenapi.views.plantcritterpairing_view import PlantCritterPairingSerializer
-from gardenapi.views.companionpairing_view import CompanionPairingSerializer
-# import uuid
 import base64
 from django.core.files.base import ContentFile
 
+class PlantCompanionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Plant
+        fields = ['id', 'name']
+
+
+class PlantCritterSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Critter
+        fields = ['id', 'name']
+
+class PlantZoneSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Zone
+        fields = ['id', 'name']
         
 class PlantSerializer(serializers.ModelSerializer):
     type = PlantTypeSerializer(many=False)
@@ -22,46 +33,45 @@ class PlantSerializer(serializers.ModelSerializer):
     soil = SoilSerializer(many=False)
     water = WaterSerializer(many=False)
     light = LightSerializer(many=False)
-    zones = PlantZonePairingSerializer(many=True)
-    critters = PlantCritterPairingSerializer(many=True)
-    companions = CompanionPairingSerializer(many=True)
+    zones = PlantZoneSerializer(many=True)
+    critters = PlantCritterSerializer(many=True)
+    companions = serializers.SerializerMethodField()
 
     class Meta:
         model = Plant
-        fields = ['user', 'name', 'description', 'image', 'icon', 'type', 'veggie_cat', 'soil', 'water', 'light', 'annual', 'spacing', 'height', 'days_to_mature', 'zones', 'critters', 'companions']
+        fields = '__all__'
 
-    def to_representation(self, instance):
-        representation = super().to_representation(instance)
-        request = self.context.get("request")
+    def get_companions(self, obj):
+        # Retrieve distinct companions using the CompanionPairing model
+        companion_pairings = CompanionPairing.objects.filter(plant1=obj) | CompanionPairing.objects.filter(plant2=obj)
         
-        if request and instance.id:
-            representation["zones"] = PlantZonePairingSerializer(
-                instance.zones.filter(plant=instance),
-                many=True,
-                context={"request": request}
-            ).data
+        # Use a set to store unique companion plant IDs
+        companion_ids_set = set()
 
-            representation["critters"] = PlantCritterPairingSerializer(
-                instance.critters.filter(plant=instance),
-                many=True,
-                context={"request": request}
-            ).data
+        for pairing in companion_pairings:
+            if pairing.plant1 != obj:
+                companion_ids_set.add(pairing.plant1.id)
+            else:
+                companion_ids_set.add(pairing.plant2.id)
 
-            representation["companions"] = CompanionPairingSerializer(
-                instance.companions.filter(plant1=instance) | instance.companions.filter(plant2=instance),
-                many=True,
-                context={"request": request}
-            ).data
+        # Convert the set to a list and exclude the current plant
+        companions_ids = list(companion_ids_set - {obj.id})
 
-        return representation
+        # Fetch companion plants
+        companions = Plant.objects.filter(id__in=companions_ids)
+
+        # Serialize the companions
+        companion_serializer = PlantCompanionSerializer(companions, many=True)
+        return companion_serializer.data
+
 
 class PlantViewSet(ViewSet):
 
     def retrieve(self, request, pk):
         try:
             plant = Plant.objects.get(pk=pk)
-            plant_serializer = PlantSerializer(plant, context={"request": request})
-            return Response(plant_serializer.data)
+            serializer = PlantSerializer(plant, context={"request": request})
+            return Response(serializer.data)
         except Plant.DoesNotExist as ex:
             return Response({"message": ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 

@@ -3,11 +3,15 @@ from rest_framework.response import Response
 from rest_framework import serializers, status
 from gardenapi.models import Favorite, Plant
 from django.contrib.auth.models import User
-from gardenapi.views.plant_view import PlantSerializer
 
+
+class FavoritePlantSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Plant
+        fields = '__all__'
 
 class FavoriteSerializer(serializers.ModelSerializer):
-    plant = PlantSerializer(many=False)
+    plant = FavoritePlantSerializer(many=False)
 
     class Meta:
         model = Favorite

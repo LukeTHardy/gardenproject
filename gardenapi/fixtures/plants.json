@@ -1,0 +1,62 @@
+[
+  {
+    "model": "gardenapi.plant",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "name": "apple",
+      "description": "blah blah blah",
+      "image": "images/plants/sunflower.jpg",
+      "icon": "images/icons/lily of the valley.jpg",
+      "type": 1,
+      "veggie_cat": 4,
+      "soil": 1,
+      "water": 1,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 24,
+      "days_to_mature": 90
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "name": "tulip",
+      "description": "blah blah blahhh",
+      "image": "images/plants/tulip.jpg",
+      "icon": "images/icons/tulip.jpg",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 1,
+      "water": 1,
+      "light": 1,
+      "annual": false,
+      "spacing": 6,
+      "height": 12,
+      "days_to_mature": 80
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "name": "figsss",
+      "description": "blah blah fig",
+      "image": "images/plants/strawflower.jpg",
+      "icon": "images/icons/strawflower.jpg",
+      "type": 4,
+      "veggie_cat": 6,
+      "soil": 1,
+      "water": 1,
+      "light": 1,
+      "annual": true,
+      "spacing": 78,
+      "height": 678,
+      "days_to_mature": 75
+    }
+  }
+]
