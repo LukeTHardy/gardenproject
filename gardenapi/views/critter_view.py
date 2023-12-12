@@ -62,7 +62,9 @@ class CritterViewSet(ViewSet):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         
         except Exception as e:
-            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            print(f"Error creating critter: {str(e)}")
+            return Response({'error': 'Internal Server Error'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
         
         
     def update(self, request, pk=None):

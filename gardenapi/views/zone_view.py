@@ -55,7 +55,7 @@ class ZoneViewSet(ViewSet):
                 zone.save()
                 
                 serializer = ZoneSerializer(zone, context={'request': request})
-                return Response(None, status.HTTP_204_NO_CONTENT)
+                return Response(None, status.HTTP_200_OK)
 
             return Response(serializer.errors, status.HTTP_400_BAD_REQUEST)
 
