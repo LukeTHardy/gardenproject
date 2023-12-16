@@ -24,6 +24,7 @@ class Critter(models.Model):
     size = models.FloatField(null=True)
     type = models.ForeignKey("CritterType", on_delete=models.CASCADE, related_name='critters_of_this_type')
     management = models.CharField(max_length=500, null=True, blank=True)
+    insect = models.BooleanField(default=True)
     plants = models.ManyToManyField(
         "Plant",
         through='PlantCritterPairing',

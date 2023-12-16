@@ -50,6 +50,7 @@ class CritterViewSet(ViewSet):
             critter.type = CritterType.objects.get(pk=request.data["type"])
             critter.size = request.data.get('size')
             critter.management = request.data.get('management')
+            critter.insect = request.data.get('insect')
 
             image_format, image_str = request.data["image"].split(';base64,')
             image_ext = image_format.split('/')[-1]
@@ -80,6 +81,8 @@ class CritterViewSet(ViewSet):
                 critter.type = CritterType.objects.get(pk=serializer.validated_data["type"])
                 critter.size = serializer.validated_data['size']
                 critter.management = serializer.validated_data['management']
+                critter.insect = serializer.validated_data['insect']
+
 
                 if image_data:
                     # Process and save image data
