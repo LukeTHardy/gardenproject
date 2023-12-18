@@ -3,21 +3,21 @@
     "model": "gardenapi.crittertype",
     "pk": 1,
     "fields": {
-      "label": "harmful"
+      "label": "Harmful"
     }
   },
   {
     "model": "gardenapi.crittertype",
     "pk": 2,
     "fields": {
-      "label": "neutral"
+      "label": "Neutral"
     }
   },
   {
     "model": "gardenapi.crittertype",
     "pk": 3,
     "fields": {
-      "label": "helpful"
+      "label": "Helpful"
     }
   }
 ]

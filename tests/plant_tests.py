@@ -1,0 +1,154 @@
+import json
+# import os
+# import base64
+from rest_framework import status
+from rest_framework.test import APITestCase
+from rest_framework.authtoken.models import Token
+from gardenapi.models import Plant, Soil, Water, Light, PlantType, VeggieCat
+from django.contrib.auth.models import User
+
+
+class PlantTests(APITestCase):
+
+    fixtures = ['users', 'tokens', 'critters', 'crittertypes', 'planttypes', 'soils', 'waters', 'lights', 'critters', 'zones', 'veggiecats']
+
+    def setUp(self):
+        self.user = User.objects.first()
+        token = Token.objects.get(user=self.user)
+        self.client.credentials(HTTP_AUTHORIZATION=f"Token {token.key}")
+
+    def test_get_plant(self):
+
+        plant = Plant()
+        plant.user = User.objects.get(id=1)
+        plant.type = PlantType.objects.get(id=1)
+        plant.name = "Test Plant"
+        plant.description = "Test description"
+        plant.image = "images/plants/test_plant.jpg"
+        plant.annual = True
+        plant.soil = Soil.objects.get(id=1)
+        plant.water = Water.objects.get(id=1)
+        plant.light = Light.objects.get(id=1)
+        plant.veggie_cat = VeggieCat.objects.get(id=1)
+        plant.spacing = 12
+        plant.height = 12
+        plant.days_to_mature = 90
+        plant.icon = "images/icons/test_icon.jpg"
+        plant.save()
+
+        response = self.client.get(f"/plants/{plant.id}")
+
+        # Parse the JSON in the response body
+        json_response = json.loads(response.content)
+
+        # Assert that the plant was retrieved
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertEqual(json_response["user"], 1)
+        self.assertEqual(json_response["name"], "Test Plant")
+        self.assertEqual(json_response["description"], "Test description")
+        self.assertEqual(json_response["type"]["id"], 1)
+        self.assertEqual(json_response["soil"]["id"], 1)
+        self.assertEqual(json_response["water"]["id"], 1)
+        self.assertEqual(json_response["light"]["id"], 1)
+        self.assertEqual(json_response["veggie_cat"]["id"], 1)
+        self.assertTrue("images/plants/test_plant.jpg" in json_response["image"])
+        self.assertTrue("images/icons/test_icon.jpg" in json_response["icon"])
+        self.assertEqual(json_response["annual"], True)
+        self.assertEqual(json_response["height"], 12)
+        self.assertEqual(json_response["spacing"], 12)
+        self.assertEqual(json_response["days_to_mature"], 90)
+
+    def test_get_all_plants(self):
+
+        response = self.client.get('/plants')
+
+        json_response = json.loads(response.content)
+
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        for obj in json_response:
+            self.assertIn("user", obj)
+            self.assertIn("name", obj)
+            self.assertIn("image", obj)
+            self.assertIn("description", obj)
+            self.assertIn("days_to_mature", obj)
+            self.assertIn("type", obj)
+            self.assertIn("icon", obj)
+            self.assertIn("annual", obj)
+            self.assertIn("spacing", obj)
+            self.assertIn("height", obj)
+            self.assertIn("soil", obj)
+            self.assertIn("water", obj)
+            self.assertIn("light", obj)
+            self.assertIn("veggie_cat", obj)
+
+    # def test_create_plant(self):
+    #     url = "/plants"
+
+    #     image_path = os.path.join(os.path.dirname(__file__), 'test_image.jpg')
+    #     with open(image_path, 'rb') as image_file:
+    #         image_content = base64.b64encode(image_file.read()).decode('utf-8')
+
+    #     data = {
+    #         "user": 1,
+    #         "name": "Test Plant",
+    #         "image": f'data:image/jpeg;base64,{image_content}',
+    #         "description": "Test description",
+    #         "size": 5,
+    #         "type": 1,
+    #         "management": "Test management",
+    #     }
+
+    #     response = self.client.post(url, data, format='multipart')
+
+    #     self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+
+    #     json_response = json.loads(response.content)
+        
+    #     # Assertions
+    #     self.assertEqual(json_response["user"], 1)
+    #     self.assertEqual(json_response["type"]["id"], 1)
+    #     self.assertEqual(json_response["name"], "Test Plant")
+    #     self.assertEqual(json_response["description"], "Test description")
+    #     self.assertEqual(json_response["soil"]["id"], 1)
+    #     self.assertEqual(json_response["water"]["id"], 1)
+    #     self.assertEqual(json_response["light"]["id"], 1)
+    #     self.assertEqual(json_response["height"], 5)
+    #     self.assertEqual(json_response["image"], 5)
+    #     self.assertEqual(json_response["icon"], 5)
+    #     self.assertEqual(json_response["spacing"], 5)
+    #     self.assertEqual(json_response["annual"], True)
+    #     self.assertEqual(json_response["days_to_mature"], 90)
+    #     # Adjust this assertion based on the actual URL generated by your system
+    #     plant = Plant.objects.get(id=json_response["id"])
+    #     self.assertTrue(plant.image.name.startswith('images/plants/'))
+    #     self.assertTrue(os.path.isfile(plant.image.path))
+        
+    #     Plant.objects.all().delete()
+
+    def test_delete_plant(self):
+
+        plant = Plant()
+        plant.user = User.objects.get(id=1)
+        plant.type = PlantType.objects.get(id=1)
+        plant.name = "Test Plant"
+        plant.description = "Test description"
+        plant.image = "images/plants/test_plant.jpg"
+        plant.annual = True
+        plant.soil = Soil.objects.get(id=1)
+        plant.water = Water.objects.get(id=1)
+        plant.light = Light.objects.get(id=1)
+        plant.veggie_cat = VeggieCat.objects.get(id=1)
+        plant.spacing = 12
+        plant.height = 12
+        plant.days_to_mature = 90
+        plant.icon = "images/icons/test_icon.jpg"
+        plant.save()
+
+
+        # DELETE the plant you just created
+        response = self.client.delete(f"/plants/{plant.id}")
+        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
+
+        # GET the plant again to verify you get a 404 response
+        response = self.client.get(f"/plants/{plant.id}")
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)

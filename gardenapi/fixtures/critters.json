@@ -5,10 +5,11 @@
     "fields": {
       "user": 1,
       "name": "Aphid",
-      "image": "images/critters/aphid.jpg",
+      "image": "images/critters/aphid.png",
       "description": "A description of my critter",
       "size": 0.1,
       "type": 1,
+      "insect": true,
       "management": "Management details"
     }
   },
@@ -17,11 +18,68 @@
     "pk": 2,
     "fields": {
       "user": 1,
-      "name": "Assassin Bug",
-      "image": "images/critters/assassin bug.jpg",
+      "name": "Ladybug",
+      "image": "images/critters/ladybug.jpeg",
+      "description": "A description of my critter",
+      "size": 0.5,
+      "type": 1,
+      "insect": true,
+      "management": "Management details"
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "name": "Black Swallowtail Butterfly",
+      "image": "images/critters/black_swallowtail_butterfly.png",
+      "description": "A description of my critter",
+      "size": 0.5,
+      "type": 2,
+      "insect": true,
+      "management": "Management details"
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "name": "Boxelder Bug",
+      "image": "images/critters/boxelder_bug.png",
+      "description": "A description of my critter",
+      "size": 0.5,
+      "type": 2,
+      "insect": true,
+      "management": "Management details"
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "name": "Braconid Wasp",
+      "image": "images/critters/braconid_wasp.png",
       "description": "A description of my critter",
       "size": 0.5,
       "type": 3,
+      "insect": true,
+      "management": "Management details"
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 6,
+    "fields": {
+      "user": 1,
+      "name": "Bumblebee",
+      "image": "images/critters/bumblebee.png",
+      "description": "A description of my critter",
+      "size": 0.5,
+      "type": 3,
+      "insect": true,
       "management": "Management details"
     }
   }

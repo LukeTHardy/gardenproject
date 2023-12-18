@@ -14,5 +14,13 @@
       "plant": 2,
       "critter": 2
     }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 3,
+    "fields": {
+      "plant": 3,
+      "critter": 2
+    }
   }
 ]

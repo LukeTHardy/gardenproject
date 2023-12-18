@@ -8,7 +8,7 @@ from django.contrib.auth.models import User
 class FavoritePlantSerializer(serializers.ModelSerializer):
     class Meta:
         model = Plant
-        fields = '__all__'
+        fields = ['id', 'name', 'image']
 
 class FavoriteSerializer(serializers.ModelSerializer):
     plant = FavoritePlantSerializer(many=False)

@@ -32,11 +32,11 @@ class Plant(models.Model):
         null=True,
         validators=[FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png', 'webp', 'avif']), validate_square_image])
     type = models.ForeignKey("PlantType", on_delete=models.CASCADE, related_name='plants_of_this_type')
-    veggie_cat = models.ForeignKey("VeggieCat", on_delete=models.CASCADE, related_name='veggies_in_this_category')
+    veggie_cat = models.ForeignKey("VeggieCat", on_delete=models.CASCADE, related_name='veggies_in_this_category', null=True)
     soil = models.ForeignKey("Soil", on_delete=models.CASCADE, related_name='plants_with_this_soil_type')
     water = models.ForeignKey("Water", on_delete=models.CASCADE, related_name='plants_needing_this_much_water')
     light = models.ForeignKey("Light", on_delete=models.CASCADE, related_name='plants_needing_this_much_light')
-    annual = models.BooleanField(null=True)
+    annual = models.BooleanField(default=True)
     spacing = models.IntegerField(null=True)
     height = models.IntegerField(null=True)
     days_to_mature = models.IntegerField(null=True)

@@ -50,6 +50,7 @@ class CritterViewSet(ViewSet):
             critter.type = CritterType.objects.get(pk=request.data["type"])
             critter.size = request.data.get('size')
             critter.management = request.data.get('management')
+            critter.insect = request.data.get('insect')
 
             image_format, image_str = request.data["image"].split(';base64,')
             image_ext = image_format.split('/')[-1]
@@ -62,7 +63,9 @@ class CritterViewSet(ViewSet):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         
         except Exception as e:
-            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            print(f"Error creating critter: {str(e)}")
+            return Response({'error': 'Internal Server Error'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
         
         
     def update(self, request, pk=None):
@@ -78,6 +81,8 @@ class CritterViewSet(ViewSet):
                 critter.type = CritterType.objects.get(pk=serializer.validated_data["type"])
                 critter.size = serializer.validated_data['size']
                 critter.management = serializer.validated_data['management']
+                critter.insect = serializer.validated_data['insect']
+
 
                 if image_data:
                     # Process and save image data
