@@ -87,7 +87,7 @@ class PlantViewSet(ViewSet):
             icon_data = request.data.get('icon', None)
 
             plant = Plant()
-            plant.user = User.objects.get(pk=request.data["user"])
+            plant.user = User.objects.get(pk=request.user.id)
             plant.name = request.data.get('name')
             plant.description = request.data.get('description')
             plant.type = PlantType.objects.get(pk=request.data["type"])

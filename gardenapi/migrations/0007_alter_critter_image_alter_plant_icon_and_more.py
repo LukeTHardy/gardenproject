@@ -17,17 +17,17 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='critter',
             name='image',
-            field=models.ImageField(null=True, upload_to='images/critters', validators=[django.core.validators.FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png', 'webp', 'avif']), gardenapi.models.critter.validate_square_image]),
+            field=models.ImageField(null=True, upload_to='images/critters', validators=[django.core.validators.FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png', 'webp', 'avif'])]),
         ),
         migrations.AlterField(
             model_name='plant',
             name='icon',
-            field=models.ImageField(null=True, upload_to='images/icons', validators=[django.core.validators.FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png', 'webp', 'avif']), gardenapi.models.plant.validate_square_image]),
+            field=models.ImageField(null=True, upload_to='images/icons', validators=[django.core.validators.FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png', 'webp', 'avif'])]),
         ),
         migrations.AlterField(
             model_name='plant',
             name='image',
-            field=models.ImageField(null=True, upload_to='images/plants', validators=[django.core.validators.FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png', 'webp', 'avif']), gardenapi.models.plant.validate_square_image]),
+            field=models.ImageField(null=True, upload_to='images/plants', validators=[django.core.validators.FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png', 'webp', 'avif'])]),
         ),
         migrations.AlterField(
             model_name='plant',
