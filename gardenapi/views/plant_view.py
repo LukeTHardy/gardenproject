@@ -1,7 +1,7 @@
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from gardenapi.models import Plant, PlantType, VeggieCat, Soil, Water, Light, Critter, CompanionPairing, Zone
+from gardenapi.models import Plant, PlantType, VeggieCat, Soil, Water, Light, Critter, CompanionPairing, Zone, PlantZonePairing, PlantCritterPairing
 from django.contrib.auth.models import User
 from gardenapi.views.planttype_view import PlantTypeSerializer
 from gardenapi.views.veggiecat_view import VeggieCatSerializer
@@ -81,10 +81,26 @@ class PlantViewSet(ViewSet):
         return Response(serializer.data)
 
     def create(self, request):
-
         try:
             image_data = request.data.get('image', None)
             icon_data = request.data.get('icon', None)
+
+            image_format, image_str = request.data["image"].split(';base64,')
+            image_ext = image_format.split('/')[-1]
+            image_data = ContentFile(base64.b64decode(image_str), name=f'{request.data["name"]}.{image_ext}')
+
+            icon_format, icon_str = request.data["icon"].split(';base64,')
+            icon_ext = icon_format.split('/')[-1]
+            icon_data = ContentFile(base64.b64decode(icon_str), name=f'{request.data["name"]}-icon.{icon_ext}')
+
+            zone_ids = request.data.get('zones', [])
+            zones = Zone.objects.filter(pk__in=zone_ids)
+
+            companion_ids = request.data.get('companions', [])
+            companions = Plant.objects.filter(pk__in=companion_ids)
+
+            critter_ids = request.data.get('critters', [])
+            critters = Critter.objects.filter(pk__in=critter_ids)
 
             plant = Plant()
             plant.user = User.objects.get(pk=request.user.id)
@@ -99,27 +115,35 @@ class PlantViewSet(ViewSet):
             plant.spacing = request.data.get('spacing')
             plant.height = request.data.get('height')
             plant.days_to_mature = request.data.get('days_to_mature')
-            
-
-            image_format, image_str = request.data["image"].split(';base64,')
-            image_ext = image_format.split('/')[-1]
-            image_data = ContentFile(base64.b64decode(image_str), name=f'{request.data["name"]}.{image_ext}')
-
-            icon_format, icon_str = request.data["icon"].split(';base64,')
-            icon_ext = icon_format.split('/')[-1]
-            icon_data = ContentFile(base64.b64decode(icon_str), name=f'{request.data["name"]}-icon.{icon_ext}')
-
             plant.image = image_data
             plant.icon = icon_data
 
             plant.save()
+
+            for zoneId in zones:
+                try:
+                    PlantZonePairing.objects.create(plant=plant, zone=zoneId)
+                except Exception as zone_exception:
+                    print(f"Failed to create PlantZonePairing: {zone_exception}")
+
+            for companionId in companions:
+                try:
+                    CompanionPairing.objects.create(plant1=plant, plant2=companionId)
+                except Exception as companion_exception:
+                    print(f"Failed to create CompanionPairing: {companion_exception}")
+
+            for critterId in critters:
+                try:
+                    PlantCritterPairing.objects.create(plant=plant, critter=critterId)
+                except Exception as critter_exception:
+                    print(f"Failed to create PlantCritterPairing: {critter_exception}")
+
             serializer = PlantSerializer(plant, many=False)
             return Response(serializer.data, status=status.HTTP_201_CREATED)
-        
+
         except Exception as e:
             return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-        
-        
+
     def update(self, request, pk=None):
         try:
             plant = Plant.objects.get(pk=pk)
