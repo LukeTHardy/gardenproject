@@ -147,47 +147,80 @@ class PlantViewSet(ViewSet):
     def update(self, request, pk=None):
         try:
             plant = Plant.objects.get(pk=pk)
-            image_data = request.data.get('image', None)
-            icon_data = request.data.get('icon', None)
+            
+            # Check if new image data is provided (including empty string)
+            new_image_data = request.data.get('image', None)
+            if new_image_data is not None and ';' in new_image_data:  # Check for explicit empty string
+                # Update the image
+                image_format, image_str = new_image_data.split(';base64,')
+                image_ext = image_format.split('/')[-1]
+                image_data = ContentFile(base64.b64decode(image_str), name=f'{request.data["name"]}.{image_ext}')
+                plant.image = image_data
 
-            serializer = PlantSerializer(data=request.data)
-            if serializer.is_valid():
-                plant.user = User.objects.get(pk=serializer.validated_data["user"])
-                plant.name = serializer.validated_data['name']
-                plant.description = serializer.validated_data['description']
-                plant.type = PlantType.objects.get(pk=serializer.validated_data["type"])
-                plant.veggie_cat = VeggieCat.objects.get(pk=serializer.validated_data["veggie_cat"])
-                plant.soil = Soil.objects.get(pk=serializer.validated_data["soil"])
-                plant.water = Water.objects.get(pk=serializer.validated_data["water"])
-                plant.light = Light.objects.get(pk=serializer.validated_data["light"])
-                plant.annual = serializer.validated_data['annual']
-                plant.spacing = serializer.validated_data['spacing']
-                plant.height = serializer.validated_data['height']
-                plant.days_to_mature = serializer.validated_data['days_to_mature']
+            # Check if new icon data is provided (including empty string)
+            new_icon_data = request.data.get('icon', None)
+            if new_icon_data is not None and ';' in new_icon_data:  # Check for explicit empty string
+                # Update the icon
+                icon_format, icon_str = new_icon_data.split(';base64,')
+                icon_ext = icon_format.split('/')[-1]
+                icon_data = ContentFile(base64.b64decode(icon_str), name=f'{request.data["name"]}-icon.{icon_ext}')
+                plant.icon = icon_data
 
-                if image_data:
-                    # Process and save image data
-                    image_format, image_str = image_data.split(';base64,')
-                    image_ext = image_format.split('/')[-1]
-                    image_data = ContentFile(base64.b64decode(image_str), name=f'{serializer.validated_data["name"]}.{image_ext}')
-                    plant.image = image_data
+            # Update plant fields
+            plant.user = User.objects.get(pk=request.user.id)
+            plant.name = request.data.get('name', plant.name)
+            plant.description = request.data.get('description', plant.description)
+            plant.type = PlantType.objects.get(pk=request.data.get("type", plant.type.pk))
+            plant.veggie_cat = VeggieCat.objects.get(pk=request.data.get("veggie_cat", plant.veggie_cat.pk))
+            plant.soil = Soil.objects.get(pk=request.data.get("soil", plant.soil.pk))
+            plant.water = Water.objects.get(pk=request.data.get("water", plant.water.pk))
+            plant.light = Light.objects.get(pk=request.data.get("light", plant.light.pk))
+            plant.annual = request.data.get('annual', plant.annual)
+            plant.spacing = request.data.get('spacing', plant.spacing)
+            plant.height = request.data.get('height', plant.height)
+            plant.days_to_mature = request.data.get('days_to_mature', plant.days_to_mature)
+          
 
-                if icon_data:
-                    # Process and save icon data
-                    icon_format, icon_str = icon_data.split(';base64,')
-                    icon_ext = icon_format.split('/')[-1]
-                    icon_data = ContentFile(base64.b64decode(icon_str), name=f'{serializer.validated_data["name"]}-icon.{icon_ext}')
-                    plant.icon = icon_data
+            plant.save()
 
-                plant.save()
-                
-                serializer = PlantSerializer(plant, context={'request': request})
-                return Response(serializer.data, status=status.HTTP_200_OK)
+            # Clear existing related objects
+            plant.zones.clear()
+            plant.companions.clear()
+            plant.critters.clear()
 
-            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+            # Add new related objects
+            zone_ids = request.data.get('zones', [])
+            companion_ids = request.data.get('companions', [])
+            critter_ids = request.data.get('critters', [])
+            zones = Zone.objects.filter(pk__in=zone_ids)
+            companions = Plant.objects.filter(pk__in=companion_ids)
+            critters = Critter.objects.filter(pk__in=critter_ids)
+            
+            for zoneId in zones:
+                try:
+                    PlantZonePairing.objects.create(plant=plant, zone=zoneId)
+                except Exception as zone_exception:
+                    print(f"Failed to create PlantZonePairing: {zone_exception}")
+
+            for companionId in companions:
+                try:
+                    CompanionPairing.objects.create(plant1=plant, plant2=companionId)
+                except Exception as companion_exception:
+                    print(f"Failed to create CompanionPairing: {companion_exception}")
+
+            for critterId in critters:
+                try:
+                    PlantCritterPairing.objects.create(plant=plant, critter=critterId)
+                except Exception as critter_exception:
+                    print(f"Failed to create PlantCritterPairing: {critter_exception}")
+
+            serializer = PlantSerializer(plant, many=False)
+            return Response(serializer.data, status=status.HTTP_200_OK)
 
         except Plant.DoesNotExist:
-            return Response(status=status.HTTP_404_NOT_FOUND)
+            return Response({'error': 'Plant not found'}, status=status.HTTP_404_NOT_FOUND)
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
     def destroy(self, request, pk=None):
