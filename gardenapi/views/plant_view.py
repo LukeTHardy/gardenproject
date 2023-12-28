@@ -5,6 +5,7 @@ from gardenapi.models import Plant, PlantType, VeggieCat, Soil, Water, Light, Cr
 from django.contrib.auth.models import User
 from gardenapi.views.planttype_view import PlantTypeSerializer
 from gardenapi.views.veggiecat_view import VeggieCatSerializer
+from gardenapi.views.crittertype_view import CritterTypeSerializer
 from gardenapi.views.soil_view import SoilSerializer
 from gardenapi.views.water_view import WaterSerializer
 from gardenapi.views.light_view import LightSerializer
@@ -12,15 +13,17 @@ import base64
 from django.core.files.base import ContentFile
 
 class PlantCompanionSerializer(serializers.ModelSerializer):
+    type = PlantTypeSerializer(many=False)
     class Meta:
         model = Plant
-        fields = ['id', 'name']
+        fields = ['id', 'name', 'image', 'type', 'annual']
 
 
 class PlantCritterSerializer(serializers.ModelSerializer):
+    type = CritterTypeSerializer(many=False)
     class Meta:
         model = Critter
-        fields = ['id', 'name']
+        fields = ['id', 'name', 'size', 'type', 'image']
 
 class PlantZoneSerializer(serializers.ModelSerializer):
     class Meta:
