@@ -4,14 +4,15 @@ from rest_framework import serializers, status
 from django.contrib.auth.models import User
 from gardenapi.models import Critter, CritterType, Plant
 from gardenapi.views.crittertype_view import CritterTypeSerializer
-# import uuid
+from gardenapi.views.plant_view import PlantTypeSerializer
 import base64
 from django.core.files.base import ContentFile
 
 class CritterPlantSerializer(serializers.ModelSerializer):
+    type = PlantTypeSerializer(many=False)
     class Meta:
         model = Plant
-        fields = ['id', 'name']
+        fields = ['id', 'name', 'image', 'type', 'annual']
 
 
 class CritterSerializer(serializers.ModelSerializer):
