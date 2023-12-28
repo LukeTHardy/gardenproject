@@ -117,7 +117,7 @@ class PlantViewSet(ViewSet):
             plant.annual = request.data.get('annual')
             plant.spacing = request.data.get('spacing')
             plant.height = request.data.get('height')
-            plant.days_to_mature = request.data.get('days_to_mature')
+            plant.maturity = request.data.get('maturity')
             plant.image = image_data
             plant.icon = icon_data
 
@@ -181,7 +181,7 @@ class PlantViewSet(ViewSet):
             plant.annual = request.data.get('annual', plant.annual)
             plant.spacing = request.data.get('spacing', plant.spacing)
             plant.height = request.data.get('height', plant.height)
-            plant.days_to_mature = request.data.get('days_to_mature', plant.days_to_mature)
+            plant.maturity = request.data.get('maturity', plant.maturity)
           
 
             plant.save()

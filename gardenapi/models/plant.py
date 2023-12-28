@@ -28,7 +28,7 @@ class Plant(models.Model):
     annual = models.BooleanField(default=True)
     spacing = models.IntegerField(null=True)
     height = models.IntegerField(null=True)
-    days_to_mature = models.IntegerField(null=True)
+    maturity = models.CharField(max_length=500, null=True, blank=True)
     zones = models.ManyToManyField(
         "Zone",
         through='PlantZonePairing',

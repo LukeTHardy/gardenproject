@@ -4,19 +4,19 @@
     "pk": 1,
     "fields": {
       "user": 1,
-      "name": "Anemone",
-      "description": "Plant description",
-      "image": "images/plants/anemone.avif",
-      "icon": "images/icons/lily of the valley.jpg",
+      "name": "Sunflower",
+      "description": "Sunflowers are renowned for their large, yellow blooms that track the sun. Besides their ornamental value, they are also cultivated for their seeds, which are a nutritious snack and a source of oil.",
+      "image": "images/plants/sunflower.png",
+      "icon": "images/icons/sunflower.png",
       "type": 3,
-      "veggie_cat": 4,
+      "veggie_cat": 8,
       "soil": 1,
-      "water": 1,
+      "water": 3,
       "light": 1,
       "annual": true,
-      "spacing": 12,
-      "height": 24,
-      "days_to_mature": 90
+      "spacing": 6,
+      "height": 72,
+      "maturity": "90 days"
     }
   },
   {
@@ -24,19 +24,19 @@
     "pk": 2,
     "fields": {
       "user": 1,
-      "name": "Basil",
-      "description": "Plant description",
-      "image": "images/plants/basil.png",
-      "icon": "images/icons/tulip.jpeg",
-      "type": 2,
-      "veggie_cat": 3,
+      "name": "Dahlia",
+      "description": "Dahlias are diverse in color and petal structure, making them popular in gardens and floral arrangements. They are notable for their resilience and adaptability to various climates.",
+      "image": "images/plants/dahlia.jpeg",
+      "icon": "images/icons/dahlia.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
       "soil": 1,
-      "water": 1,
+      "water": 3,
       "light": 1,
-      "annual": false,
-      "spacing": 6,
-      "height": 12,
-      "days_to_mature": 80
+      "annual": true,
+      "spacing": 12,
+      "height": 36,
+      "maturity": "90 days"
     }
   },
   {
@@ -44,39 +44,4559 @@
     "pk": 3,
     "fields": {
       "user": 1,
-      "name": "Artichoke",
-      "description": "Plant description",
-      "image": "images/plants/artichoke.png",
-      "icon": "images/icons/strawflower.jpg",
-      "type": 1,
-      "veggie_cat": 6,
+      "name": "Zinnia",
+      "description": "Zinnias are vibrant annuals, prized for their wide spectrum of colors and ease of cultivation. These cheerful flowers are known for their long-lasting blooms, making them a favorite choice for cut flowers and garden borders.",
+      "image": "images/plants/zinnia.webp",
+      "icon": "images/icons/zinnia.webp",
+      "type": 3,
+      "veggie_cat": 8,
       "soil": 1,
-      "water": 1,
+      "water": 4,
       "light": 1,
       "annual": true,
-      "spacing": 78,
-      "height": 678,
-      "days_to_mature": 75
+      "spacing": 6,
+      "height": 48,
+      "maturity": "60-90 days"
     }
   },
   {
     "model": "gardenapi.plant",
     "pk": 4,
     "fields": {
-      "user": 2,
-      "name": "Currant",
-      "description": "Plant description",
-      "image": "images/plants/currant.png",
-      "icon": "images/icons/strawflower.jpg",
-      "type": 4,
-      "veggie_cat": 6,
+      "user": 1,
+      "name": "Pansy",
+      "description": "Pansies, with their distinctive heart-shaped petals, come in various colors and are valued for their cold resistance. They are commonly used in landscaping and gardening to add color to cool-season gardens.",
+      "image": "images/plants/pansy.png",
+      "icon": "images/icons/pansy.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 2,
+      "annual": true,
+      "spacing": 6,
+      "height": 12,
+      "maturity": "90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "name": "Poppy",
+      "description": "Poppies are recognized for their striking red petals and are cultivated for various purposes, including the production of opium. Some species are also used in cooking and baking, adding a unique flavor and color to dishes.",
+      "image": "images/plants/poppy.png",
+      "icon": "images/icons/poppy.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 6,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 6,
+    "fields": {
+      "user": 1,
+      "name": "Daisy",
+      "description": "Daisies, with simple white petals and yellow centers, are resilient and adaptable flowers. They are often used in landscaping for ground cover and are popular for their hardiness.",
+      "image": "images/plants/daisy.png",
+      "icon": "images/icons/daisy.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 6,
+      "height": 24,
+      "maturity": "365 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 7,
+    "fields": {
+      "user": 1,
+      "name": "Daffodil",
+      "description": "Daffodils are spring-blooming flowers with trumpet-shaped blooms, signaling the arrival of spring. They are known for their toxicity to pests, making them a practical choice in gardens.",
+      "image": "images/plants/daffodil.webp",
+      "icon": "images/icons/daffodil.webp",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 6,
+      "height": 30,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 8,
+    "fields": {
+      "user": 1,
+      "name": "Iris",
+      "description": "Irises, with their intricate petals, are diverse in color and are prized for their use in landscaping and as cut flowers. Some species of iris have rhizomes that are used in herbal medicine and perfumery.",
+      "image": "images/plants/iris.webp",
+      "icon": "images/icons/iris.webp",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 12,
+      "height": 36,
+      "maturity": "1 year"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 9,
+    "fields": {
+      "user": 1,
+      "name": "Buttercup",
+      "description": "Buttercups, also known as Ranunculus, thrive in moist environments and are often found in meadows and fields. They are known for their small yellow flowers and reflective quality, which has been the subject of folklore and children's games.",
+      "image": "images/plants/buttercup.png",
+      "icon": "images/icons/buttercup.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 6,
+      "height": 36,
+      "maturity": "90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 10,
+    "fields": {
+      "user": 1,
+      "name": "Lilac",
+      "description": "Lilacs, with fragrant clusters of purple or white flowers, are popular ornamental shrubs in gardens. The flowers are sometimes used in perfumery, and the wood is valued for its use in crafts.",
+      "image": "images/plants/lilac.jpeg",
+      "icon": "images/icons/lilac.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 180,
+      "maturity": "3-4 years (from seed)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 11,
+    "fields": {
+      "user": 1,
+      "name": "Gardenia",
+      "description": "Gardenias, known for their fragrant white blooms, are prized for their aromatic flowers. They are commonly used in the perfume industry and as ornamental plants in gardens and landscapes.",
+      "image": "images/plants/gardenia.webp",
+      "icon": "images/icons/gardenia.webp",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 2,
+      "water": 3,
+      "light": 2,
+      "annual": false,
+      "spacing": 36,
+      "height": 96,
+      "maturity": "3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 12,
+    "fields": {
+      "user": 1,
+      "name": "Lily of the Valley",
+      "description": "Lily of the Valley produces delicate, bell-shaped flowers and is known for its sweet fragrance. It is a popular choice in wedding bouquets and is also used in perfumes.",
+      "image": "images/plants/lily_of_the_valley.png",
+      "icon": "images/icons/lily_of_the_valley.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 2,
+      "annual": false,
+      "spacing": 6,
+      "height": 12,
+      "maturity": "1-2 years (from rhizomes)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 13,
+    "fields": {
+      "user": 1,
+      "name": "Amaryllis",
+      "description": "Amaryllis flowers, with large trumpet-shaped blooms, are cultivated for their ornamental value. They are often forced to bloom indoors during the winter months and are popular as potted plants.",
+      "image": "images/plants/amaryllis.png",
+      "icon": "images/icons/amaryllis.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 12,
+      "height": 36,
+      "maturity": "40-60 days (from bulbs)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 14,
+    "fields": {
+      "user": 1,
+      "name": "African Daisy",
+      "description": "African daisies, or osteospermum, are known for their colorful, daisy-like blooms. They are drought-tolerant and are commonly used in xeriscaping and rock gardens.",
+      "image": "images/plants/african_daisy.png",
+      "icon": "images/icons/african_daisy.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 2,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 36,
+      "maturity": "60-80 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 15,
+    "fields": {
+      "user": 1,
+      "name": "Marigold",
+      "description": "Marigolds, with warm shades of orange and yellow, are valued for their pest-repelling properties in gardens. They are also used in traditional medicine for their anti-inflammatory and antiseptic qualities.",
+      "image": "images/plants/marigold.webp",
+      "icon": "images/icons/marigold.webp",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": true,
+      "spacing": 10,
+      "height": 18,
+      "maturity": "45-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 16,
+    "fields": {
+      "user": 1,
+      "name": "Morning Glory",
+      "description": "Morning Glories are climbing plants with trumpet-shaped flowers that open in the morning. They are often grown as ornamental vines and are valued for their rapid growth and ability to cover structures.",
+      "image": "images/plants/morning_glory.png",
+      "icon": "images/icons/morning_glory.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 6,
+      "height": 96,
+      "maturity": "85-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 17,
+    "fields": {
+      "user": 1,
+      "name": "Hydrangea",
+      "description": "Hydrangeas are versatile shrubs with large, showy flower heads that can change color based on soil pH. They are popular in landscaping and are often used as cut flowers or dried arrangements.",
+      "image": "images/plants/hydrangea.webp",
+      "icon": "images/icons/hydrangea.webp",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 2,
+      "annual": false,
+      "spacing": 60,
+      "height": 60,
+      "maturity": "2-3 years (from cuttings or transplants)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 18,
+    "fields": {
+      "user": 1,
+      "name": "Lavender",
+      "description": "Lavender, with its fragrant purple spikes, is cultivated for its aromatic oils. It is commonly used in aromatherapy, culinary applications, and as a natural insect repellent.",
+      "image": "images/plants/lavender.png",
+      "icon": "images/icons/lavender.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 18,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 19,
+    "fields": {
+      "user": 1,
+      "name": "Cannabis",
+      "description": "Cannabis, known for its distinct leaves and flowers, has cultural, medicinal, and recreational significance. It is cultivated for various purposes, including fiber, oil, and its psychoactive and therapeutic compounds.",
+      "image": "images/plants/cannabis.png",
+      "icon": "images/icons/cannabis.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 48,
+      "height": 48,
+      "maturity": "8-16 weeks"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 20,
+    "fields": {
+      "user": 1,
+      "name": "Milkweed",
+      "description": "Milkweed is essential for the survival of monarch butterflies, serving as their exclusive food source. These plants are critical for supporting the life cycle of monarchs and are promoted for conservation efforts to preserve butterfly populations.",
+      "image": "images/plants/milkweed.png",
+      "icon": "images/icons/milkweed.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 18,
+      "height": 60,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 21,
+    "fields": {
+      "user": 1,
+      "name": "Goldenrod",
+      "description": "Goldenrod is a hardy, yellow-flowering plant that is often found in meadows and along roadsides. It is valued for its ability to attract pollinators and is a key source of nectar for bees and butterflies.",
+      "image": "images/plants/goldenrod.png",
+      "icon": "images/icons/goldenrod.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 22,
+    "fields": {
+      "user": 1,
+      "name": "Tulip",
+      "description": "Tulips are spring-blooming bulbs known for their vibrant, cup-shaped flowers. Originating from Central Asia, tulips have become a symbol of the Netherlands, where they are cultivated in extensive fields.",
+      "image": "images/plants/tulip.jpeg",
+      "icon": "images/icons/tulip.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 3,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 3,
+      "height": 24,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 23,
+    "fields": {
+      "user": 1,
+      "name": "Shrub Rose",
+      "description": "Shrub roses are versatile plants with a bushy growth habit, producing blooms in various colors. They are popular in landscaping for their low maintenance and continuous flowering throughout the growing season.",
+      "image": "images/plants/shrub_rose.png",
+      "icon": "images/icons/shrub_rose.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 30,
+      "height": 48,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 24,
+    "fields": {
+      "user": 1,
+      "name": "Tree Rose",
+      "description": "Tree roses are a unique form of roses grafted onto a tall stem, creating a tree-like appearance. They are often used as focal points in gardens and landscapes, adding vertical interest and a touch of elegance.",
+      "image": "images/plants/tree_rose.webp",
+      "icon": "images/icons/tree_rose.webp",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 72,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 25,
+    "fields": {
+      "user": 1,
+      "name": "Climbing Rose",
+      "description": "Climbing roses are vigorous climbers that produce blooms along their long canes. They are commonly trained to grow on trellises, fences, and walls, adding a vertical dimension to gardens.",
+      "image": "images/plants/climbing_rose.png",
+      "icon": "images/icons/climbing_rose.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 144,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 26,
+    "fields": {
+      "user": 1,
+      "name": "Orchid",
+      "description": "Orchids are diverse and exotic flowering plants known for their intricate and often fragrant blooms. They are prized in horticulture and have a rich cultural significance, symbolizing beauty, love, and refinement.",
+      "image": "images/plants/orchid.png",
+      "icon": "images/icons/orchid.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 5,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 12,
+      "height": 36,
+      "maturity": "1-5 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 27,
+    "fields": {
+      "user": 1,
+      "name": "Lily",
+      "description": "Lilies are graceful flowers with trumpet-shaped blooms and a sweet fragrance. They come in various colors and are popular in gardens and floral arrangements, symbolizing purity, renewal, and transience.",
+      "image": "images/plants/lily.png",
+      "icon": "images/icons/lily.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 12,
+      "height": 48,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 28,
+    "fields": {
+      "user": 1,
+      "name": "Carnation",
+      "description": "Carnations are long-lasting flowers with ruffled petals, available in a wide range of colors. They are often used in bouquets and arrangements for special occasions, representing love, fascination, and distinction.",
+      "image": "images/plants/carnation.png",
+      "icon": "images/icons/carnation.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 9,
+      "height": 24,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 29,
+    "fields": {
+      "user": 1,
+      "name": "Chrysanthemum",
+      "description": "Chrysanthemums, or mums, are popular fall-blooming flowers with a wide variety of shapes and colors. They symbolize longevity and are widely cultivated as decorative plants in gardens and floral displays.",
+      "image": "images/plants/chrysanthemum.jpeg",
+      "icon": "images/icons/chrysanthemum.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 2,
+      "light": 1,
+      "annual": false,
+      "spacing": 18,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 30,
+    "fields": {
+      "user": 1,
+      "name": "Peony",
+      "description": "Peonies are large, lush flowers with layers of delicate petals and a sweet fragrance. They are beloved for their showy blooms and are often used in wedding bouquets and garden borders.",
+      "image": "images/plants/peony.png",
+      "icon": "images/icons/peony.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 5,
+      "light": 1,
+      "annual": false,
+      "spacing": 36,
+      "height": 36,
+      "maturity": "2-3 years (from roots or divisions)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 31,
+    "fields": {
+      "user": 1,
+      "name": "Azalea",
+      "description": "Azaleas are flowering shrubs known for their vibrant clusters of blooms and evergreen foliage. They are commonly used in landscaping and gardens, adding color and texture to the landscape.",
+      "image": "images/plants/azalea.jpeg",
+      "icon": "images/icons/azalea.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 2,
+      "water": 3,
+      "light": 2,
+      "annual": false,
+      "spacing": 36,
+      "height": 60,
+      "maturity": "2-3 years (from cuttings or transplants)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 32,
+    "fields": {
+      "user": 1,
+      "name": "Violet",
+      "description": "Violets are small, delicate flowers with heart-shaped leaves and a sweet fragrance. They are often found in woodlands and are cultivated for their charming appearance in gardens.",
+      "image": "images/plants/violet.jpeg",
+      "icon": "images/icons/violet.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 6,
+      "height": 6,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 33,
+    "fields": {
+      "user": 1,
+      "name": "Begonia",
+      "description": "Begonias are versatile plants with attractive foliage and showy flowers, available in various shapes and sizes. They are popular for both indoor and outdoor cultivation, adding color to gardens and container plantings.",
+      "image": "images/plants/begonia.webp",
+      "icon": "images/icons/begonia.webp",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 2,
+      "annual": true,
+      "spacing": 10,
+      "height": 18,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 34,
+    "fields": {
+      "user": 1,
+      "name": "Hyacinth",
+      "description": "Hyacinths are fragrant spring-blooming bulbs with dense spikes of flowers. They are valued for their strong scent and are often used in gardens and as cut flowers.",
+      "image": "images/plants/hyacinth.png",
+      "icon": "images/icons/hyacinth.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 3,
+      "height": 10,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 35,
+    "fields": {
+      "user": 1,
+      "name": "Geranium",
+      "description": "Geraniums are well-known bedding plants with distinctive, lobed leaves and clusters of colorful flowers. They are easy to grow and are commonly used in gardens, hanging baskets, and window boxes.",
+      "image": "images/plants/geranium.jpeg",
+      "icon": "images/icons/geranium.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 36,
+    "fields": {
+      "user": 1,
+      "name": "Petunia",
+      "description": "Petunias are low-growing annuals with trumpet-shaped flowers in a variety of colors. They are popular for their long blooming period and are commonly used in hanging baskets and containers.",
+      "image": "images/plants/petunia.png",
+      "icon": "images/icons/petunia.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 12,
+      "maturity": "60-80 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 37,
+    "fields": {
+      "user": 1,
+      "name": "Black-eyed Susan",
+      "description": "Black-eyed Susans are native wildflowers with bright yellow petals and a dark brown center. They are hardy and attract pollinators, making them a popular choice in naturalized landscapes.",
+      "image": "images/plants/black_eyed_susan.webp",
+      "icon": "images/icons/black_eyed_susan.webp",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 18,
+      "height": 30,
+      "maturity": "70-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 38,
+    "fields": {
+      "user": 1,
+      "name": "Snapdragon",
+      "description": "Snapdragons are charming flowers with spikes of blooms that resemble dragon jaws. They come in various colors and are often used in gardens and as cut flowers, adding vertical interest.",
+      "image": "images/plants/snapdragon.jpeg",
+      "icon": "images/icons/snapdragon.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": true,
+      "spacing": 9,
+      "height": 12,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 39,
+    "fields": {
+      "user": 1,
+      "name": "Delphinium",
+      "description": "Delphiniums aka Larkspur are tall, spiky perennials with showy, clustered flowers in shades of blue, pink, and white. They are valued for their height and vibrant colors, making them a striking addition to garden borders.  While beautiful it is also toxic to both humans and animals, so any gardeners should treat it accordingly.",
+      "image": "images/plants/delphinium.png",
+      "icon": "images/icons/delphinium.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 2,
+      "light": 1,
+      "annual": false,
+      "spacing": 12,
+      "height": 48,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 40,
+    "fields": {
+      "user": 1,
+      "name": "California Poppy",
+      "description": "California poppies are native wildflowers known for their vibrant orange blooms and finely divided foliage. They are drought-tolerant and thrive in sunny conditions, making them a popular choice in wildflower gardens and natural landscapes.",
+      "image": "images/plants/california_poppy.png",
+      "icon": "images/icons/california_poppy.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 8,
+      "height": 12,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 41,
+    "fields": {
+      "user": 1,
+      "name": "Calendula",
+      "description": "Calendulas, also known as marigolds, are bright and cheerful flowers with daisy-like blooms. Known for their medicinal properties and culinary uses, these versatile plants are often cultivated for their vibrant colors and ability to attract beneficial insects to the garden.",
+      "image": "images/plants/calendula.png",
+      "icon": "images/icons/calendula.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 6,
+      "height": 16,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 42,
+    "fields": {
+      "user": 1,
+      "name": "Clematis",
+      "description": "Clematis, also known as Leatherflower, are climbing vines with a wide variety of flower shapes and colors. These prolific bloomers are prized for their ability to cover structures, trellises, and fences, adding vertical interest to gardens.",
+      "image": "images/plants/clematis.webp",
+      "icon": "images/icons/clematis.webp",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 36,
+      "height": 120,
+      "maturity": "2-3 years (from cuttings or transplants)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 43,
+    "fields": {
+      "user": 1,
+      "name": "Hollyhock",
+      "description": "Hollyhocks are tall, stately plants with spikes of large, colorful flowers. These cottage garden favorites are known for their old-fashioned charm and are often planted against walls or at the back of borders for a dramatic effect.",
+      "image": "images/plants/hollyhock.jpeg",
+      "icon": "images/icons/hollyhock.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 24,
+      "height": 72,
+      "maturity": "120-150 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 44,
+    "fields": {
+      "user": 1,
+      "name": "Rhododendron",
+      "description": "Rhododendrons are evergreen shrubs with large clusters of showy flowers in various colors. They are popular ornamental plants, valued for their ability to thrive in acidic soils and bring bold splashes of color to woodland gardens.",
+      "image": "images/plants/rhododendron.jpeg",
+      "icon": "images/icons/rhododendron.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 2,
+      "water": 5,
+      "light": 1,
+      "annual": false,
+      "spacing": 72,
+      "height": 72,
+      "maturity": "2-3 years (from cuttings or transplants)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 45,
+    "fields": {
+      "user": 1,
+      "name": "Salvia",
+      "description": "Salvias, or sages, are aromatic plants with spikes of tubular flowers in shades of blue, purple, pink, or red. Known for their drought tolerance and attractiveness to pollinators, salvias are commonly used in landscaping and herb gardens.",
+      "image": "images/plants/salvia.png",
+      "icon": "images/icons/salvia.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 24,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 46,
+    "fields": {
+      "user": 1,
+      "name": "Allium",
+      "description": "Alliums, part of the onion family, are ornamental bulbs with distinctive globe-shaped flower heads. Ranging in size and color, these unique flowers add architectural interest to gardens and are often left to dry for decorative indoor arrangements.",
+      "image": "images/plants/allium.png",
+      "icon": "images/icons/allium.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 12,
+      "height": 48,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 47,
+    "fields": {
+      "user": 1,
+      "name": "Agapanthus",
+      "description": "Agapanthus, or Lily of the Nile, are clump-forming plants with spherical clusters of trumpet-shaped flowers. These striking plants are well-suited for borders and containers, providing a touch of elegance with their vibrant blue or white blooms.",
+      "image": "images/plants/agapanthus.png",
+      "icon": "images/icons/agapanthus.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 36,
+      "maturity": "2-3 years (from seeds or divisions)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 48,
+    "fields": {
+      "user": 1,
+      "name": "Protea",
+      "description": "Proteas are exotic flowering plants with unique, intricate blooms and leathery foliage. Native to South Africa, these drought-tolerant plants are often used in floral arrangements and are prized for their unusual appearance.",
+      "image": "images/plants/protea.png",
+      "icon": "images/icons/protea.png",
+      "type": 3,
+      "veggie_cat": 8,
       "soil": 1,
       "water": 1,
       "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 48,
+      "maturity": "2-3 years (from seeds or cuttings)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 49,
+    "fields": {
+      "user": 1,
+      "name": "Anemone",
+      "description": "Anemones are delicate flowers with open, cup-shaped blooms in various colors. These spring and fall-blooming perennials are valued for their graceful appearance and are often used in gardens and bouquets.",
+      "image": "images/plants/anemone.avif",
+      "icon": "images/icons/anemone.avif",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 2,
+      "annual": false,
+      "spacing": 6,
+      "height": 16,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 50,
+    "fields": {
+      "user": 1,
+      "name": "Cosmos",
+      "description": "Cosmos are easy-to-grow annuals with feathery foliage and daisy-like flowers. These plants are valued for their long blooming period and are commonly used in wildflower meadows and informal gardens.",
+      "image": "images/plants/cosmos.png",
+      "icon": "images/icons/cosmos.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
       "annual": true,
-      "spacing": 78,
-      "height": 678,
-      "days_to_mature": 75
+      "spacing": 12,
+      "height": 36,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 51,
+    "fields": {
+      "user": 1,
+      "name": "Echinacea",
+      "description": "Echinaceas, or coneflowers, are native North American perennials with showy, cone-shaped flowers. These plants are not only attractive to pollinators but are also valued for their potential immune-boosting properties.",
+      "image": "images/plants/echinacea.jpeg",
+      "icon": "images/icons/echinacea.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 2,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 52,
+    "fields": {
+      "user": 1,
+      "name": "Fuchsia",
+      "description": "Fuchsias are elegant, pendulous flowers that come in a variety of colors. Often grown as hanging plants, fuchsias add a touch of charm to gardens and are favored for their unique, tubular blooms.",
+      "image": "images/plants/fuchsia.webp",
+      "icon": "images/icons/fuchsia.webp",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 3,
+      "annual": false,
+      "spacing": 12,
+      "height": 24,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 53,
+    "fields": {
+      "user": 1,
+      "name": "Indian Paintbrush",
+      "description": "Indian Paintbrushes are wildflowers with spikes of brightly colored, tubular flowers. Known for their striking appearance in meadows and prairies, these plants are often associated with native landscapes.",
+      "image": "images/plants/indian_paintbrush.png",
+      "icon": "images/icons/indian_paintbrush.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 3,
+      "water": 1,
+      "light": 1,
+      "annual": true,
+      "spacing": 6,
+      "height": 12,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 54,
+    "fields": {
+      "user": 1,
+      "name": "Jasmine",
+      "description": "Jasmine is a fragrant flowering plant known for its sweet-scented white blooms. Widely cultivated for its aromatic flowers, jasmine is used in perfumery, tea production, and as an ornamental shrub or vine.",
+      "image": "images/plants/jasmine.webp",
+      "icon": "images/icons/jasmine.webp",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 18,
+      "height": 144,
+      "maturity": "2-3 years (from cuttings or transplants)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 55,
+    "fields": {
+      "user": 1,
+      "name": "Moonflower",
+      "description": "Moonflowers are nocturnal vines with large, white, fragrant blooms that open at night. These fast-growing climbers are often planted near patios or windows to enjoy their enchanting fragrance during evening hours.",
+      "image": "images/plants/moonflower.jpeg",
+      "icon": "images/icons/moonflower.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 144,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 56,
+    "fields": {
+      "user": 1,
+      "name": "Periwinkle",
+      "description": "Periwinkles, or Vinca, are low-growing plants with glossy green leaves and colorful, trumpet-shaped flowers. They are valued for their ability to provide ground cover and are often used in landscaping for their resilience.",
+      "image": "images/plants/periwinkle.png",
+      "icon": "images/icons/periwinkle.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 6,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 57,
+    "fields": {
+      "user": 1,
+      "name": "Passionflower",
+      "description": "Passionflowers are exotic vines with intricate, showy flowers and distinctive fruits. Beyond their ornamental value, passionflowers are known for their symbolic significance and are sometimes used in traditional medicine.",
+      "image": "images/plants/passionflower.png",
+      "icon": "images/icons/passionflower.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 60,
+      "height": 240,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 58,
+    "fields": {
+      "user": 1,
+      "name": "Snowdrop",
+      "description": "Snowdrops, also known as Galanthus, are small, bell-shaped flowers that bloom in late winter or early spring. These delicate bulbs are often the first to emerge, symbolizing the arrival of spring in colder climates.",
+      "image": "images/plants/snowdrop.png",
+      "icon": "images/icons/snowdrop.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 3,
+      "height": 6,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 59,
+    "fields": {
+      "user": 1,
+      "name": "Spirea",
+      "description": "Spireas are deciduous shrubs with clusters of small, cascading flowers. Known for their hardiness and ease of cultivation, spireas are commonly used in landscaping to add texture and color to borders and hedges.",
+      "image": "images/plants/spirea.png",
+      "icon": "images/icons/spirea.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 48,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 60,
+    "fields": {
+      "user": 1,
+      "name": "Bluebonnet",
+      "description": "Bluebonnets are iconic wildflowers of Texas, known for their blue, lupine-like blooms. These hardy annuals are a symbol of the Lone Star State and are celebrated for their beauty in the wild and in cultivated landscapes.",
+      "image": "images/plants/bluebonnet.webp",
+      "icon": "images/icons/bluebonnet.webp",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 10,
+      "height": 18,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 61,
+    "fields": {
+      "user": 1,
+      "name": "Forget-Me-Not",
+      "description": "Forget-Me-Nots are small, delicate flowers with clusters of tiny, blue blooms. These charming plants are often found in gardens and are associated with sentiments of remembrance and enduring love.",
+      "image": "images/plants/forget_me_not.png",
+      "icon": "images/icons/forget_me_not.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 10,
+      "height": 6,
+      "maturity": "40-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 62,
+    "fields": {
+      "user": 1,
+      "name": "Strawflower",
+      "description": "Strawflowers are hardy annuals with papery, daisy-like blooms that retain their color and shape when dried. Commonly used in dried flower arrangements, these plants add a long-lasting burst of color to gardens and bouquets.",
+      "image": "images/plants/strawflower.png",
+      "icon": "images/icons/strawflower.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 10,
+      "height": 36,
+      "maturity": "70-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 63,
+    "fields": {
+      "user": 1,
+      "name": "Chamomile",
+      "description": "Chamomile is a fragrant herb known for its small, daisy-like flowers and soothing properties. Used for centuries in herbal teas, chamomile is prized for its calming effects and is often cultivated for its medicinal and culinary uses.",
+      "image": "images/plants/german_chamomile.jpeg",
+      "icon": "images/icons/german_chamomile.jpeg",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 3,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 8,
+      "height": 24,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 64,
+    "fields": {
+      "user": 1,
+      "name": "Hibiscus",
+      "description": "Hibiscus plants feature large, showy flowers in a variety of colors, and they are popular in tropical and subtropical gardens. The vibrant blooms are not only ornamental but are also used to make herbal teas with a unique, tart flavor.",
+      "image": "images/plants/hibiscus.png",
+      "icon": "images/icons/hibiscus.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 3,
+      "water": 1,
+      "light": 1,
+      "annual": false,
+      "spacing": 72,
+      "height": 96,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 65,
+    "fields": {
+      "user": 1,
+      "name": "Hellebore",
+      "description": "Hellebores, or Lenten Roses, are perennial plants with elegant, nodding flowers that bloom in late winter and early spring. Known for their tolerance of shade and cold temperatures, hellebores add beauty to woodland gardens.",
+      "image": "images/plants/hellebore.png",
+      "icon": "images/icons/hellebore.png",
+      "type": 3,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 3,
+      "annual": false,
+      "spacing": 18,
+      "height": 12,
+      "maturity": "2-3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 66,
+    "fields": {
+      "user": 1,
+      "name": "Mint",
+      "description": "Mint is a versatile herb with fragrant leaves and a refreshing flavor. Widely used in culinary applications, mint is also grown for its aromatic foliage and is a popular choice for teas, desserts, and garnishes. Planting in pots is recommended, even if you are planting in the ground, as mint is infamous for aggressively spreading and taking over gardens.",
+      "image": "images/plants/mint.png",
+      "icon": "images/icons/mint.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 36,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 67,
+    "fields": {
+      "user": 1,
+      "name": "Chocolate Mint",
+      "description": "Chocolate Mint is a variety of mint with leaves that carry a hint of chocolate flavor. Often used in culinary pursuits, this aromatic herb is employed in desserts, beverages, and even as a fragrant addition to potpourri. Planting in pots is recommended, even if you are planting in the ground, as mint is infamous for aggressively spreading and taking over gardens.",
+      "image": "images/plants/chocolate_mint.png",
+      "icon": "images/icons/chocolate_mint.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 36,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 68,
+    "fields": {
+      "user": 1,
+      "name": "Basil",
+      "description": "Basil is a culinary herb with aromatic leaves commonly used in Italian cuisine. With various cultivars, including Lemon Basil, Lime Basil, and others, basil adds distinct flavors to dishes and is a popular choice in gardens and kitchens.",
+      "image": "images/plants/basil.png",
+      "icon": "images/icons/basil.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 36,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 69,
+    "fields": {
+      "user": 1,
+      "name": "Holy Basil",
+      "description": "Holy Basil, or Tulsi, is a sacred herb in Hinduism known for its aromatic leaves and medicinal properties. Widely used in Ayurvedic medicine, holy basil is also cultivated for its spiritual significance and is often grown near homes and temples.",
+      "image": "images/plants/holy_basil.png",
+      "icon": "images/icons/holy_basil.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 24,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 70,
+    "fields": {
+      "user": 1,
+      "name": "Borage",
+      "description": "Borage is an herb with bright blue, star-shaped flowers and hairy leaves. Valued for its culinary uses and medicinal properties, borage is known for its cucumber-like flavor and is sometimes used as a garnish.",
+      "image": "images/plants/borage.webp",
+      "icon": "images/icons/borage.webp",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 18,
+      "height": 36,
+      "maturity": "50-70 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 71,
+    "fields": {
+      "user": 1,
+      "name": "Lemon Basil",
+      "description": "Lemon Basil is a basil variety with a lemony fragrance and flavor. Widely used in culinary applications, this herb is favored for its ability to add a citrusy twist to salads, beverages, and a variety of dishes.",
+      "image": "images/plants/lemon_basil.png",
+      "icon": "images/icons/lemon_basil.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 36,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 72,
+    "fields": {
+      "user": 1,
+      "name": "Lime Basil",
+      "description": "Lime Basil is another basil variety with a citrusy aroma and flavor reminiscent of lime. Like other basil varieties, it is valued in culinary endeavors, providing a unique twist to recipes.",
+      "image": "images/plants/lime_basil.png",
+      "icon": "images/icons/lime_basil.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 24,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 73,
+    "fields": {
+      "user": 1,
+      "name": "Cilantro",
+      "description": "Cilantro, whose seeds are known as coriander, is an herb with bright green, feathery leaves and a distinctive flavor. Commonly used in culinary dishes, cilantro adds a fresh and zesty element to salads, salsas, and various cuisines.",
+      "image": "images/plants/cilantro.webp",
+      "icon": "images/icons/cilantro.webp",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 8,
+      "height": 24,
+      "maturity": "50-70 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 74,
+    "fields": {
+      "user": 1,
+      "name": "Rosemary",
+      "description": "Rosemary is an aromatic evergreen shrub with needle-like leaves and a piney fragrance. Widely used in culinary and medicinal applications, rosemary is known for its versatility and is often employed in savory dishes and herbal infusions.",
+      "image": "images/plants/rosemary.png",
+      "icon": "images/icons/rosemary.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 36,
+      "height": 48,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 75,
+    "fields": {
+      "user": 1,
+      "name": "Sage",
+      "description": "Sage, also known as Salvia, is a perennial herb with gray-green leaves and a savory, earthy flavor. Commonly used in culinary dishes, sage is also valued for its medicinal properties and is often grown for both culinary and ornamental purposes.",
+      "image": "images/plants/sage.webp",
+      "icon": "images/icons/sage.webp",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 30,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 76,
+    "fields": {
+      "user": 1,
+      "name": "Pineapple Sage",
+      "description": "Pineapple Sage is a variety of sage with pineapple-scented leaves and red tubular flowers. Popular for its aromatic foliage and attractive blooms, this sage variety adds a sweet twist to gardens and culinary creations.",
+      "image": "images/plants/pineapple_sage.jpeg",
+      "icon": "images/icons/pineapple_sage.jpeg",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 48,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 77,
+    "fields": {
+      "user": 1,
+      "name": "Thyme",
+      "description": "Thyme is a low-growing herb with small, fragrant leaves and a subtle, earthy flavor. Used in various culinary dishes, thyme is also appreciated for its aromatic qualities and is a staple in herb gardens.",
+      "image": "images/plants/thyme.png",
+      "icon": "images/icons/thyme.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 5,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 12,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 78,
+    "fields": {
+      "user": 1,
+      "name": "Lemon Thyme",
+      "description": "Lemon Thyme is a thyme variety with a lemony fragrance and flavor. Ideal for culinary applications, this herb is often used to impart a citrusy essence to dishes, marinades, and teas.",
+      "image": "images/plants/lemon_thyme.png",
+      "icon": "images/icons/lemon_thyme.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 5,
+      "light": 1,
+      "annual": false,
+      "spacing": 20,
+      "height": 12,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 79,
+    "fields": {
+      "user": 1,
+      "name": "Parsley",
+      "description": "Parsley is a biennial herb with dark green, curly or flat leaves and a mild, fresh flavor. Widely used as a garnish and ingredient in various dishes, parsley is a versatile herb in culinary endeavors.",
+      "image": "images/plants/parsley.png",
+      "icon": "images/icons/parsley.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 10,
+      "height": 12,
+      "maturity": "70-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 80,
+    "fields": {
+      "user": 1,
+      "name": "Coriander",
+      "description": "Coriander refers to the seeds of the cilantro plant and is used as a spice in culinary dishes. With a slightly citrusy and warm flavor, coriander is a key ingredient in many spice blends and cuisines worldwide.",
+      "image": "images/plants/coriander.png",
+      "icon": "images/icons/coriander.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 8,
+      "height": 18,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 81,
+    "fields": {
+      "user": 1,
+      "name": "Lavender",
+      "description": "Lavender is an aromatic herb with slender spikes of fragrant, purple flowers. Known for its calming scent, lavender is often used in aromatherapy, potpourri, and culinary applications, adding a hint of floral flavor to dishes.",
+      "image": "images/plants/lavender.png",
+      "icon": "images/icons/lavender.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 24,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 82,
+    "fields": {
+      "user": 1,
+      "name": "Peppermint",
+      "description": "Peppermint is a robust herb with serrated leaves and a refreshing, minty flavor. Widely used in culinary endeavors, teas, and medicinal applications, peppermint is known for its cooling properties and invigorating aroma.",
+      "image": "images/plants/peppermint.png",
+      "icon": "images/icons/peppermint.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 24,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 83,
+    "fields": {
+      "user": 1,
+      "name": "Oregano",
+      "description": "Oregano is a pungent herb with small, green leaves and a robust flavor. Commonly used in Mediterranean cuisine, oregano is versatile in the kitchen and adds a savory note to pizzas, pasta sauces, and a variety of dishes.",
+      "image": "images/plants/oregano.png",
+      "icon": "images/icons/oregano.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 10,
+      "height": 24,
+      "maturity": "50-70 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 84,
+    "fields": {
+      "user": 1,
+      "name": "Chives",
+      "description": "Chives are slender, green herbs with a mild onion flavor, often used as a garnish or ingredient in salads, soups, and dips. Easy to grow, chives add a fresh and delicate onion-like taste to a wide range of dishes.",
+      "image": "images/plants/chives.png",
+      "icon": "images/icons/chives.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 6,
+      "height": 12,
+      "maturity": "40-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 85,
+    "fields": {
+      "user": 1,
+      "name": "Dill Weed",
+      "description": "Dill Weed is an aromatic herb with feathery leaves and a mild, anise-like flavor. Commonly used in pickling, salads, and seafood dishes, dill adds a bright and fresh element to culinary creations.",
+      "image": "images/plants/dill_weed.png",
+      "icon": "images/icons/dill_weed.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 2,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 36,
+      "maturity": "40-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 86,
+    "fields": {
+      "user": 1,
+      "name": "Lemon Balm",
+      "description": "Lemon Balm is a lemon-scented herb with serrated leaves, often used in teas, salads, and desserts. Known for its calming properties, lemon balm is valued for both its culinary and medicinal uses.",
+      "image": "images/plants/lemon_balm.webp",
+      "icon": "images/icons/lemon_balm.webp",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 30,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 87,
+    "fields": {
+      "user": 1,
+      "name": "Garlic Chives",
+      "description": "Garlic Chives, also known as Chinese Flowering Leek, are flat-leaved herbs with a mild garlic flavor, commonly used in Asian cuisine. These chives add a subtle garlic kick to dishes and are often grown for their culinary versatility.",
+      "image": "images/plants/garlic_chives.jpg",
+      "icon": "images/icons/garlic_chives.jpg",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 12,
+      "height": 16,
+      "maturity": "40-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 88,
+    "fields": {
+      "user": 1,
+      "name": "French Tarragon",
+      "description": "French Tarragon is an aromatic herb with narrow, pointed leaves and a licorice-like flavor. A staple in French cuisine, tarragon is used in sauces, salads, and as a seasoning for various dishes.",
+      "image": "images/plants/french_tarragon.jpeg",
+      "icon": "images/icons/french_tarragon.jpeg",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 30,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 89,
+    "fields": {
+      "user": 1,
+      "name": "German Chamomile",
+      "description": "German Chamomile is a daisy-like herb with delicate, white flowers. Known for its mild apple-like scent, chamomile is often used in teas and herbal remedies, celebrated for its calming and soothing properties.",
+      "image": "images/plants/german_chamomile.jpeg",
+      "icon": "images/icons/german_chamomile.jpeg",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 3,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 8,
+      "height": 24,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 90,
+    "fields": {
+      "user": 1,
+      "name": "Lemon Verbena",
+      "description": "Lemon Verbena is a fragrant herb with elongated leaves and a strong lemon scent. Used to infuse teas, desserts, and beverages, lemon verbena adds a citrusy note to culinary creations and is prized for its aromatic leaves.",
+      "image": "images/plants/lemon_verbena.jpeg",
+      "icon": "images/icons/lemon_verbena.jpeg",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 18,
+      "height": 72,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 91,
+    "fields": {
+      "user": 1,
+      "name": "Fennel",
+      "description": "Fennel is a herb with feathery leaves and a mild, licorice-like flavor. Both the bulb and the fronds are used in culinary applications, adding a sweet and aromatic dimension to salads, soups, and savory dishes.",
+      "image": "images/plants/fennel.jpeg",
+      "icon": "images/icons/fennel.jpeg",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 2,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 72,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 92,
+    "fields": {
+      "user": 1,
+      "name": "Sorrel",
+      "description": "Sorrel is a leafy herb with a tart, lemony flavor, often used in salads, soups, and sauces. Known for its tangy taste, sorrel adds brightness to dishes and is a popular ingredient in culinary traditions around the world.",
+      "image": "images/plants/sorrel.png",
+      "icon": "images/icons/sorrel.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 2,
+      "light": 1,
+      "annual": false,
+      "spacing": 12,
+      "height": 18,
+      "maturity": "40-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 93,
+    "fields": {
+      "user": 1,
+      "name": "Opal Basil",
+      "description": "Opal Basil, named for its vibrant purple leaves, is a variety of basil that adds a colorful and mild, sweet flavor to dishes. Commonly used for culinary and ornamental purposes, opal basil is a striking addition to gardens and culinary creations.",
+      "image": "images/plants/opal_basil.png",
+      "icon": "images/icons/opal_basil.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 16,
+      "height": 18,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 94,
+    "fields": {
+      "user": 1,
+      "name": "Bay Laurel",
+      "description": "Bay Laurel is an evergreen shrub with aromatic, elliptical leaves. Widely used as a culinary herb, bay leaves add depth of flavor to soups, stews, and sauces and are a key ingredient in many spice blends.",
+      "image": "images/plants/bay_laurel.png",
+      "icon": "images/icons/bay_laurel.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 5,
+      "light": 1,
+      "annual": false,
+      "spacing": 72,
+      "height": 360,
+      "maturity": "2-3 years (from seeds or cuttings)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 95,
+    "fields": {
+      "user": 1,
+      "name": "Lovage",
+      "description": "Lovage is a tall herb with celery-like leaves and a savory, slightly peppery flavor. Used as both a culinary herb and a vegetable, lovage adds a bold and distinctive taste to salads, soups, and savory dishes.",
+      "image": "images/plants/lovage.jpeg",
+      "icon": "images/icons/lovage.jpeg",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 36,
+      "height": 60,
+      "maturity": "70-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 96,
+    "fields": {
+      "user": 1,
+      "name": "Marjoram",
+      "description": "Marjoram is a fragrant herb with oval-shaped leaves and a mild, sweet flavor. Often used in Mediterranean cuisine, marjoram complements a variety of dishes, including meats, stews, and salads.",
+      "image": "images/plants/marjoram.png",
+      "icon": "images/icons/marjoram.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 18,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 97,
+    "fields": {
+      "user": 1,
+      "name": "Echinacea",
+      "description": "Echinacea, also known as coneflower, is an herb with daisy-like blooms and a long history of medicinal use. Valued for its potential immune-boosting properties, echinacea is often used in herbal remedies and supplements.",
+      "image": "images/plants/echinacea.jpeg",
+      "icon": "images/icons/echinacea.jpeg",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 98,
+    "fields": {
+      "user": 1,
+      "name": "Thai Basil",
+      "description": "Thai Basil is a variety of basil with a distinct spicy, anise-like flavor. Commonly used in Southeast Asian cuisine, Thai basil adds a unique taste to curries, stir-fries, and other dishes.",
+      "image": "images/plants/thai_basil.webp",
+      "icon": "images/icons/thai_basil.webp",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 18,
+      "height": 18,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 99,
+    "fields": {
+      "user": 1,
+      "name": "Lemongrass",
+      "description": "Lemongrass is a tall, fragrant herb with a citrusy aroma and flavor. Widely used in Asian cuisine, lemongrass adds a bright and zesty note to soups, curries, and marinades.",
+      "image": "images/plants/lemongrass.png",
+      "icon": "images/icons/lemongrass.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 3,
+      "water": 2,
+      "light": 1,
+      "annual": true,
+      "spacing": 24,
+      "height": 48,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 100,
+    "fields": {
+      "user": 1,
+      "name": "Catnip",
+      "description": "Catnip is an herb with fragrant, serrated leaves that are attractive to cats. Used in teas for humans, catnip is also popular as a calming herb for cats, and it has a long history of medicinal use in traditional herbal remedies.",
+      "image": "images/plants/catnip.jpg",
+      "icon": "images/icons/catnip.jpg",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 3,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 30,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 101,
+    "fields": {
+      "user": 1,
+      "name": "Stevia",
+      "description": "Stevia is a sweet herb known for its natural sweetness without calories. Widely used as a sugar substitute, stevia is cultivated for its leaves, which can be dried and powdered to enhance the sweetness of various culinary creations.",
+      "image": "images/plants/stevia.png",
+      "icon": "images/icons/stevia.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 18,
+      "height": 30,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 102,
+    "fields": {
+      "user": 1,
+      "name": "Hyssop",
+      "description": "Hyssop is an aromatic herb with narrow, lance-shaped leaves and clusters of blue or purple flowers. Often used in culinary applications and herbal teas, hyssop adds a mildly sweet and minty flavor to dishes and beverages.",
+      "image": "images/plants/hyssop.png",
+      "icon": "images/icons/hyssop.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 12,
+      "height": 24,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 103,
+    "fields": {
+      "user": 1,
+      "name": "Caraway",
+      "description": "Caraway is an herb with feathery leaves and small, crescent-shaped seeds. Known for its warm and slightly sweet flavor, caraway seeds are commonly used in baking, pickling, and spice blends, adding a distinctive taste to various dishes.",
+      "image": "images/plants/caraway.jpeg",
+      "icon": "images/icons/caraway.jpeg",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 3,
+      "water": 1,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 24,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 104,
+    "fields": {
+      "user": 1,
+      "name": "Bergamot",
+      "description": "Bergamot, also known as bee balm, is a flowering herb with distinctive, aromatic leaves and vibrant blooms. Used in teas and as a culinary herb, bergamot has a citrusy and floral flavor, contributing a unique twist to beverages and dishes.",
+      "image": "images/plants/bergamot.png",
+      "icon": "images/icons/bergamot.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 18,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 105,
+    "fields": {
+      "user": 1,
+      "name": "Saffron",
+      "description": "Saffron is a spice derived from the crocus flower's stigma and is one of the most expensive spices by weight. Known for its vibrant color and distinct flavor, saffron is used in cooking, baking, and traditional medicine, adding both aroma and color to dishes.",
+      "image": "images/plants/saffron.webp",
+      "icon": "images/icons/saffron.webp",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 4,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 4,
+      "height": 12,
+      "maturity": "6-10 weeks (from corms)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 106,
+    "fields": {
+      "user": 1,
+      "name": "Anise",
+      "description": "Anise is an herb with aromatic seeds that have a sweet and licorice-like flavor. Widely used in culinary applications, anise seeds are employed in baking, cooking, and as a flavoring agent in various beverages and liqueurs.",
+      "image": "images/plants/anise.png",
+      "icon": "images/icons/anise.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": true,
+      "spacing": 6,
+      "height": 144,
+      "maturity": "120-150 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 107,
+    "fields": {
+      "user": 1,
+      "name": "Cardamom",
+      "description": "Cardamom is a spice with a warm, aromatic flavor and is often used in both sweet and savory dishes. As one of the most expensive spices, cardamom is valued for its versatility in cooking, baking, and as a key ingredient in spice blends.",
+      "image": "images/plants/cardamom.png",
+      "icon": "images/icons/cardamom.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 2,
+      "light": 4,
+      "annual": false,
+      "spacing": 48,
+      "height": 96,
+      "maturity": "2-3 years (from seeds or rhizomes)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 108,
+    "fields": {
+      "user": 1,
+      "name": "Chia",
+      "description": "Chia is an edible seed derived from the Salvia hispanica plant and is known for its nutritional benefits. Often used in smoothies, puddings, and as a topping for various dishes, chia seeds are rich in omega-3 fatty acids and provide a crunchy texture.",
+      "image": "images/plants/chia.png",
+      "icon": "images/icons/chia.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 109,
+    "fields": {
+      "user": 1,
+      "name": "Cinnamon Basil",
+      "description": "Cinnamon Basil is a variety of basil with a distinct cinnamon aroma and flavor. Often used in culinary applications, especially in desserts, Cinnamon Basil adds a warm and sweet element to dishes and beverages.",
+      "image": "images/plants/cinnamon_basil.png",
+      "icon": "images/icons/cinnamon_basil.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 24,
+      "height": 20,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 110,
+    "fields": {
+      "user": 1,
+      "name": "Ginger Mint",
+      "description": "Ginger Mint is a variety of mint with a spicy and ginger-like flavor. Commonly used in teas, culinary dishes, and as a garnish, Ginger Mint adds a unique twist to beverages and savory creations.  Planting in pots is recommended, even if you are planting in the ground, as mint is infamous for aggressively spreading and taking over gardens.",
+      "image": "images/plants/ginger_mint.webp",
+      "icon": "images/icons/ginger_mint.webp",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 18,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 111,
+    "fields": {
+      "user": 1,
+      "name": "Spearmint",
+      "description": "Spearmint is a common variety of mint with bright green, serrated leaves and a refreshing, sweet flavor. Widely used in teas, culinary applications, and as a garnish, spearmint is known for its cooling and invigorating properties.",
+      "image": "images/plants/spearmint.webp",
+      "icon": "images/icons/spearmint.webp",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 24,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 112,
+    "fields": {
+      "user": 1,
+      "name": "Horseradish",
+      "description": "Horseradish is a pungent root vegetable with a strong, spicy flavor. Often grated and used as a condiment, horseradish adds a sharp kick to sauces, dips, and dishes, complementing a variety of flavors.",
+      "image": "images/plants/horseradish.png",
+      "icon": "images/icons/horseradish.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 18,
+      "height": 24,
+      "maturity": "120-150 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 113,
+    "fields": {
+      "user": 1,
+      "name": "Rue",
+      "description": "Rue is an herb with aromatic, blue-green leaves and small yellow flowers. Although it has historical uses in culinary and medicinal traditions, rue is used cautiously due to its toxic compounds and is often grown for its ornamental value.",
+      "image": "images/plants/rue.png",
+      "icon": "images/icons/rue.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 5,
+      "light": 1,
+      "annual": false,
+      "spacing": 18,
+      "height": 30,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 114,
+    "fields": {
+      "user": 1,
+      "name": "Evening Primrose",
+      "description": "Evening Primrose is a plant with yellow flowers that bloom in the evening. Known for its medicinal uses, Evening Primrose oil is extracted from its seeds and is believed to have various health benefits.",
+      "image": "images/plants/evening_primrose.png",
+      "icon": "images/icons/evening_primrose.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": true,
+      "spacing": 24,
+      "height": 48,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 115,
+    "fields": {
+      "user": 1,
+      "name": "Nettle",
+      "description": "Nettle is a leafy herb with serrated leaves and tiny, inconspicuous flowers. Despite its stinging hairs, nettle is valued for its nutritional content and is used in teas, soups, and as a cooked green vegetable.",
+      "image": "images/plants/nettle.png",
+      "icon": "images/icons/nettle.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 8,
+      "height": 48,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 116,
+    "fields": {
+      "user": 1,
+      "name": "Turmeric",
+      "description": "Turmeric is a golden-yellow spice derived from the rhizomes of the Curcuma longa plant. Widely used in cooking, especially in Indian cuisine, turmeric has a warm, earthy flavor and is known for its anti-inflammatory properties.",
+      "image": "images/plants/turmeric.png",
+      "icon": "images/icons/turmeric.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 6,
+      "height": 36,
+      "maturity": "8-10 months (from rhizomes)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 117,
+    "fields": {
+      "user": 1,
+      "name": "Winter Savory",
+      "description": "Winter Savory is an aromatic herb with small, dark green leaves and a peppery flavor. Used as a culinary herb, Winter Savory adds a robust and savory taste to a variety of dishes, including meats and stews.",
+      "image": "images/plants/winter_savory.png",
+      "icon": "images/icons/winter_savory.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 3,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 12,
+      "height": 12,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 118,
+    "fields": {
+      "user": 1,
+      "name": "Peruvian Black Mint",
+      "description": "Peruvian Black Mint, also known as Huacatay, is an herb with dark, purple-black leaves and a pungent flavor. Commonly used in Peruvian cuisine, it adds a distinctive taste to sauces, stews, and marinades.",
+      "image": "images/plants/peruvian_black_mint.png",
+      "icon": "images/icons/peruvian_black_mint.png",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 3,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 18,
+      "height": 72,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 119,
+    "fields": {
+      "user": 1,
+      "name": "Ginseng",
+      "description": "Ginseng is a medicinal herb with forked roots and is highly valued in traditional medicine. Known for its adaptogenic properties, ginseng is believed to promote overall well-being and is used in various forms, including teas and supplements.  This crop is for the patient gardener, as seeds can take up to 18 months to germinate.",
+      "image": "images/plants/ginseng.avif",
+      "icon": "images/icons/ginseng.avif",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 5,
+      "light": 3,
+      "annual": false,
+      "spacing": 14,
+      "height": 12,
+      "maturity": "3-5 years (from seeds or roots)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 120,
+    "fields": {
+      "user": 1,
+      "name": "Electric Daisy",
+      "description": "Electric Daisy, also known as the toothache plant, is a plant with vibrant, yellow flowers that cause a tingling or numbing sensation when consumed. Used in molecular gastronomy and culinary experiments, Electric Daisy adds a unique sensory experience to dishes and beverages.",
+      "image": "images/plants/electric_daisy.webp",
+      "icon": "images/icons/electric_daisy.webp",
+      "type": 2,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 12,
+      "height": 12,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 121,
+    "fields": {
+      "user": 1,
+      "name": "Strawberry",
+      "description": "Strawberries are juicy, red berries with a sweet flavor and are often enjoyed fresh, in desserts, or as a topping. Rich in vitamin C and antioxidants, strawberries are a popular and versatile fruit in culinary creations and a favorite in gardens.",
+      "image": "images/plants/strawberry.png",
+      "icon": "images/icons/strawberry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 2,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 16,
+      "height": 12,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 122,
+    "fields": {
+      "user": 1,
+      "name": "Blackberry",
+      "description": "Blackberries are dark, juicy berries with a sweet-tart flavor and are commonly used in jams, pies, and desserts. These berries are rich in vitamins, minerals, and antioxidants, making them a nutritious addition to a variety of dishes.",
+      "image": "images/plants/blackberry.png",
+      "icon": "images/icons/blackberry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 72,
+      "maturity": "1-2 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 123,
+    "fields": {
+      "user": 1,
+      "name": "Raspberry",
+      "description": "Raspberries are delicate, red berries with a sweet and slightly tart taste, often enjoyed fresh, in jams, or as a dessert topping. Packed with fiber, vitamins, and antioxidants, raspberries are not only delicious but also offer health benefits.",
+      "image": "images/plants/raspberry.webp",
+      "icon": "images/icons/raspberry.webp",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 60,
+      "maturity": "1-2 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 124,
+    "fields": {
+      "user": 1,
+      "name": "Loganberry",
+      "description": "Loganberries are hybrid berries with a rich, sweet-tart flavor and are often used in jams and desserts. A cross between blackberries and raspberries, loganberries boast a unique taste and are valued for their versatility in culinary applications.",
+      "image": "images/plants/loganberry.jpeg",
+      "icon": "images/icons/loganberry.jpeg",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 60,
+      "maturity": "1-2 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 125,
+    "fields": {
+      "user": 1,
+      "name": "Boysenberry",
+      "description": "Boysenberries are a cross between blackberries, raspberries, and loganberries, known for their large, juicy, and sweet-tart taste. Popular in jams, pies, and desserts, boysenberries are a favorite in both commercial and home gardens.",
+      "image": "images/plants/boysenberry.webp",
+      "icon": "images/icons/boysenberry.webp",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 3,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 60,
+      "maturity": "1-2 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 126,
+    "fields": {
+      "user": 1,
+      "name": "Honeyberry",
+      "description": "Honeyberries, also known as haskap berries, are small, elongated berries with a unique sweet-tart flavor. Packed with antioxidants, honeyberries are gaining popularity in culinary use and are appreciated for their cold hardiness.",
+      "image": "images/plants/honeyberry.png",
+      "icon": "images/icons/honeyberry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 72,
+      "maturity": "2-3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 127,
+    "fields": {
+      "user": 1,
+      "name": "Goji Berry",
+      "description": "Goji berries, also known as wolfberries, are small, red berries with a sweet taste and are often dried and consumed as a snack or added to various dishes. Believed to have health benefits, goji berries are rich in nutrients and antioxidants.",
+      "image": "images/plants/goji_berry.png",
+      "icon": "images/icons/goji_berry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 96,
+      "maturity": "2-3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 128,
+    "fields": {
+      "user": 1,
+      "name": "Currant",
+      "description": "Currants are small, colorful berries with a sweet-tart flavor, commonly used in jams, jellies, and desserts. Available in red, black, or white varieties, currants are rich in vitamin C and add a burst of flavor to culinary creations.",
+      "image": "images/plants/currant.png",
+      "icon": "images/icons/currant.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 60,
+      "maturity": "2-3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 129,
+    "fields": {
+      "user": 1,
+      "name": "Grape",
+      "description": "Grapes are versatile fruits with a sweet and juicy taste, enjoyed fresh or processed into various products like wine, raisins, and grape juice. Available in a variety of colors and flavors, grapes are rich in antioxidants and contribute to a healthy diet.",
+      "image": "images/plants/grape.png",
+      "icon": "images/icons/grape.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 6,
+      "water": 1,
+      "light": 1,
+      "annual": false,
+      "spacing": 72,
+      "height": 144,
+      "maturity": "2-4 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 130,
+    "fields": {
+      "user": 1,
+      "name": "Gooseberry",
+      "description": "Gooseberries are small, tart berries often used in jams, pies, and desserts. Available in green, red, or yellow varieties, gooseberries add a tangy flavor to culinary creations and are enjoyed in various traditional dishes.",
+      "image": "images/plants/gooseberry.png",
+      "icon": "images/icons/gooseberry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 48,
+      "maturity": "2-3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 131,
+    "fields": {
+      "user": 1,
+      "name": "Pineberry",
+      "description": "Pineberries are white strawberries with red seeds, offering a unique pineapple-like flavor. Popular in gardens and culinary experiments, pineberries add a surprising twist to fruit salads, desserts, and beverages.",
+      "image": "images/plants/pineberry.webp",
+      "icon": "images/icons/pineberry.webp",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 18,
+      "height": 12,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 132,
+    "fields": {
+      "user": 1,
+      "name": "Lowbush Blueberry",
+      "description": "Lowbush blueberries are small, wild berries with a sweet and slightly tangy taste, often used in jams, pies, and muffins. Native to North America, lowbush blueberries are valued for their hardiness and abundance in the wild.",
+      "image": "images/plants/lowbush_blueberry.webp",
+      "icon": "images/icons/lowbush_blueberry.webp",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 2,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 24,
+      "height": 24,
+      "maturity": "2-3 years (from transplants)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 133,
+    "fields": {
+      "user": 1,
+      "name": "Highbush Blueberry",
+      "description": "Highbush blueberries are larger, cultivated blueberries with a sweet and juicy flavor, enjoyed fresh or used in a variety of culinary applications. High in antioxidants and vitamins, highbush blueberries are a popular fruit in gardens and commercial production.",
+      "image": "images/plants/highbush_blueberry.png",
+      "icon": "images/icons/highbush_blueberry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 2,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 60,
+      "height": 120,
+      "maturity": "2-3 years (from transplants)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 134,
+    "fields": {
+      "user": 1,
+      "name": "Watermelon",
+      "description": "Watermelon is a large, juicy fruit with sweet, red or pink flesh, commonly enjoyed fresh in slices or as part of fruit salads. Refreshing and hydrating, watermelon is a popular summer fruit with a high water content.",
+      "image": "images/plants/watermelon.jpeg",
+      "icon": "images/icons/watermelon.jpeg",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 60,
+      "height": 20,
+      "maturity": "70-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 135,
+    "fields": {
+      "user": 1,
+      "name": "Cantaloupe",
+      "description": "Cantaloupe, also known as muskmelon, is a sweet and fragrant melon with orange, juicy flesh. Often enjoyed fresh in slices or as a component of fruit salads, cantaloupe is a delicious and hydrating summer fruit.",
+      "image": "images/plants/cantaloupe.webp",
+      "icon": "images/icons/cantaloupe.webp",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 48,
+      "height": 16,
+      "maturity": "70-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 136,
+    "fields": {
+      "user": 1,
+      "name": "Kiwi",
+      "description": "Kiwi, or kiwifruit, is a small, brown, fuzzy fruit with bright green flesh and a sweet-tart flavor. Packed with vitamin C and fiber, kiwi is enjoyed fresh or added to salads, smoothies, and desserts.",
+      "image": "images/plants/kiwi.png",
+      "icon": "images/icons/kiwi.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 4,
+      "water": 1,
+      "light": 1,
+      "annual": false,
+      "spacing": 180,
+      "height": 240,
+      "maturity": "3-5 years (from seeds or cuttings)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 137,
+    "fields": {
+      "user": 1,
+      "name": "Hardy Kiwi",
+      "description": "Hardy kiwi, also known as baby kiwi or kiwi berry, is a small, smooth-skinned version of the traditional kiwi with a sweet-tart taste. Often eaten whole, including the skin, hardy kiwi is appreciated for its bite-sized convenience.",
+      "image": "images/plants/hardy_kiwi.jpeg",
+      "icon": "images/icons/hardy_kiwi.jpeg",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 4,
+      "water": 1,
+      "light": 1,
+      "annual": false,
+      "spacing": 120,
+      "height": 480,
+      "maturity": "2-5 years (from seeds or cuttings)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 138,
+    "fields": {
+      "user": 1,
+      "name": "Ground Cherry",
+      "description": "Ground cherries are small, yellow-orange berries encased in papery husks, offering a sweet and tropical flavor. Often used in jams, pies, and desserts, ground cherries are gaining popularity for their unique taste.",
+      "image": "images/plants/ground_cherry.png",
+      "icon": "images/icons/ground_cherry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 36,
+      "height": 24,
+      "maturity": "70-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 139,
+    "fields": {
+      "user": 1,
+      "name": "Alpine Strawberry",
+      "description": "Alpine strawberries are small, sweet berries with a delicate flavor, often grown for their ornamental value in gardens. While smaller than traditional strawberries, alpine strawberries are prized for their intense taste and fragrance.",
+      "image": "images/plants/alpine_strawberry.png",
+      "icon": "images/icons/alpine_strawberry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 2,
+      "annual": false,
+      "spacing": 18,
+      "height": 8,
+      "maturity": "60-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 140,
+    "fields": {
+      "user": 1,
+      "name": "Honeydew",
+      "description": "Honeydew is a juicy melon with pale green flesh and a sweet, mild flavor. Often enjoyed fresh in slices, fruit salads, or smoothies, honeydew is a refreshing and hydrating summer fruit.",
+      "image": "images/plants/honeydew.png",
+      "icon": "images/icons/honeydew.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 48,
+      "height": 12,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 141,
+    "fields": {
+      "user": 1,
+      "name": "Pineapple",
+      "description": "Pineapple is a tropical fruit with sweet, juicy, and tangy flesh encased in a spiky, rough skin. Often enjoyed fresh, in fruit salads, or as a refreshing beverage ingredient, pineapples add a tropical flair to a variety of culinary creations.",
+      "image": "images/plants/pineapple.png",
+      "icon": "images/icons/pineapple.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 3,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 36,
+      "height": 60,
+      "maturity": "2-3 years (from crowns or slips)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 142,
+    "fields": {
+      "user": 1,
+      "name": "Huckleberry",
+      "description": "Huckleberries are small, dark berries with a sweet and tart flavor, often used in jams, pies, and desserts. Growing in the wild, huckleberries are prized for their rich taste and are a favorite among foragers and culinary enthusiasts.",
+      "image": "images/plants/huckleberry.png",
+      "icon": "images/icons/huckleberry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 2,
+      "water": 4,
+      "light": 1,
+      "annual": true,
+      "spacing": 48,
+      "height": 36,
+      "maturity": "2-3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 143,
+    "fields": {
+      "user": 1,
+      "name": "Lingonberry",
+      "description": "Lingonberries are bright red berries with a slightly tart taste, commonly used in jams, sauces, and Scandinavian cuisine. Known for their vibrant color and versatility, lingonberries add a burst of flavor to both sweet and savory dishes.",
+      "image": "images/plants/lingonberry.png",
+      "icon": "images/icons/lingonberry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 2,
+      "water": 4,
+      "light": 1,
+      "annual": false,
+      "spacing": 18,
+      "height": 16,
+      "maturity": "2-3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 144,
+    "fields": {
+      "user": 1,
+      "name": "Cloudberry",
+      "description": "Cloudberry is a rare, orange-colored berry with a unique taste that is both sweet and tart. Often found in northern regions, cloudberry is used in jams, desserts, and liqueurs, and its distinctive flavor is cherished in Nordic and Arctic culinary traditions.",
+      "image": "images/plants/cloudberry.png",
+      "icon": "images/icons/cloudberry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 2,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 8,
+      "height": 10,
+      "maturity": "2-3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 145,
+    "fields": {
+      "user": 1,
+      "name": "Framberry",
+      "description": "Framberries are a hybrid berry, often a cross between strawberries and raspberries, combining the best of both flavors. Known for their unique taste and appearance, framberries are used in a variety of culinary applications, from jams to desserts.",
+      "image": "images/plants/framberry.png",
+      "icon": "images/icons/framberry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 18,
+      "height": 8,
+      "maturity": "2-3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 146,
+    "fields": {
+      "user": 1,
+      "name": "Salmon Berry",
+      "description": "Salmon berries are vibrant, orange-red berries with a sweet and slightly tangy flavor, often enjoyed fresh or used in jams and desserts. Native to the Pacific Northwest, salmon berries are valued for their unique taste and nutritional content.",
+      "image": "images/plants/salmon_berry.png",
+      "icon": "images/icons/salmon_berry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 2,
+      "water": 4,
+      "light": 2,
+      "annual": false,
+      "spacing": 48,
+      "height": 72,
+      "maturity": "2-3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 147,
+    "fields": {
+      "user": 1,
+      "name": "Wineberry",
+      "description": "Wine berries are red, raspberry-like berries with a sweet and slightly tart taste, commonly used in jams and desserts. Named for their wine-like flavor, wine berries are appreciated for their unique taste and are cultivated in various regions.",
+      "image": "images/plants/wineberry.png",
+      "icon": "images/icons/wineberry.png",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 60,
+      "maturity": "2-3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 148,
+    "fields": {
+      "user": 1,
+      "name": "Jostaberry",
+      "description": "Jostaberry is a hybrid berry, combining black currant and gooseberry, known for its dark purple color and rich, sweet-tart flavor. Often used in jams, desserts, and beverages, jostaberries offer a unique combination of two beloved berry varieties.",
+      "image": "images/plants/jostaberry.jpeg",
+      "icon": "images/icons/jostaberry.jpeg",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 2,
+      "light": 1,
+      "annual": false,
+      "spacing": 48,
+      "height": 60,
+      "maturity": "2-3 years"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 149,
+    "fields": {
+      "user": 1,
+      "name": "Cherokee Purple Tomato",
+      "description": "Cherokee Purple tomatoes are heirloom tomatoes with a distinct, deep purple color and a rich, complex flavor. Often used in salads, sandwiches, and as a slicing tomato, Cherokee Purple tomatoes are prized for their unique appearance and delicious taste.",
+      "image": "images/plants/cherokee_purple_tomato.jpeg",
+      "icon": "images/icons/cherokee_purple_tomato.jpeg",
+      "type": 1,
+      "veggie_cat": 1,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 30,
+      "height": 60,
+      "maturity": "75-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 150,
+    "fields": {
+      "user": 1,
+      "name": "Green Zebra Tomato",
+      "description": "Green Zebra tomatoes are small, green-striped tomatoes with a tangy and slightly sweet flavor. Popular in salads and as a distinctive addition to dishes, Green Zebra tomatoes are known for their vibrant appearance and refreshing taste.",
+      "image": "images/plants/green_zebra_tomato.png",
+      "icon": "images/icons/green_zebra_tomato.png",
+      "type": 1,
+      "veggie_cat": 1,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 60,
+      "maturity": "75-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 151,
+    "fields": {
+      "user": 1,
+      "name": "Brandywine Tomato",
+      "description": "Brandywine tomatoes are large, heirloom tomatoes with a pinkish-red hue and a sweet, rich flavor. Frequently used in sandwiches, salads, and as a slicing tomato, Brandywine tomatoes are prized for their old-fashioned taste and unique characteristics.",
+      "image": "images/plants/brandywine_tomato.png",
+      "icon": "images/icons/brandywine_tomato.png",
+      "type": 1,
+      "veggie_cat": 1,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 84,
+      "maturity": "80-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 152,
+    "fields": {
+      "user": 1,
+      "name": "Beefsteak Tomato",
+      "description": "Beefsteak tomatoes are large, meaty tomatoes with a rich and juicy flavor, making them ideal for slicing, sandwiches, and burgers. Known for their substantial size and robust taste, beefsteak tomatoes are a popular choice for various culinary applications.",
+      "image": "images/plants/beefsteak_tomato.png",
+      "icon": "images/icons/beefsteak_tomato.png",
+      "type": 1,
+      "veggie_cat": 1,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 72,
+      "maturity": "80-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 153,
+    "fields": {
+      "user": 1,
+      "name": "Roma Tomato",
+      "description": "Roma tomatoes, also known as plum tomatoes, are oval-shaped tomatoes with a dense flesh and low moisture content, making them ideal for sauces and canning. Often used in Italian cuisine, Roma tomatoes contribute a sweet and tangy flavor to dishes.",
+      "image": "images/plants/roma_tomato.png",
+      "icon": "images/icons/roma_tomato.png",
+      "type": 1,
+      "veggie_cat": 1,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 48,
+      "maturity": "70-85 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 154,
+    "fields": {
+      "user": 1,
+      "name": "Black Beauty Tomato",
+      "description": "Black Beauty tomatoes are dark purple to black in color, with a rich and complex flavor profile. Widely used in salads, sandwiches, and as a slicing tomato, Black Beauty tomatoes add a unique and dramatic element to culinary creations.",
+      "image": "images/plants/black_beauty_tomato.png",
+      "icon": "images/icons/black_beauty_tomato.png",
+      "type": 1,
+      "veggie_cat": 1,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 72,
+      "maturity": "70-85 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 155,
+    "fields": {
+      "user": 1,
+      "name": "Sun Gold Cherry Tomato",
+      "description": "Sun Gold cherry tomatoes are small, golden-orange tomatoes with an exceptionally sweet and fruity flavor. Often enjoyed fresh in salads, as snacks, or in appetizers, Sun Gold tomatoes are prized for their irresistible sweetness.",
+      "image": "images/plants/sun_gold_cherry_tomato.png",
+      "icon": "images/icons/sun_gold_cherry_tomato.png",
+      "type": 1,
+      "veggie_cat": 1,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 72,
+      "maturity": "60-75 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 156,
+    "fields": {
+      "user": 1,
+      "name": "Supersweet 100 Cherry Tomato",
+      "description": "Supersweet 100 cherry tomatoes are small, red tomatoes with an exceptionally sweet taste. Popular in salads and as a snack, these cherry tomatoes are known for their high sugar content and burst of sweetness in every bite.",
+      "image": "images/plants/supersweet_100_cherry_tomato.png",
+      "icon": "images/icons/supersweet_100_cherry_tomato.png",
+      "type": 1,
+      "veggie_cat": 1,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 84,
+      "maturity": "65-80 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 157,
+    "fields": {
+      "user": 1,
+      "name": "Rosella Cherry Tomato",
+      "description": "Rosella cherry tomatoes are small, red tomatoes with a balanced sweet-tart flavor. Ideal for salads, snacks, and appetizers, Rosella tomatoes add a burst of color and taste to a variety of dishes.",
+      "image": "images/plants/rosella_cherry_tomato.webp",
+      "icon": "images/icons/rosella_cherry_tomato.webp",
+      "type": 1,
+      "veggie_cat": 1,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 72,
+      "maturity": "65-80 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 158,
+    "fields": {
+      "user": 1,
+      "name": "Hybrid Tomato",
+      "description": "Hybrid tomatoes are cultivated by crossing different varieties to achieve specific traits like disease resistance, size, and flavor. Often chosen for their consistent performance and durability during transportation, hybrid tomatoes are the bright red variety most commonly sold in grocery stores.",
+      "image": "images/plants/hybrid_tomato.jpeg",
+      "icon": "images/icons/hybrid_tomato.jpeg",
+      "type": 1,
+      "veggie_cat": 1,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 48,
+      "maturity": "70-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 159,
+    "fields": {
+      "user": 1,
+      "name": "Green Bell Pepper",
+      "description": "Green bell peppers are crisp, mild peppers with a fresh and slightly bitter taste, commonly used in salads, stir-fries, and as a colorful vegetable. Harvested before ripening, green bell peppers add a vibrant crunch to a variety of savory dishes.",
+      "image": "images/plants/green_bell_pepper.jpeg",
+      "icon": "images/icons/green_bell_pepper.jpeg",
+      "type": 1,
+      "veggie_cat": 4,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 36,
+      "maturity": "60-80 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 160,
+    "fields": {
+      "user": 1,
+      "name": "Red Bell Pepper",
+      "description": "Red bell peppers are ripe, sweet peppers with a vibrant red color and a rich, sweet taste. Frequently used in salads, sautés, and as a colorful addition to dishes, red bell peppers are prized for their sweet and juicy flesh.",
+      "image": "images/plants/red_bell_pepper.png",
+      "icon": "images/icons/red_bell_pepper.png",
+      "type": 1,
+      "veggie_cat": 4,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 36,
+      "maturity": "70-90 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 161,
+    "fields": {
+      "user": 1,
+      "name": "Jalapeño",
+      "description": "Jalapeños are medium-sized chili peppers with a moderate heat level, often used in various culinary applications. Whether sliced in salsas, stuffed, or pickled, jalapeños add a spicy kick to dishes, and they are a popular choice for those who enjoy a bit of heat in their food.",
+      "image": "images/plants/jalapeño.jpeg",
+      "icon": "images/icons/jalapeño.jpeg",
+      "type": 1,
+      "veggie_cat": 4,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 30,
+      "maturity": "70-85 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 162,
+    "fields": {
+      "user": 1,
+      "name": "Red Chili Pepper",
+      "description": "Red chili peppers, known for their fiery heat, come in various varieties, such as Thai bird chilies or cayenne peppers. Widely used in spicy cuisines globally, red chili peppers bring intense heat and a distinctive flavor to a multitude of dishes, from curries to hot sauces.",
+      "image": "images/plants/red_chili_pepper.png",
+      "icon": "images/icons/red_chili_pepper.png",
+      "type": 1,
+      "veggie_cat": 4,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 48,
+      "maturity": "70-85 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 163,
+    "fields": {
+      "user": 1,
+      "name": "Cayenne Pepper",
+      "description": "Cayenne peppers are a type of red chili pepper with a moderate to high level of heat, commonly used in spice blends and as a seasoning. With a pungent and slightly sweet taste, cayenne pepper adds both heat and flavor to a variety of dishes, including sauces, soups, and marinades.",
+      "image": "images/plants/cayenne_pepper.png",
+      "icon": "images/icons/cayenne_pepper.png",
+      "type": 1,
+      "veggie_cat": 4,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 24,
+      "maturity": "70-85 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 164,
+    "fields": {
+      "user": 1,
+      "name": "Cucumber",
+      "description": "Cucumbers are crisp, refreshing vegetables with a mild, watery flavor, often enjoyed fresh in salads, sandwiches, or pickled. Known for their hydrating properties, cucumbers contribute a cool and crunchy element to a variety of dishes and are a staple in many cuisines.",
+      "image": "images/plants/cucumber.jpeg",
+      "icon": "images/icons/cucumber.jpeg",
+      "type": 1,
+      "veggie_cat": 7,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 36,
+      "height": 72,
+      "maturity": "50-70 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 165,
+    "fields": {
+      "user": 1,
+      "name": "Cucamelon",
+      "description": "Cucamelons, also known as Mexican Sour Gherkins, are tiny, grape-sized fruits resembling miniature watermelons with a citrusy, cucumber-like flavor. Often used in salads and pickles, cucamelons add a unique and refreshing twist to dishes, and they are appreciated for their small size and distinctive taste.",
+      "image": "images/plants/cucamelon.jpeg",
+      "icon": "images/icons/cucamelon.jpeg",
+      "type": 1,
+      "veggie_cat": 7,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": false,
+      "spacing": 24,
+      "height": 96,
+      "maturity": "60-75 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 166,
+    "fields": {
+      "user": 1,
+      "name": "Tomatillo",
+      "description": "Tomatillos are small, green, husk-covered fruits with a tart flavor, commonly used in Mexican cuisine. Essential in dishes like salsa verde, tomatillos add a tangy and citrusy note to sauces, stews, and a variety of savory dishes.",
+      "image": "images/plants/tomatillo.png",
+      "icon": "images/icons/tomatillo.png",
+      "type": 1,
+      "veggie_cat": 1,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 36,
+      "height": 48,
+      "maturity": "70-85 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 167,
+    "fields": {
+      "user": 1,
+      "name": "Garlic",
+      "description": "Garlic is a pungent bulb with small cloves, known for its aromatic and savory flavor. Widely used in culinary applications worldwide, garlic enhances the taste of savory dishes, sauces, and marinades and is valued for its versatility.",
+      "image": "images/plants/garlic.png",
+      "icon": "images/icons/garlic.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": false,
+      "spacing": 6,
+      "height": 24,
+      "maturity": "180-240 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 168,
+    "fields": {
+      "user": 1,
+      "name": "Onion",
+      "description": "Onions are versatile vegetables with layers of flavor, ranging from sweet to pungent, and they are a staple in many dishes. Whether sautéed, caramelized, or used raw, onions contribute depth and complexity to a wide variety of cuisines and recipes.",
+      "image": "images/plants/onion.png",
+      "icon": "images/icons/onion.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 12,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 169,
+    "fields": {
+      "user": 1,
+      "name": "Green Onion",
+      "description": "Green onions, also known as scallions, are mild onions with long, green stalks and a subtle onion flavor. Used as a garnish or ingredient in salads, soups, and stir-fries, green onions add a fresh and crisp element to dishes.",
+      "image": "images/plants/green_onion.png",
+      "icon": "images/icons/green_onion.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": false,
+      "spacing": 2,
+      "height": 36,
+      "maturity": "60-80 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 170,
+    "fields": {
+      "user": 1,
+      "name": "Carrot",
+      "description": "Carrots are orange, sweet, and crunchy root vegetables enjoyed raw, cooked, or juiced. High in vitamins and antioxidants, carrots are a versatile ingredient in salads, soups, stews, and as a standalone snack.",
+      "image": "images/plants/carrot.png",
+      "icon": "images/icons/carrot.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": false,
+      "spacing": 3,
+      "height": 12,
+      "maturity": "60-80 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 171,
+    "fields": {
+      "user": 1,
+      "name": "Beet",
+      "description": "Beets are root vegetables with a sweet and earthy flavor, enjoyed roasted, boiled, or pickled. Known for their vibrant red color and nutritional content, beets are used in salads, soups, and as a natural coloring agent in various dishes.",
+      "image": "images/plants/beet.png",
+      "icon": "images/icons/beet.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 3,
+      "height": 24,
+      "maturity": "50-70 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 172,
+    "fields": {
+      "user": 1,
+      "name": "Brussel",
+      "description": "Brussel sprouts are small, cabbage-like vegetables with a mild and nutty flavor, often roasted or sautéed. Recognized for their nutritional value, Brussels sprouts are a versatile side dish and a popular ingredient in various cuisines.",
+      "image": "images/plants/brussel.png",
+      "icon": "images/icons/brussel.png",
+      "type": 1,
+      "veggie_cat": 7,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 173,
+    "fields": {
+      "user": 1,
+      "name": "Turnip",
+      "description": "Turnips are root vegetables with a slightly peppery taste, often used in soups, stews, or mashed. With a versatile flavor, turnips add a mild pungency to dishes and are enjoyed for their hearty texture.",
+      "image": "images/plants/turnip.png",
+      "icon": "images/icons/turnip.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 6,
+      "height": 12,
+      "maturity": "40-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 174,
+    "fields": {
+      "user": 1,
+      "name": "Radish",
+      "description": "Radishes are crisp, peppery root vegetables with a refreshing taste, commonly used in salads, garnishes, and pickles. Known for their vibrant colors and crunchy texture, radishes add a zesty kick to a variety of dishes.",
+      "image": "images/plants/radish.png",
+      "icon": "images/icons/radish.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 2,
+      "height": 6,
+      "maturity": "20-30 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 175,
+    "fields": {
+      "user": 1,
+      "name": "Zucchini",
+      "description": "Zucchini, also known as courgette, is a versatile summer squash with a mild flavor and tender texture. Often used in sautés, stir-fries, and as a substitute for pasta, zucchini is appreciated for its versatility and nutritional profile.",
+      "image": "images/plants/zucchini.png",
+      "icon": "images/icons/zucchini.png",
+      "type": 1,
+      "veggie_cat": 5,
+      "soil": 2,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 24,
+      "maturity": "50-70 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 176,
+    "fields": {
+      "user": 1,
+      "name": "Leek",
+      "description": "Leeks are mild-flavored, onion-like vegetables with a subtle sweetness, commonly used in soups, stews, and as a flavor base. Known for their distinctive cylindrical shape, leeks add a gentle onion flavor to various culinary creations.",
+      "image": "images/plants/leek.png",
+      "icon": "images/icons/leek.png",
+      "type": 1,
+      "veggie_cat": 7,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": false,
+      "spacing": 6,
+      "height": 30,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 177,
+    "fields": {
+      "user": 1,
+      "name": "Parsnip",
+      "description": "Parsnips are sweet, starchy root vegetables with a nutty flavor, often used in roasts, soups, and purees. With a taste similar to carrots, parsnips bring a unique sweetness to dishes and are a versatile addition to various recipes.",
+      "image": "images/plants/parsnip.png",
+      "icon": "images/icons/parsnip.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 3,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 178,
+    "fields": {
+      "user": 1,
+      "name": "Daikon",
+      "description": "Daikon is a mild-flavored, white radish commonly used in Asian cuisines. With a crisp texture and subtle taste, daikon is used in salads, pickles, and as a fresh addition to a variety of dishes.",
+      "image": "images/plants/daikon.png",
+      "icon": "images/icons/daikon.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 6,
+      "height": 24,
+      "maturity": "50-70 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 179,
+    "fields": {
+      "user": 1,
+      "name": "Corn",
+      "description": "Corn, a staple cereal grain, has sweet, juicy kernels enjoyed fresh, grilled, or boiled. A versatile ingredient in various dishes, corn is used in salads, soups, and as a side dish, and it is appreciated for its natural sweetness.",
+      "image": "images/plants/corn.png",
+      "icon": "images/icons/corn.png",
+      "type": 1,
+      "veggie_cat": 7,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 12,
+      "height": 96,
+      "maturity": "60-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 180,
+    "fields": {
+      "user": 1,
+      "name": "Okra",
+      "description": "Okra is a green, pod-shaped vegetable with a distinct, mucilaginous texture, often used in stews, soups, and fried dishes. Commonly found in Southern cuisine, okra adds a unique thickness to dishes and is prized for its versatility in cooking.",
+      "image": "images/plants/okra.jpeg",
+      "icon": "images/icons/okra.jpeg",
+      "type": 1,
+      "veggie_cat": 7,
+      "soil": 4,
+      "water": 1,
+      "light": 4,
+      "annual": true,
+      "spacing": 24,
+      "height": 60,
+      "maturity": "50-65 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 181,
+    "fields": {
+      "user": 1,
+      "name": "Luffa",
+      "description": "Luffa, also known as sponge gourd or ridge gourd, is a tropical vine with long, cylindrical fruits that are often used in culinary dishes. When harvested young, luffa has a mild, squash-like flavor and a crunchy texture, making it a versatile ingredient in soups, stir-fries, and salads.",
+      "image": "images/plants/luffa.webp",
+      "icon": "images/icons/luffa.webp",
+      "type": 1,
+      "veggie_cat": 5,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 36,
+      "height": 30,
+      "maturity": "70-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 182,
+    "fields": {
+      "user": 1,
+      "name": "Eggplant",
+      "description": "Eggplant, also known as aubergine, is a versatile fruit with a smooth, glossy skin and a meaty texture. Commonly used in Mediterranean and Asian cuisines, eggplant absorbs flavors well and is prepared in various dishes, from grilled and roasted to stuffed and sautéed.",
+      "image": "images/plants/eggplant.png",
+      "icon": "images/icons/eggplant.png",
+      "type": 1,
+      "veggie_cat": 7,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 36,
+      "maturity": "60-80 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 183,
+    "fields": {
+      "user": 1,
+      "name": "Broccoli",
+      "description": "Broccoli is a green, cruciferous vegetable with tightly clustered florets and a mild, slightly peppery flavor. Often steamed, roasted, or added to stir-fries, broccoli is rich in vitamins and nutrients, contributing to its popularity as a nutritious side or main dish.",
+      "image": "images/plants/broccoli.png",
+      "icon": "images/icons/broccoli.png",
+      "type": 1,
+      "veggie_cat": 7,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 18,
+      "height": 24,
+      "maturity": "70-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 184,
+    "fields": {
+      "user": 1,
+      "name": "Broccolini",
+      "description": "Broccolini, a hybrid of broccoli and Chinese broccoli, features long, tender stems and small florets. With a mild, slightly sweet taste, broccolini is a popular choice for stir-fries, salads, and side dishes, offering a more delicate flavor compared to traditional broccoli.",
+      "image": "images/plants/broccolini.png",
+      "icon": "images/icons/broccolini.png",
+      "type": 1,
+      "veggie_cat": 7,
+      "soil": 2,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 18,
+      "height": 24,
+      "maturity": "50-70 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 185,
+    "fields": {
+      "user": 1,
+      "name": "Cauliflower",
+      "description": "Cauliflower is a versatile, cruciferous vegetable with a dense texture and a mild, nutty flavor. Commonly used as a low-carb alternative in various dishes, cauliflower can be roasted, mashed, or riced, providing a versatile canvas for culinary creativity.",
+      "image": "images/plants/cauliflower.png",
+      "icon": "images/icons/cauliflower.png",
+      "type": 1,
+      "veggie_cat": 7,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 24,
+      "maturity": "80-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 186,
+    "fields": {
+      "user": 1,
+      "name": "Celery",
+      "description": "Celery is a crisp, green vegetable with a mild, slightly peppery taste, often used as a snack, in salads, or as a flavor base in soups and stews. Valued for its crunch and hydration, celery adds freshness and texture to a variety of dishes.",
+      "image": "images/plants/celery.png",
+      "icon": "images/icons/celery.png",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 12,
+      "height": 18,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 187,
+    "fields": {
+      "user": 1,
+      "name": "Mustard Green",
+      "description": "Mustard greens are leafy, cruciferous vegetables with a peppery taste, commonly used in salads, sautés, and as a flavorful addition to dishes. Rich in nutrients and antioxidants, mustard greens offer a bold and zesty flavor to a variety of culinary creations.",
+      "image": "images/plants/mustard_green.png",
+      "icon": "images/icons/mustard_green.png",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 16,
+      "height": 24,
+      "maturity": "40-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 188,
+    "fields": {
+      "user": 1,
+      "name": "Collard Green",
+      "description": "Collard greens are sturdy, leafy vegetables with a mild, earthy flavor, often used in Southern cuisine. Whether simmered, sautéed, or used in wraps, collard greens provide a nutritious and versatile green component to many dishes.",
+      "image": "images/plants/collard_green.png",
+      "icon": "images/icons/collard_green.png",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 18,
+      "height": 24,
+      "maturity": "60-80 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 189,
+    "fields": {
+      "user": 1,
+      "name": "Turnip Green",
+      "description": "Turnip greens are the edible, leafy tops of turnip plants with a peppery taste, commonly used in salads, sautés, and as a nutritious side dish. Offering a slightly spicy flavor, turnip greens are valued for their nutritional content and versatility in cooking.",
+      "image": "images/plants/turnip_green.png",
+      "icon": "images/icons/turnip_green.png",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 6,
+      "height": 18,
+      "maturity": "40-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 190,
+    "fields": {
+      "user": 1,
+      "name": "Swiss Chard",
+      "description": "Swiss chard is a leafy green with colorful stems and a mild, earthy flavor. Often used in salads, sautés, and as a side dish, Swiss chard is prized for its vibrant appearance, tender texture, and nutritional benefits.",
+      "image": "images/plants/swiss_chard.png",
+      "icon": "images/icons/swiss_chard.png",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 12,
+      "height": 18,
+      "maturity": "50-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 191,
+    "fields": {
+      "user": 1,
+      "name": "Asparagus",
+      "description": "Asparagus is a spring vegetable with tender spears and a unique, mildly sweet flavor. Often steamed, grilled, or roasted, asparagus is a versatile addition to salads, pastas, and side dishes, celebrated for its delicate taste and nutritional value.",
+      "image": "images/plants/asparagus.jpeg",
+      "icon": "images/icons/asparagus.jpeg",
+      "type": 1,
+      "veggie_cat": 7,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": false,
+      "spacing": 18,
+      "height": 48,
+      "maturity": "2-3 years (from crowns)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 192,
+    "fields": {
+      "user": 1,
+      "name": "Rhubarb",
+      "description": "Rhubarb is a tart, reddish-pink stalk commonly used in desserts, jams, and sauces. Often paired with sweet fruits, rhubarb adds a distinctive tang to pies and crumbles, and it is appreciated for its bright color and bold flavor.",
+      "image": "images/plants/rhubarb.webp",
+      "icon": "images/icons/rhubarb.webp",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": false,
+      "spacing": 36,
+      "height": 30,
+      "maturity": "2-3 years (from crowns)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 193,
+    "fields": {
+      "user": 1,
+      "name": "Tatsoi",
+      "description": "Tatsoi is an Asian leafy green with dark, spoon-shaped leaves and a mild, mustard-like flavor. Often used in salads and stir-fries, tatsoi adds a distinctive taste and texture to dishes, and it is valued for its nutritional content.",
+      "image": "images/plants/tatsoi.png",
+      "icon": "images/icons/tatsoi.png",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 10,
+      "height": 10,
+      "maturity": "40-50 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 194,
+    "fields": {
+      "user": 1,
+      "name": "Kale",
+      "description": "Kale is a nutrient-dense leafy green with a slightly bitter taste and sturdy texture. Commonly used in salads, smoothies, and as a chip alternative, kale is celebrated for its health benefits and versatility in a variety of dishes.",
+      "image": "images/plants/kale.png",
+      "icon": "images/icons/kale.png",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 24,
+      "maturity": "55-75 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 195,
+    "fields": {
+      "user": 1,
+      "name": "Lettuce",
+      "description": "Lettuce is a crisp, leafy vegetable with a mild flavor, commonly used as the base for salads, sandwiches, and wraps. With various types like romaine, iceberg, and butterhead, lettuce adds a refreshing element to a wide range of culinary creations.",
+      "image": "images/plants/lettuce.jpeg",
+      "icon": "images/icons/lettuce.jpeg",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 12,
+      "height": 12,
+      "maturity": "45-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 196,
+    "fields": {
+      "user": 1,
+      "name": "Spinach",
+      "description": "Spinach is a tender, leafy green with a mild, slightly sweet taste, commonly used in salads, sautés, and as a versatile ingredient in dishes. Packed with vitamins and minerals, spinach is a nutritious addition to a variety of culinary creations.",
+      "image": "images/plants/spinach.jpeg",
+      "icon": "images/icons/spinach.jpeg",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 12,
+      "height": 12,
+      "maturity": "40-50 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 197,
+    "fields": {
+      "user": 1,
+      "name": "Bok Choy",
+      "description": "Bok choy, also known as Chinese cabbage, has crisp stems and dark green leaves with a mild, slightly peppery taste. Often used in stir-fries, soups, and as a side dish, bok choy adds a crunchy texture and subtle flavor to Asian-inspired dishes.",
+      "image": "images/plants/bok_choy.png",
+      "icon": "images/icons/bok_choy.png",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 12,
+      "height": 18,
+      "maturity": "40-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 198,
+    "fields": {
+      "user": 1,
+      "name": "Cabbage",
+      "description": "Cabbage is a sturdy, cruciferous vegetable with tightly packed leaves and a mild, sweet flavor. Whether used in coleslaw, soups, or as a side dish, cabbage is a versatile ingredient that can be enjoyed raw or cooked.",
+      "image": "images/plants/cabbage.png",
+      "icon": "images/icons/cabbage.png",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 30,
+      "height": 24,
+      "maturity": "70-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 199,
+    "fields": {
+      "user": 1,
+      "name": "Arugula",
+      "description": "Arugula is a peppery, leafy green with a distinctive taste, often used in salads, sandwiches, and as a pizza topping. With its bold flavor, arugula adds a zesty kick to dishes and is prized for its versatility in various culinary creations.",
+      "image": "images/plants/arugula.jpeg",
+      "icon": "images/icons/arugula.jpeg",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 18,
+      "height": 24,
+      "maturity": "40-50 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 200,
+    "fields": {
+      "user": 1,
+      "name": "Russet Potato",
+      "description": "Russet potatoes are starchy, brown-skinned potatoes with a fluffy texture, often used for baking, mashing, or frying. Popular for making baked potatoes and French fries, russet potatoes have a neutral taste and are a staple in many comfort food recipes.",
+      "image": "images/plants/russet_potato.png",
+      "icon": "images/icons/russet_potato.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 30,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 201,
+    "fields": {
+      "user": 1,
+      "name": "Sweet Potato",
+      "description": "Sweet potatoes are orange-fleshed root vegetables with a sweet taste and creamy texture. Commonly roasted, mashed, or used in pies, sweet potatoes are rich in vitamins and fiber, making them a nutritious and versatile addition to a variety of dishes.",
+      "image": "images/plants/sweet_potato.png",
+      "icon": "images/icons/sweet_potato.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 12,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 202,
+    "fields": {
+      "user": 1,
+      "name": "Red Potato",
+      "description": "Red potatoes are waxy potatoes with thin red skins and a creamy, moist texture. Often boiled, roasted, or used in salads, red potatoes have a slightly sweet taste and hold their shape well, making them a popular choice for a range of culinary applications.",
+      "image": "images/plants/red_potato.png",
+      "icon": "images/icons/red_potato.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 36,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 203,
+    "fields": {
+      "user": 1,
+      "name": "Yukon Gold Potato",
+      "description": "Yukon Gold potatoes are yellow-fleshed, all-purpose potatoes with a buttery flavor and creamy texture. Ideal for mashed potatoes, roasting, or frying, Yukon Gold potatoes offer a rich taste and smooth consistency, making them a versatile choice in many recipes.",
+      "image": "images/plants/yukon_gold_potato.png",
+      "icon": "images/icons/yukon_gold_potato.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 18,
+      "height": 30,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 204,
+    "fields": {
+      "user": 1,
+      "name": "Purple Potato",
+      "description": "Purple potatoes have vibrant purple flesh and skin, offering a striking visual appeal to dishes. Often roasted, mashed, or used in salads, purple potatoes have a subtly sweet flavor and are appreciated for their unique color and potential health benefits.",
+      "image": "images/plants/purple_potato.png",
+      "icon": "images/icons/purple_potato.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 20,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 205,
+    "fields": {
+      "user": 1,
+      "name": "Peanut",
+      "description": "Peanuts are legumes with a rich, nutty flavor and are enjoyed roasted, salted, or as peanut butter. A popular snack, peanuts are also used in various culinary applications, from desserts to savory dishes, and they are valued for their protein content and versatility.",
+      "image": "images/plants/peanut.png",
+      "icon": "images/icons/peanut.png",
+      "type": 1,
+      "veggie_cat": 6,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 24,
+      "height": 18,
+      "maturity": "120-150 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 206,
+    "fields": {
+      "user": 1,
+      "name": "Green Bean",
+      "description": "Green beans, also known as string beans or snap beans, are crisp, green pods enjoyed fresh or cooked. Often steamed, sautéed, or used in salads, green beans are a versatile and nutritious vegetable, offering a mild, slightly sweet taste.",
+      "image": "images/plants/green_bean.png",
+      "icon": "images/icons/green_bean.png",
+      "type": 1,
+      "veggie_cat": 6,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 6,
+      "height": 24,
+      "maturity": "50-70 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 207,
+    "fields": {
+      "user": 1,
+      "name": "Soy",
+      "description": "Soybeans are legumes used in various forms, including tofu, tempeh, and soy milk. A protein-rich alternative, soy is a staple in vegetarian and vegan diets, and its versatility allows for a wide range of culinary applications, from stir-fries to plant-based desserts.",
+      "image": "images/plants/soy.png",
+      "icon": "images/icons/soy.png",
+      "type": 1,
+      "veggie_cat": 6,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 16,
+      "height": 30,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 208,
+    "fields": {
+      "user": 1,
+      "name": "Black Bean",
+      "description": "Black beans are small, black legumes with a dense, creamy texture and a slightly sweet taste. Commonly used in Latin American cuisine, black beans are a protein and fiber-rich ingredient in soups, stews, and as a filling for burritos and tacos.",
+      "image": "images/plants/black_bean.png",
+      "icon": "images/icons/black_bean.png",
+      "type": 1,
+      "veggie_cat": 6,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 6,
+      "height": 30,
+      "maturity": "90-110 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 209,
+    "fields": {
+      "user": 1,
+      "name": "Pinto Bean",
+      "description": "Pinto beans are medium-sized, beige legumes with a creamy texture and a mild, earthy flavor. Often used in Mexican and Southwestern cuisine, pinto beans are enjoyed in dishes like refried beans, chili, and soups, providing a hearty and nutritious component.",
+      "image": "images/plants/pinto_bean.png",
+      "icon": "images/icons/pinto_bean.png",
+      "type": 1,
+      "veggie_cat": 6,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 6,
+      "height": 30,
+      "maturity": "90-110 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 210,
+    "fields": {
+      "user": 1,
+      "name": "Lima Bean",
+      "description": "Lima beans, also known as butter beans, are large, flat legumes with a buttery taste and smooth texture. Commonly used in soups, stews, and succotash, lima beans offer a mild flavor and are appreciated for their protein and fiber content.",
+      "image": "images/plants/lima_bean.png",
+      "icon": "images/icons/lima_bean.png",
+      "type": 1,
+      "veggie_cat": 6,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 6,
+      "height": 30,
+      "maturity": "80-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 211,
+    "fields": {
+      "user": 1,
+      "name": "Great Northern Bean",
+      "description": "Great Northern beans are small, white legumes with a delicate flavor and tender texture. Commonly used in soups, casseroles, and salads, Great Northern beans absorb flavors well and provide a protein and fiber boost to a variety of dishes.",
+      "image": "images/plants/great_northern_bean.png",
+      "icon": "images/icons/great_northern_bean.png",
+      "type": 1,
+      "veggie_cat": 6,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 6,
+      "height": 24,
+      "maturity": "90-110 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 212,
+    "fields": {
+      "user": 1,
+      "name": "Chickpea",
+      "description": "Chickpeas, also known as garbanzo beans, are round legumes with a nutty taste and firm texture. Commonly used in dishes like hummus, curries, and salads, chickpeas are a versatile and protein-rich ingredient in many global cuisines.",
+      "image": "images/plants/chickpea.png",
+      "icon": "images/icons/chickpea.png",
+      "type": 1,
+      "veggie_cat": 6,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 6,
+      "height": 18,
+      "maturity": "90-110 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 213,
+    "fields": {
+      "user": 1,
+      "name": "Shelling Pea",
+      "description": "Shelling peas, also known as garden peas or English peas, have sweet, tender peas encased in edible pods. Often used in salads, risottos, and as a side dish, shelling peas offer a burst of freshness and a sweet flavor to a variety of recipes.",
+      "image": "images/plants/shelling_pea.webp",
+      "icon": "images/icons/shelling_pea.webp",
+      "type": 1,
+      "veggie_cat": 6,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 3,
+      "height": 60,
+      "maturity": "60-80 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 214,
+    "fields": {
+      "user": 1,
+      "name": "Sugar Snap Pea",
+      "description": "Sugar snap peas are edible-pod peas with a sweet, crunchy taste, enjoyed fresh or lightly cooked. Often used in salads, stir-fries, and as a snack, sugar snap peas combine the sweetness of peas with the crispness of the pod.",
+      "image": "images/plants/sugar_snap_pea.png",
+      "icon": "images/icons/sugar_snap_pea.png",
+      "type": 1,
+      "veggie_cat": 6,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 3,
+      "height": 60,
+      "maturity": "60-80 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 215,
+    "fields": {
+      "user": 1,
+      "name": "Snow Pea",
+      "description": "Snow peas are flat-podded peas with a mild, sweet taste and a tender texture. Frequently used in stir-fries, salads, and as a side dish, snow peas add a delicate flavor and crispness to a variety of culinary creations.",
+      "image": "images/plants/snow_pea.png",
+      "icon": "images/icons/snow_pea.png",
+      "type": 1,
+      "veggie_cat": 6,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 2,
+      "height": 60,
+      "maturity": "60-80 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 216,
+    "fields": {
+      "user": 1,
+      "name": "Butternut Squash",
+      "description": "Butternut squash is a winter squash with sweet, orange flesh, commonly used in soups, stews, and as a roasted or mashed side dish. Known for its creamy texture and nutty flavor, butternut squash is a versatile ingredient in fall and winter recipes.",
+      "image": "images/plants/butternut_squash.png",
+      "icon": "images/icons/butternut_squash.png",
+      "type": 1,
+      "veggie_cat": 5,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 48,
+      "height": 18,
+      "maturity": "80-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 217,
+    "fields": {
+      "user": 1,
+      "name": "Summer Squash",
+      "description": "Summer squash, such as zucchini and yellow squash, is a tender and mild-flavored vegetable. Often used in sautés, grilling, and as a fresh addition to salads, summer squash is appreciated for its versatility and delicate taste.",
+      "image": "images/plants/summer_squash.png",
+      "icon": "images/icons/summer_squash.png",
+      "type": 1,
+      "veggie_cat": 5,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 48,
+      "height": 36,
+      "maturity": "50-70 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 218,
+    "fields": {
+      "user": 1,
+      "name": "Acorn Squash",
+      "description": "Acorn squash is a winter squash with distinctive ridges and sweet, orange flesh. Frequently roasted, baked, or stuffed, acorn squash offers a nutty flavor and is a popular choice for autumnal and holiday dishes.",
+      "image": "images/plants/acorn_squash.png",
+      "icon": "images/icons/acorn_squash.png",
+      "type": 1,
+      "veggie_cat": 5,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 48,
+      "height": 18,
+      "maturity": "80-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 219,
+    "fields": {
+      "user": 1,
+      "name": "Pumpkin",
+      "description": "Pumpkin is a versatile winter squash with sweet, orange flesh, commonly used in pies, soups, and baked goods. Celebrated for its rich flavor and vibrant color, pumpkin is a staple ingredient in many fall-themed and holiday recipes.",
+      "image": "images/plants/pumpkin.png",
+      "icon": "images/icons/pumpkin.png",
+      "type": 1,
+      "veggie_cat": 5,
+      "soil": 2,
+      "water": 1,
+      "light": 2,
+      "annual": true,
+      "spacing": 60,
+      "height": 18,
+      "maturity": "80-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 220,
+    "fields": {
+      "user": 1,
+      "name": "Gourd",
+      "description": "Gourds are hard-shelled fruits used primarily for decorative purposes due to their unique shapes, sizes, and colors. While not typically consumed, gourds are valued for their ornamental qualities and are often used in crafts, decorations, and as containers.",
+      "image": "images/plants/gourd.png",
+      "icon": "images/icons/gourd.png",
+      "type": 1,
+      "veggie_cat": 5,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 72,
+      "height": 24,
+      "maturity": "80-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 221,
+    "fields": {
+      "user": 1,
+      "name": "Shallot",
+      "description": "Shallots are small, mild-flavored bulbs with a delicate taste that combines onion and garlic notes. Commonly used in culinary applications for their subtle sweetness, shallots enhance the flavor of sauces, dressings, and a variety of dishes, and they are prized for their versatility in both raw and cooked forms.",
+      "image": "images/plants/shallot.png",
+      "icon": "images/icons/shallot.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 4,
+      "height": 12,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 222,
+    "fields": {
+      "user": 1,
+      "name": "Ginger",
+      "description": "Ginger is a knobby root with a spicy, warm flavor and aromatic fragrance. Widely used in Asian and other cuisines, ginger adds a zing to dishes, beverages, and desserts, and it is celebrated for its potential health benefits and culinary versatility.",
+      "image": "images/plants/ginger.png",
+      "icon": "images/icons/ginger.png",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": false,
+      "spacing": 6,
+      "height": 36,
+      "maturity": "8-10 months (from rhizomes)"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 223,
+    "fields": {
+      "user": 1,
+      "name": "Lentil",
+      "description": "Lentils are small, lens-shaped legumes with a nutty flavor and high protein content. Commonly used in soups, stews, and salads, lentils come in various colors and varieties, offering a versatile and nutritious source of plant-based protein.",
+      "image": "images/plants/lentil.png",
+      "icon": "images/icons/lentil.png",
+      "type": 1,
+      "veggie_cat": 6,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 8,
+      "height": 30,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 224,
+    "fields": {
+      "user": 1,
+      "name": "Artichoke",
+      "description": "Artichokes are edible flower buds with tender hearts and a mild, nutty flavor. Often steamed, grilled, or used in dips, artichokes are enjoyed for their unique taste and texture, and they are a popular addition to Mediterranean and global cuisines.",
+      "image": "images/plants/artichoke.png",
+      "icon": "images/icons/artichoke.png",
+      "type": 1,
+      "veggie_cat": 7,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": false,
+      "spacing": 48,
+      "height": 48,
+      "maturity": "85-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 225,
+    "fields": {
+      "user": 1,
+      "name": "Jerusalem Artichoke",
+      "description": "Jerusalem artichokes, also known as sunchokes, are knobby, tuberous roots with a sweet, nutty flavor. Commonly roasted, sautéed, or used in soups, Jerusalem artichokes offer a unique taste and a crunchy texture, and they are appreciated for their versatility in cooking.",
+      "image": "images/plants/jerusalem_artichoke.webp",
+      "icon": "images/icons/jerusalem_artichoke.webp",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": false,
+      "spacing": 18,
+      "height": 120,
+      "maturity": "120-180 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 226,
+    "fields": {
+      "user": 1,
+      "name": "Jicama",
+      "description": "Jicama is a crisp and juicy root vegetable with a slightly sweet taste and a refreshing crunch. Often enjoyed raw in salads, slaws, or as a snack, jicama adds a unique texture and flavor to dishes and is valued for its hydrating and low-calorie properties.",
+      "image": "images/plants/jicama.webp",
+      "icon": "images/icons/jicama.webp",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 2,
+      "annual": true,
+      "spacing": 12,
+      "height": 180,
+      "maturity": "150-180 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 227,
+    "fields": {
+      "user": 1,
+      "name": "Rutabaga",
+      "description": "Rutabaga is a root vegetable with a sweet and peppery flavor, often used in soups, stews, and as a roasted side dish. With a versatile taste and texture, rutabaga is appreciated for its ability to add depth to savory dishes and complement a variety of ingredients.",
+      "image": "images/plants/rutabaga.webp",
+      "icon": "images/icons/rutabaga.webp",
+      "type": 1,
+      "veggie_cat": 2,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 12,
+      "height": 18,
+      "maturity": "90-120 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 228,
+    "fields": {
+      "user": 1,
+      "name": "Strawberry Spinach",
+      "description": "Strawberry spinach, also known as Malabar spinach, is a leafy green with a mild, spinach-like taste and edible red berries. Commonly used in salads, smoothies, and as a cooked green, strawberry spinach adds a unique twist to dishes and is valued for its nutritional content.",
+      "image": "images/plants/strawberry_spinach.jpeg",
+      "icon": "images/icons/strawberry_spinach.jpeg",
+      "type": 1,
+      "veggie_cat": 3,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 16,
+      "height": 18,
+      "maturity": "40-60 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 229,
+    "fields": {
+      "user": 1,
+      "name": "Delicata Squash",
+      "description": "Delicata squash is a winter squash with thin, edible skin and a sweet, creamy flavor. Often roasted, stuffed, or used in soups, delicata squash is appreciated for its convenience, delicious taste, and the ability to be enjoyed with the skin intact.",
+      "image": "images/plants/delicata_squash.png",
+      "icon": "images/icons/delicata_squash.png",
+      "type": 1,
+      "veggie_cat": 5,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 48,
+      "height": 18,
+      "maturity": "80-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 230,
+    "fields": {
+      "user": 1,
+      "name": "Spaghetti Squash",
+      "description": "Spaghetti squash is a winter squash with stringy, noodle-like flesh that resembles spaghetti when cooked. Often used as a low-carb alternative to pasta, spaghetti squash is roasted or baked and pairs well with various sauces, making it a popular choice for those seeking lighter, vegetable-based dishes.",
+      "image": "images/plants/spaghetti_squash.png",
+      "icon": "images/icons/spaghetti_squash.png",
+      "type": 1,
+      "veggie_cat": 5,
+      "soil": 3,
+      "water": 1,
+      "light": 3,
+      "annual": true,
+      "spacing": 48,
+      "height": 24,
+      "maturity": "80-100 days"
     }
   }
 ]

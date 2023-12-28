@@ -10,21 +10,21 @@
     "model": "gardenapi.veggiecat",
     "pk": 2,
     "fields": {
-      "label": "Pepper"
+      "label": "Root"
     }
   },
   {
     "model": "gardenapi.veggiecat",
     "pk": 3,
     "fields": {
-      "label": "Root"
+      "label": "Green"
     }
   },
   {
     "model": "gardenapi.veggiecat",
     "pk": 4,
     "fields": {
-      "label": "Green"
+      "label": "Pepper"
     }
   },
   {
@@ -46,6 +46,13 @@
     "pk": 7,
     "fields": {
       "label": "Misc"
+    }
+  },
+  {
+    "model": "gardenapi.veggiecat",
+    "pk": 8,
+    "fields": {
+      "label": "N/A (not a veggie)"
     }
   }
 ]
