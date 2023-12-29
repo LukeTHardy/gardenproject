@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
       "plant1": 1,
-      "plant2": 2
+      "plant2": 183
     }
   },
   {
@@ -12,15 +12,8191 @@
     "pk": 2,
     "fields": {
       "plant1": 1,
-      "plant2": 3
+      "plant2": 184
     }
   },
   {
     "model": "gardenapi.companionpairing",
     "pk": 3,
     "fields": {
-      "plant1": 2,
+      "plant1": 1,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 4,
+    "fields": {
+      "plant1": 1,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 5,
+    "fields": {
+      "plant1": 1,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 6,
+    "fields": {
+      "plant1": 1,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 7,
+    "fields": {
+      "plant1": 1,
+      "plant2": 2
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 8,
+    "fields": {
+      "plant1": 1,
+      "plant2": 28
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 9,
+    "fields": {
+      "plant1": 1,
+      "plant2": 181
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 10,
+    "fields": {
+      "plant1": 1,
+      "plant2": 224
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 11,
+    "fields": {
+      "plant1": 1,
+      "plant2": 226
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 12,
+    "fields": {
+      "plant1": 3,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 13,
+    "fields": {
+      "plant1": 4,
+      "plant2": 60
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 14,
+    "fields": {
+      "plant1": 7,
+      "plant2": 22
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 15,
+    "fields": {
+      "plant1": 7,
+      "plant2": 27
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 16,
+    "fields": {
+      "plant1": 7,
+      "plant2": 61
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 17,
+    "fields": {
+      "plant1": 7,
+      "plant2": 65
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 18,
+    "fields": {
+      "plant1": 8,
+      "plant2": 6
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 19,
+    "fields": {
+      "plant1": 8,
+      "plant2": 46
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 20,
+    "fields": {
+      "plant1": 12,
+      "plant2": 49
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 21,
+    "fields": {
+      "plant1": 13,
+      "plant2": 11
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 22,
+    "fields": {
+      "plant1": 14,
+      "plant2": 47
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 23,
+    "fields": {
+      "plant1": 14,
+      "plant2": 48
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 24,
+    "fields": {
+      "plant1": 15,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 25,
+    "fields": {
+      "plant1": 15,
+      "plant2": 216
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 26,
+    "fields": {
+      "plant1": 15,
+      "plant2": 217
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 27,
+    "fields": {
+      "plant1": 15,
+      "plant2": 218
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 28,
+    "fields": {
+      "plant1": 15,
+      "plant2": 219
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 29,
+    "fields": {
+      "plant1": 15,
+      "plant2": 229
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 30,
+    "fields": {
+      "plant1": 15,
+      "plant2": 230
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 31,
+    "fields": {
+      "plant1": 15,
+      "plant2": 175
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 32,
+    "fields": {
+      "plant1": 15,
       "plant2": 3
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 33,
+    "fields": {
+      "plant1": 15,
+      "plant2": 14
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 34,
+    "fields": {
+      "plant1": 15,
+      "plant2": 124
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 36,
+    "fields": {
+      "plant1": 17,
+      "plant2": 59
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 37,
+    "fields": {
+      "plant1": 18,
+      "plant2": 102
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 38,
+    "fields": {
+      "plant1": 18,
+      "plant2": 113
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 39,
+    "fields": {
+      "plant1": 18,
+      "plant2": 117
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 40,
+    "fields": {
+      "plant1": 19,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 41,
+    "fields": {
+      "plant1": 20,
+      "plant2": 225
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 42,
+    "fields": {
+      "plant1": 21,
+      "plant2": 20
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 43,
+    "fields": {
+      "plant1": 22,
+      "plant2": 60
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 44,
+    "fields": {
+      "plant1": 22,
+      "plant2": 61
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 45,
+    "fields": {
+      "plant1": 23,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 46,
+    "fields": {
+      "plant1": 23,
+      "plant2": 113
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 47,
+    "fields": {
+      "plant1": 23,
+      "plant2": 192
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 48,
+    "fields": {
+      "plant1": 24,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 49,
+    "fields": {
+      "plant1": 24,
+      "plant2": 113
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 50,
+    "fields": {
+      "plant1": 24,
+      "plant2": 192
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 51,
+    "fields": {
+      "plant1": 25,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 52,
+    "fields": {
+      "plant1": 25,
+      "plant2": 113
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 53,
+    "fields": {
+      "plant1": 25,
+      "plant2": 192
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 54,
+    "fields": {
+      "plant1": 27,
+      "plant2": 23
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 55,
+    "fields": {
+      "plant1": 27,
+      "plant2": 24
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 56,
+    "fields": {
+      "plant1": 27,
+      "plant2": 25
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 57,
+    "fields": {
+      "plant1": 27,
+      "plant2": 28
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 58,
+    "fields": {
+      "plant1": 29,
+      "plant2": 21
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 59,
+    "fields": {
+      "plant1": 29,
+      "plant2": 28
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 60,
+    "fields": {
+      "plant1": 30,
+      "plant2": 6
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 61,
+    "fields": {
+      "plant1": 30,
+      "plant2": 10
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 62,
+    "fields": {
+      "plant1": 30,
+      "plant2": 46
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 63,
+    "fields": {
+      "plant1": 31,
+      "plant2": 11
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 64,
+    "fields": {
+      "plant1": 31,
+      "plant2": 44
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 65,
+    "fields": {
+      "plant1": 31,
+      "plant2": 143
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 66,
+    "fields": {
+      "plant1": 33,
+      "plant2": 52
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 67,
+    "fields": {
+      "plant1": 34,
+      "plant2": 22
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 68,
+    "fields": {
+      "plant1": 34,
+      "plant2": 27
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 69,
+    "fields": {
+      "plant1": 35,
+      "plant2": 17
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 70,
+    "fields": {
+      "plant1": 35,
+      "plant2": 23
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 71,
+    "fields": {
+      "plant1": 35,
+      "plant2": 24
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 72,
+    "fields": {
+      "plant1": 35,
+      "plant2": 25
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 73,
+    "fields": {
+      "plant1": 35,
+      "plant2": 33
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 74,
+    "fields": {
+      "plant1": 35,
+      "plant2": 52
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 75,
+    "fields": {
+      "plant1": 35,
+      "plant2": 136
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 76,
+    "fields": {
+      "plant1": 35,
+      "plant2": 137
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 77,
+    "fields": {
+      "plant1": 36,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 78,
+    "fields": {
+      "plant1": 36,
+      "plant2": 6
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 79,
+    "fields": {
+      "plant1": 36,
+      "plant2": 41
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 80,
+    "fields": {
+      "plant1": 37,
+      "plant2": 43
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 81,
+    "fields": {
+      "plant1": 37,
+      "plant2": 225
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 82,
+    "fields": {
+      "plant1": 39,
+      "plant2": 6
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 83,
+    "fields": {
+      "plant1": 41,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 84,
+    "fields": {
+      "plant1": 41,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 85,
+    "fields": {
+      "plant1": 41,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 86,
+    "fields": {
+      "plant1": 41,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 87,
+    "fields": {
+      "plant1": 41,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 88,
+    "fields": {
+      "plant1": 41,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 89,
+    "fields": {
+      "plant1": 42,
+      "plant2": 10
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 90,
+    "fields": {
+      "plant1": 42,
+      "plant2": 39
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 91,
+    "fields": {
+      "plant1": 42,
+      "plant2": 136
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 92,
+    "fields": {
+      "plant1": 42,
+      "plant2": 137
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 93,
+    "fields": {
+      "plant1": 44,
+      "plant2": 11
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 94,
+    "fields": {
+      "plant1": 44,
+      "plant2": 106
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 95,
+    "fields": {
+      "plant1": 44,
+      "plant2": 143
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 96,
+    "fields": {
+      "plant1": 45,
+      "plant2": 2
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 97,
+    "fields": {
+      "plant1": 45,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 98,
+    "fields": {
+      "plant1": 45,
+      "plant2": 8
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 99,
+    "fields": {
+      "plant1": 45,
+      "plant2": 29
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 100,
+    "fields": {
+      "plant1": 45,
+      "plant2": 92
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 101,
+    "fields": {
+      "plant1": 46,
+      "plant2": 2
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 102,
+    "fields": {
+      "plant1": 46,
+      "plant2": 8
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 103,
+    "fields": {
+      "plant1": 46,
+      "plant2": 47
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 104,
+    "fields": {
+      "plant1": 47,
+      "plant2": 48
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 105,
+    "fields": {
+      "plant1": 49,
+      "plant2": 27
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 106,
+    "fields": {
+      "plant1": 49,
+      "plant2": 39
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 107,
+    "fields": {
+      "plant1": 50,
+      "plant2": 2
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 108,
+    "fields": {
+      "plant1": 50,
+      "plant2": 3
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 109,
+    "fields": {
+      "plant1": 50,
+      "plant2": 37
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 110,
+    "fields": {
+      "plant1": 50,
+      "plant2": 43
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 111,
+    "fields": {
+      "plant1": 51,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 112,
+    "fields": {
+      "plant1": 51,
+      "plant2": 20
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 113,
+    "fields": {
+      "plant1": 51,
+      "plant2": 120
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 114,
+    "fields": {
+      "plant1": 51,
+      "plant2": 225
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 115,
+    "fields": {
+      "plant1": 58,
+      "plant2": 27
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 116,
+    "fields": {
+      "plant1": 58,
+      "plant2": 65
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 117,
+    "fields": {
+      "plant1": 60,
+      "plant2": 6
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 118,
+    "fields": {
+      "plant1": 60,
+      "plant2": 8
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 119,
+    "fields": {
+      "plant1": 63,
+      "plant2": 123
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 120,
+    "fields": {
+      "plant1": 63,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 121,
+    "fields": {
+      "plant1": 66,
+      "plant2": 213
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 122,
+    "fields": {
+      "plant1": 66,
+      "plant2": 214
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 123,
+    "fields": {
+      "plant1": 66,
+      "plant2": 215
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 124,
+    "fields": {
+      "plant1": 66,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 125,
+    "fields": {
+      "plant1": 66,
+      "plant2": 130
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 126,
+    "fields": {
+      "plant1": 66,
+      "plant2": 182
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 127,
+    "fields": {
+      "plant1": 67,
+      "plant2": 213
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 128,
+    "fields": {
+      "plant1": 67,
+      "plant2": 214
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 129,
+    "fields": {
+      "plant1": 67,
+      "plant2": 215
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 130,
+    "fields": {
+      "plant1": 67,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 131,
+    "fields": {
+      "plant1": 67,
+      "plant2": 130
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 132,
+    "fields": {
+      "plant1": 67,
+      "plant2": 182
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 133,
+    "fields": {
+      "plant1": 68,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 134,
+    "fields": {
+      "plant1": 68,
+      "plant2": 195
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 135,
+    "fields": {
+      "plant1": 68,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 136,
+    "fields": {
+      "plant1": 68,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 137,
+    "fields": {
+      "plant1": 68,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 138,
+    "fields": {
+      "plant1": 68,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 139,
+    "fields": {
+      "plant1": 68,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 140,
+    "fields": {
+      "plant1": 68,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 141,
+    "fields": {
+      "plant1": 68,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 142,
+    "fields": {
+      "plant1": 68,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 143,
+    "fields": {
+      "plant1": 68,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 144,
+    "fields": {
+      "plant1": 68,
+      "plant2": 19
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 145,
+    "fields": {
+      "plant1": 68,
+      "plant2": 94
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 146,
+    "fields": {
+      "plant1": 69,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 147,
+    "fields": {
+      "plant1": 69,
+      "plant2": 195
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 148,
+    "fields": {
+      "plant1": 69,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 149,
+    "fields": {
+      "plant1": 69,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 150,
+    "fields": {
+      "plant1": 69,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 151,
+    "fields": {
+      "plant1": 69,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 152,
+    "fields": {
+      "plant1": 69,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 153,
+    "fields": {
+      "plant1": 69,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 154,
+    "fields": {
+      "plant1": 69,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 155,
+    "fields": {
+      "plant1": 69,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 156,
+    "fields": {
+      "plant1": 69,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 157,
+    "fields": {
+      "plant1": 69,
+      "plant2": 19
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 158,
+    "fields": {
+      "plant1": 69,
+      "plant2": 94
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 159,
+    "fields": {
+      "plant1": 70,
+      "plant2": 121
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 160,
+    "fields": {
+      "plant1": 70,
+      "plant2": 139
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 161,
+    "fields": {
+      "plant1": 70,
+      "plant2": 145
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 162,
+    "fields": {
+      "plant1": 70,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 163,
+    "fields": {
+      "plant1": 70,
+      "plant2": 19
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 164,
+    "fields": {
+      "plant1": 70,
+      "plant2": 101
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 165,
+    "fields": {
+      "plant1": 70,
+      "plant2": 132
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 166,
+    "fields": {
+      "plant1": 70,
+      "plant2": 133
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 167,
+    "fields": {
+      "plant1": 70,
+      "plant2": 147
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 168,
+    "fields": {
+      "plant1": 70,
+      "plant2": 181
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 169,
+    "fields": {
+      "plant1": 70,
+      "plant2": 182
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 170,
+    "fields": {
+      "plant1": 71,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 171,
+    "fields": {
+      "plant1": 71,
+      "plant2": 195
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 172,
+    "fields": {
+      "plant1": 71,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 173,
+    "fields": {
+      "plant1": 71,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 174,
+    "fields": {
+      "plant1": 71,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 175,
+    "fields": {
+      "plant1": 71,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 176,
+    "fields": {
+      "plant1": 71,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 177,
+    "fields": {
+      "plant1": 71,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 178,
+    "fields": {
+      "plant1": 71,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 179,
+    "fields": {
+      "plant1": 71,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 180,
+    "fields": {
+      "plant1": 71,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 181,
+    "fields": {
+      "plant1": 71,
+      "plant2": 19
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 182,
+    "fields": {
+      "plant1": 71,
+      "plant2": 94
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 183,
+    "fields": {
+      "plant1": 72,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 184,
+    "fields": {
+      "plant1": 72,
+      "plant2": 195
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 185,
+    "fields": {
+      "plant1": 72,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 186,
+    "fields": {
+      "plant1": 72,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 187,
+    "fields": {
+      "plant1": 72,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 188,
+    "fields": {
+      "plant1": 72,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 189,
+    "fields": {
+      "plant1": 72,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 190,
+    "fields": {
+      "plant1": 72,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 191,
+    "fields": {
+      "plant1": 72,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 192,
+    "fields": {
+      "plant1": 72,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 193,
+    "fields": {
+      "plant1": 72,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 194,
+    "fields": {
+      "plant1": 72,
+      "plant2": 19
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 195,
+    "fields": {
+      "plant1": 72,
+      "plant2": 94
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 196,
+    "fields": {
+      "plant1": 73,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 197,
+    "fields": {
+      "plant1": 73,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 198,
+    "fields": {
+      "plant1": 73,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 199,
+    "fields": {
+      "plant1": 73,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 200,
+    "fields": {
+      "plant1": 73,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 201,
+    "fields": {
+      "plant1": 73,
+      "plant2": 37
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 202,
+    "fields": {
+      "plant1": 73,
+      "plant2": 90
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 203,
+    "fields": {
+      "plant1": 73,
+      "plant2": 226
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 204,
+    "fields": {
+      "plant1": 74,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 205,
+    "fields": {
+      "plant1": 74,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 206,
+    "fields": {
+      "plant1": 74,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 207,
+    "fields": {
+      "plant1": 74,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 208,
+    "fields": {
+      "plant1": 74,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 209,
+    "fields": {
+      "plant1": 74,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 210,
+    "fields": {
+      "plant1": 74,
+      "plant2": 88
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 211,
+    "fields": {
+      "plant1": 74,
+      "plant2": 92
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 212,
+    "fields": {
+      "plant1": 74,
+      "plant2": 102
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 213,
+    "fields": {
+      "plant1": 75,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 214,
+    "fields": {
+      "plant1": 75,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 215,
+    "fields": {
+      "plant1": 75,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 216,
+    "fields": {
+      "plant1": 75,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 217,
+    "fields": {
+      "plant1": 75,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 218,
+    "fields": {
+      "plant1": 75,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 219,
+    "fields": {
+      "plant1": 75,
+      "plant2": 2
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 220,
+    "fields": {
+      "plant1": 75,
+      "plant2": 8
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 221,
+    "fields": {
+      "plant1": 75,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 222,
+    "fields": {
+      "plant1": 75,
+      "plant2": 29
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 223,
+    "fields": {
+      "plant1": 75,
+      "plant2": 88
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 224,
+    "fields": {
+      "plant1": 75,
+      "plant2": 92
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 225,
+    "fields": {
+      "plant1": 75,
+      "plant2": 108
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 226,
+    "fields": {
+      "plant1": 76,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 227,
+    "fields": {
+      "plant1": 76,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 228,
+    "fields": {
+      "plant1": 76,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 229,
+    "fields": {
+      "plant1": 76,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 230,
+    "fields": {
+      "plant1": 76,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 231,
+    "fields": {
+      "plant1": 76,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 232,
+    "fields": {
+      "plant1": 76,
+      "plant2": 2
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 233,
+    "fields": {
+      "plant1": 76,
+      "plant2": 8
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 234,
+    "fields": {
+      "plant1": 76,
+      "plant2": 29
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 235,
+    "fields": {
+      "plant1": 76,
+      "plant2": 88
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 236,
+    "fields": {
+      "plant1": 76,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 237,
+    "fields": {
+      "plant1": 76,
+      "plant2": 92
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 238,
+    "fields": {
+      "plant1": 76,
+      "plant2": 108
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 239,
+    "fields": {
+      "plant1": 77,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 240,
+    "fields": {
+      "plant1": 77,
+      "plant2": 92
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 241,
+    "fields": {
+      "plant1": 77,
+      "plant2": 94
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 242,
+    "fields": {
+      "plant1": 77,
+      "plant2": 117
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 243,
+    "fields": {
+      "plant1": 77,
+      "plant2": 132
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 244,
+    "fields": {
+      "plant1": 77,
+      "plant2": 133
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 245,
+    "fields": {
+      "plant1": 78,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 246,
+    "fields": {
+      "plant1": 78,
+      "plant2": 92
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 247,
+    "fields": {
+      "plant1": 78,
+      "plant2": 94
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 248,
+    "fields": {
+      "plant1": 78,
+      "plant2": 117
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 249,
+    "fields": {
+      "plant1": 78,
+      "plant2": 132
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 250,
+    "fields": {
+      "plant1": 78,
+      "plant2": 133
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 251,
+    "fields": {
+      "plant1": 79,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 252,
+    "fields": {
+      "plant1": 79,
+      "plant2": 5
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 253,
+    "fields": {
+      "plant1": 79,
+      "plant2": 23
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 254,
+    "fields": {
+      "plant1": 79,
+      "plant2": 24
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 255,
+    "fields": {
+      "plant1": 79,
+      "plant2": 25
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 256,
+    "fields": {
+      "plant1": 79,
+      "plant2": 132
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 257,
+    "fields": {
+      "plant1": 79,
+      "plant2": 133
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 258,
+    "fields": {
+      "plant1": 80,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 259,
+    "fields": {
+      "plant1": 80,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 260,
+    "fields": {
+      "plant1": 80,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 261,
+    "fields": {
+      "plant1": 80,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 262,
+    "fields": {
+      "plant1": 80,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 263,
+    "fields": {
+      "plant1": 80,
+      "plant2": 37
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 264,
+    "fields": {
+      "plant1": 80,
+      "plant2": 90
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 265,
+    "fields": {
+      "plant1": 82,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 266,
+    "fields": {
+      "plant1": 82,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 267,
+    "fields": {
+      "plant1": 82,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 268,
+    "fields": {
+      "plant1": 82,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 269,
+    "fields": {
+      "plant1": 82,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 270,
+    "fields": {
+      "plant1": 83,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 271,
+    "fields": {
+      "plant1": 83,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 272,
+    "fields": {
+      "plant1": 83,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 273,
+    "fields": {
+      "plant1": 83,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 274,
+    "fields": {
+      "plant1": 83,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 275,
+    "fields": {
+      "plant1": 83,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 276,
+    "fields": {
+      "plant1": 83,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 277,
+    "fields": {
+      "plant1": 83,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 278,
+    "fields": {
+      "plant1": 83,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 279,
+    "fields": {
+      "plant1": 83,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 280,
+    "fields": {
+      "plant1": 83,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 281,
+    "fields": {
+      "plant1": 84,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 282,
+    "fields": {
+      "plant1": 84,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 283,
+    "fields": {
+      "plant1": 84,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 284,
+    "fields": {
+      "plant1": 84,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 285,
+    "fields": {
+      "plant1": 84,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 286,
+    "fields": {
+      "plant1": 84,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 287,
+    "fields": {
+      "plant1": 84,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 288,
+    "fields": {
+      "plant1": 84,
+      "plant2": 171
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 289,
+    "fields": {
+      "plant1": 84,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 290,
+    "fields": {
+      "plant1": 84,
+      "plant2": 15
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 291,
+    "fields": {
+      "plant1": 84,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 292,
+    "fields": {
+      "plant1": 84,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 293,
+    "fields": {
+      "plant1": 84,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 294,
+    "fields": {
+      "plant1": 84,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 295,
+    "fields": {
+      "plant1": 84,
+      "plant2": 141
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 296,
+    "fields": {
+      "plant1": 84,
+      "plant2": 228
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 297,
+    "fields": {
+      "plant1": 85,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 298,
+    "fields": {
+      "plant1": 85,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 299,
+    "fields": {
+      "plant1": 85,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 300,
+    "fields": {
+      "plant1": 85,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 301,
+    "fields": {
+      "plant1": 85,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 302,
+    "fields": {
+      "plant1": 85,
+      "plant2": 179
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 303,
+    "fields": {
+      "plant1": 85,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 304,
+    "fields": {
+      "plant1": 85,
+      "plant2": 37
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 305,
+    "fields": {
+      "plant1": 85,
+      "plant2": 132
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 306,
+    "fields": {
+      "plant1": 85,
+      "plant2": 133
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 307,
+    "fields": {
+      "plant1": 85,
+      "plant2": 165
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 308,
+    "fields": {
+      "plant1": 85,
+      "plant2": 220
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 309,
+    "fields": {
+      "plant1": 86,
+      "plant2": 19
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 310,
+    "fields": {
+      "plant1": 86,
+      "plant2": 88
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 311,
+    "fields": {
+      "plant1": 86,
+      "plant2": 90
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 312,
+    "fields": {
+      "plant1": 86,
+      "plant2": 122
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 313,
+    "fields": {
+      "plant1": 86,
+      "plant2": 136
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 314,
+    "fields": {
+      "plant1": 86,
+      "plant2": 137
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 315,
+    "fields": {
+      "plant1": 87,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 316,
+    "fields": {
+      "plant1": 87,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 317,
+    "fields": {
+      "plant1": 87,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 318,
+    "fields": {
+      "plant1": 87,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 319,
+    "fields": {
+      "plant1": 87,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 320,
+    "fields": {
+      "plant1": 87,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 321,
+    "fields": {
+      "plant1": 87,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 322,
+    "fields": {
+      "plant1": 87,
+      "plant2": 171
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 323,
+    "fields": {
+      "plant1": 87,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 324,
+    "fields": {
+      "plant1": 87,
+      "plant2": 15
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 325,
+    "fields": {
+      "plant1": 87,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 326,
+    "fields": {
+      "plant1": 87,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 327,
+    "fields": {
+      "plant1": 87,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 328,
+    "fields": {
+      "plant1": 87,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 329,
+    "fields": {
+      "plant1": 87,
+      "plant2": 141
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 330,
+    "fields": {
+      "plant1": 87,
+      "plant2": 228
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 331,
+    "fields": {
+      "plant1": 88,
+      "plant2": 130
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 332,
+    "fields": {
+      "plant1": 88,
+      "plant2": 224
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 333,
+    "fields": {
+      "plant1": 93,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 334,
+    "fields": {
+      "plant1": 93,
+      "plant2": 195
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 335,
+    "fields": {
+      "plant1": 93,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 336,
+    "fields": {
+      "plant1": 93,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 337,
+    "fields": {
+      "plant1": 93,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 338,
+    "fields": {
+      "plant1": 93,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 339,
+    "fields": {
+      "plant1": 93,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 340,
+    "fields": {
+      "plant1": 93,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 341,
+    "fields": {
+      "plant1": 93,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 342,
+    "fields": {
+      "plant1": 93,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 343,
+    "fields": {
+      "plant1": 93,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 344,
+    "fields": {
+      "plant1": 93,
+      "plant2": 19
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 345,
+    "fields": {
+      "plant1": 93,
+      "plant2": 94
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 346,
+    "fields": {
+      "plant1": 96,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 347,
+    "fields": {
+      "plant1": 96,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 348,
+    "fields": {
+      "plant1": 96,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 349,
+    "fields": {
+      "plant1": 96,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 350,
+    "fields": {
+      "plant1": 96,
+      "plant2": 125
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 351,
+    "fields": {
+      "plant1": 96,
+      "plant2": 130
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 352,
+    "fields": {
+      "plant1": 98,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 353,
+    "fields": {
+      "plant1": 98,
+      "plant2": 195
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 354,
+    "fields": {
+      "plant1": 98,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 355,
+    "fields": {
+      "plant1": 98,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 356,
+    "fields": {
+      "plant1": 98,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 357,
+    "fields": {
+      "plant1": 98,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 358,
+    "fields": {
+      "plant1": 98,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 359,
+    "fields": {
+      "plant1": 98,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 360,
+    "fields": {
+      "plant1": 98,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 361,
+    "fields": {
+      "plant1": 98,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 362,
+    "fields": {
+      "plant1": 98,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 363,
+    "fields": {
+      "plant1": 98,
+      "plant2": 19
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 364,
+    "fields": {
+      "plant1": 98,
+      "plant2": 94
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 365,
+    "fields": {
+      "plant1": 100,
+      "plant2": 136
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 366,
+    "fields": {
+      "plant1": 100,
+      "plant2": 137
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 367,
+    "fields": {
+      "plant1": 100,
+      "plant2": 220
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 368,
+    "fields": {
+      "plant1": 102,
+      "plant2": 117
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 369,
+    "fields": {
+      "plant1": 104,
+      "plant2": 17
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 370,
+    "fields": {
+      "plant1": 104,
+      "plant2": 20
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 371,
+    "fields": {
+      "plant1": 104,
+      "plant2": 135
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 372,
+    "fields": {
+      "plant1": 104,
+      "plant2": 225
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 373,
+    "fields": {
+      "plant1": 107,
+      "plant2": 116
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 374,
+    "fields": {
+      "plant1": 109,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 375,
+    "fields": {
+      "plant1": 109,
+      "plant2": 195
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 376,
+    "fields": {
+      "plant1": 109,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 377,
+    "fields": {
+      "plant1": 109,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 378,
+    "fields": {
+      "plant1": 109,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 379,
+    "fields": {
+      "plant1": 109,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 380,
+    "fields": {
+      "plant1": 109,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 381,
+    "fields": {
+      "plant1": 109,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 382,
+    "fields": {
+      "plant1": 109,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 383,
+    "fields": {
+      "plant1": 109,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 384,
+    "fields": {
+      "plant1": 109,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 385,
+    "fields": {
+      "plant1": 109,
+      "plant2": 19
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 386,
+    "fields": {
+      "plant1": 109,
+      "plant2": 94
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 387,
+    "fields": {
+      "plant1": 110,
+      "plant2": 213
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 388,
+    "fields": {
+      "plant1": 110,
+      "plant2": 214
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 389,
+    "fields": {
+      "plant1": 110,
+      "plant2": 215
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 390,
+    "fields": {
+      "plant1": 110,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 391,
+    "fields": {
+      "plant1": 110,
+      "plant2": 130
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 392,
+    "fields": {
+      "plant1": 110,
+      "plant2": 182
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 393,
+    "fields": {
+      "plant1": 111,
+      "plant2": 213
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 394,
+    "fields": {
+      "plant1": 111,
+      "plant2": 214
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 395,
+    "fields": {
+      "plant1": 111,
+      "plant2": 215
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 396,
+    "fields": {
+      "plant1": 111,
+      "plant2": 18
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 397,
+    "fields": {
+      "plant1": 111,
+      "plant2": 130
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 398,
+    "fields": {
+      "plant1": 112,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 399,
+    "fields": {
+      "plant1": 112,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 400,
+    "fields": {
+      "plant1": 112,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 401,
+    "fields": {
+      "plant1": 112,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 402,
+    "fields": {
+      "plant1": 112,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 403,
+    "fields": {
+      "plant1": 121,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 404,
+    "fields": {
+      "plant1": 121,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 405,
+    "fields": {
+      "plant1": 121,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 406,
+    "fields": {
+      "plant1": 121,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 407,
+    "fields": {
+      "plant1": 121,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 408,
+    "fields": {
+      "plant1": 121,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 409,
+    "fields": {
+      "plant1": 121,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 410,
+    "fields": {
+      "plant1": 121,
+      "plant2": 197
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 411,
+    "fields": {
+      "plant1": 121,
+      "plant2": 167
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 412,
+    "fields": {
+      "plant1": 121,
+      "plant2": 92
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 413,
+    "fields": {
+      "plant1": 121,
+      "plant2": 103
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 414,
+    "fields": {
+      "plant1": 121,
+      "plant2": 131
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 415,
+    "fields": {
+      "plant1": 121,
+      "plant2": 147
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 416,
+    "fields": {
+      "plant1": 121,
+      "plant2": 212
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 417,
+    "fields": {
+      "plant1": 123,
+      "plant2": 113
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 418,
+    "fields": {
+      "plant1": 128,
+      "plant2": 32
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 419,
+    "fields": {
+      "plant1": 128,
+      "plant2": 126
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 420,
+    "fields": {
+      "plant1": 128,
+      "plant2": 127
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 421,
+    "fields": {
+      "plant1": 128,
+      "plant2": 148
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 422,
+    "fields": {
+      "plant1": 129,
+      "plant2": 213
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 423,
+    "fields": {
+      "plant1": 129,
+      "plant2": 214
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 424,
+    "fields": {
+      "plant1": 129,
+      "plant2": 215
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 425,
+    "fields": {
+      "plant1": 129,
+      "plant2": 127
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 426,
+    "fields": {
+      "plant1": 129,
+      "plant2": 136
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 427,
+    "fields": {
+      "plant1": 129,
+      "plant2": 137
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 428,
+    "fields": {
+      "plant1": 130,
+      "plant2": 148
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 429,
+    "fields": {
+      "plant1": 132,
+      "plant2": 31
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 430,
+    "fields": {
+      "plant1": 132,
+      "plant2": 127
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 431,
+    "fields": {
+      "plant1": 133,
+      "plant2": 31
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 432,
+    "fields": {
+      "plant1": 133,
+      "plant2": 127
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 433,
+    "fields": {
+      "plant1": 134,
+      "plant2": 15
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 434,
+    "fields": {
+      "plant1": 134,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 435,
+    "fields": {
+      "plant1": 135,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 436,
+    "fields": {
+      "plant1": 139,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 437,
+    "fields": {
+      "plant1": 139,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 438,
+    "fields": {
+      "plant1": 139,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 439,
+    "fields": {
+      "plant1": 139,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 440,
+    "fields": {
+      "plant1": 139,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 441,
+    "fields": {
+      "plant1": 139,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 442,
+    "fields": {
+      "plant1": 139,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 443,
+    "fields": {
+      "plant1": 139,
+      "plant2": 197
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 444,
+    "fields": {
+      "plant1": 139,
+      "plant2": 167
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 445,
+    "fields": {
+      "plant1": 139,
+      "plant2": 92
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 446,
+    "fields": {
+      "plant1": 139,
+      "plant2": 103
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 447,
+    "fields": {
+      "plant1": 139,
+      "plant2": 131
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 448,
+    "fields": {
+      "plant1": 140,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 449,
+    "fields": {
+      "plant1": 142,
+      "plant2": 32
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 450,
+    "fields": {
+      "plant1": 142,
+      "plant2": 126
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 451,
+    "fields": {
+      "plant1": 145,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 452,
+    "fields": {
+      "plant1": 145,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 453,
+    "fields": {
+      "plant1": 145,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 454,
+    "fields": {
+      "plant1": 145,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 455,
+    "fields": {
+      "plant1": 145,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 456,
+    "fields": {
+      "plant1": 145,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 457,
+    "fields": {
+      "plant1": 145,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 458,
+    "fields": {
+      "plant1": 145,
+      "plant2": 197
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 459,
+    "fields": {
+      "plant1": 145,
+      "plant2": 167
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 460,
+    "fields": {
+      "plant1": 145,
+      "plant2": 92
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 461,
+    "fields": {
+      "plant1": 145,
+      "plant2": 103
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 462,
+    "fields": {
+      "plant1": 145,
+      "plant2": 131
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 463,
+    "fields": {
+      "plant1": 146,
+      "plant2": 32
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 464,
+    "fields": {
+      "plant1": 149,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 465,
+    "fields": {
+      "plant1": 149,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 466,
+    "fields": {
+      "plant1": 149,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 467,
+    "fields": {
+      "plant1": 149,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 468,
+    "fields": {
+      "plant1": 149,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 469,
+    "fields": {
+      "plant1": 149,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 470,
+    "fields": {
+      "plant1": 149,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 471,
+    "fields": {
+      "plant1": 149,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 472,
+    "fields": {
+      "plant1": 149,
+      "plant2": 79
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 473,
+    "fields": {
+      "plant1": 149,
+      "plant2": 85
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 474,
+    "fields": {
+      "plant1": 149,
+      "plant2": 68
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 475,
+    "fields": {
+      "plant1": 149,
+      "plant2": 69
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 476,
+    "fields": {
+      "plant1": 149,
+      "plant2": 71
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 477,
+    "fields": {
+      "plant1": 149,
+      "plant2": 72
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 478,
+    "fields": {
+      "plant1": 149,
+      "plant2": 93
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 479,
+    "fields": {
+      "plant1": 149,
+      "plant2": 98
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 480,
+    "fields": {
+      "plant1": 149,
+      "plant2": 70
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 481,
+    "fields": {
+      "plant1": 149,
+      "plant2": 77
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 482,
+    "fields": {
+      "plant1": 149,
+      "plant2": 78
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 483,
+    "fields": {
+      "plant1": 149,
+      "plant2": 38
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 484,
+    "fields": {
+      "plant1": 151,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 485,
+    "fields": {
+      "plant1": 151,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 486,
+    "fields": {
+      "plant1": 151,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 487,
+    "fields": {
+      "plant1": 151,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 488,
+    "fields": {
+      "plant1": 151,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 489,
+    "fields": {
+      "plant1": 151,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 490,
+    "fields": {
+      "plant1": 151,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 491,
+    "fields": {
+      "plant1": 151,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 492,
+    "fields": {
+      "plant1": 151,
+      "plant2": 79
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 493,
+    "fields": {
+      "plant1": 151,
+      "plant2": 85
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 494,
+    "fields": {
+      "plant1": 151,
+      "plant2": 68
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 495,
+    "fields": {
+      "plant1": 151,
+      "plant2": 69
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 496,
+    "fields": {
+      "plant1": 151,
+      "plant2": 71
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 497,
+    "fields": {
+      "plant1": 151,
+      "plant2": 72
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 498,
+    "fields": {
+      "plant1": 151,
+      "plant2": 93
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 499,
+    "fields": {
+      "plant1": 151,
+      "plant2": 98
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 500,
+    "fields": {
+      "plant1": 151,
+      "plant2": 70
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 501,
+    "fields": {
+      "plant1": 151,
+      "plant2": 77
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 502,
+    "fields": {
+      "plant1": 151,
+      "plant2": 78
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 503,
+    "fields": {
+      "plant1": 151,
+      "plant2": 38
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 504,
+    "fields": {
+      "plant1": 152,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 505,
+    "fields": {
+      "plant1": 152,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 506,
+    "fields": {
+      "plant1": 152,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 507,
+    "fields": {
+      "plant1": 152,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 508,
+    "fields": {
+      "plant1": 152,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 509,
+    "fields": {
+      "plant1": 152,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 510,
+    "fields": {
+      "plant1": 152,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 511,
+    "fields": {
+      "plant1": 152,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 512,
+    "fields": {
+      "plant1": 152,
+      "plant2": 79
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 513,
+    "fields": {
+      "plant1": 152,
+      "plant2": 85
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 514,
+    "fields": {
+      "plant1": 152,
+      "plant2": 68
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 515,
+    "fields": {
+      "plant1": 152,
+      "plant2": 69
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 516,
+    "fields": {
+      "plant1": 152,
+      "plant2": 71
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 517,
+    "fields": {
+      "plant1": 152,
+      "plant2": 72
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 518,
+    "fields": {
+      "plant1": 152,
+      "plant2": 93
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 519,
+    "fields": {
+      "plant1": 152,
+      "plant2": 98
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 520,
+    "fields": {
+      "plant1": 152,
+      "plant2": 70
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 521,
+    "fields": {
+      "plant1": 152,
+      "plant2": 77
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 522,
+    "fields": {
+      "plant1": 152,
+      "plant2": 78
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 523,
+    "fields": {
+      "plant1": 152,
+      "plant2": 38
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 524,
+    "fields": {
+      "plant1": 153,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 525,
+    "fields": {
+      "plant1": 153,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 526,
+    "fields": {
+      "plant1": 153,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 527,
+    "fields": {
+      "plant1": 153,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 528,
+    "fields": {
+      "plant1": 153,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 529,
+    "fields": {
+      "plant1": 153,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 530,
+    "fields": {
+      "plant1": 153,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 531,
+    "fields": {
+      "plant1": 153,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 532,
+    "fields": {
+      "plant1": 153,
+      "plant2": 79
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 533,
+    "fields": {
+      "plant1": 153,
+      "plant2": 85
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 534,
+    "fields": {
+      "plant1": 153,
+      "plant2": 68
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 535,
+    "fields": {
+      "plant1": 153,
+      "plant2": 69
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 536,
+    "fields": {
+      "plant1": 153,
+      "plant2": 71
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 537,
+    "fields": {
+      "plant1": 153,
+      "plant2": 72
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 538,
+    "fields": {
+      "plant1": 153,
+      "plant2": 93
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 539,
+    "fields": {
+      "plant1": 153,
+      "plant2": 98
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 540,
+    "fields": {
+      "plant1": 153,
+      "plant2": 70
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 541,
+    "fields": {
+      "plant1": 153,
+      "plant2": 77
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 542,
+    "fields": {
+      "plant1": 153,
+      "plant2": 78
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 543,
+    "fields": {
+      "plant1": 153,
+      "plant2": 38
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 544,
+    "fields": {
+      "plant1": 154,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 545,
+    "fields": {
+      "plant1": 154,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 546,
+    "fields": {
+      "plant1": 154,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 547,
+    "fields": {
+      "plant1": 154,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 548,
+    "fields": {
+      "plant1": 154,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 549,
+    "fields": {
+      "plant1": 154,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 550,
+    "fields": {
+      "plant1": 154,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 551,
+    "fields": {
+      "plant1": 154,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 552,
+    "fields": {
+      "plant1": 154,
+      "plant2": 79
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 553,
+    "fields": {
+      "plant1": 154,
+      "plant2": 85
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 554,
+    "fields": {
+      "plant1": 154,
+      "plant2": 68
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 555,
+    "fields": {
+      "plant1": 154,
+      "plant2": 69
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 556,
+    "fields": {
+      "plant1": 154,
+      "plant2": 71
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 557,
+    "fields": {
+      "plant1": 154,
+      "plant2": 72
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 558,
+    "fields": {
+      "plant1": 154,
+      "plant2": 93
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 559,
+    "fields": {
+      "plant1": 154,
+      "plant2": 98
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 560,
+    "fields": {
+      "plant1": 154,
+      "plant2": 70
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 561,
+    "fields": {
+      "plant1": 154,
+      "plant2": 77
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 562,
+    "fields": {
+      "plant1": 154,
+      "plant2": 78
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 563,
+    "fields": {
+      "plant1": 154,
+      "plant2": 38
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 564,
+    "fields": {
+      "plant1": 155,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 565,
+    "fields": {
+      "plant1": 155,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 566,
+    "fields": {
+      "plant1": 155,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 567,
+    "fields": {
+      "plant1": 155,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 568,
+    "fields": {
+      "plant1": 155,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 569,
+    "fields": {
+      "plant1": 155,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 570,
+    "fields": {
+      "plant1": 155,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 571,
+    "fields": {
+      "plant1": 155,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 572,
+    "fields": {
+      "plant1": 155,
+      "plant2": 79
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 573,
+    "fields": {
+      "plant1": 155,
+      "plant2": 85
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 574,
+    "fields": {
+      "plant1": 155,
+      "plant2": 68
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 575,
+    "fields": {
+      "plant1": 155,
+      "plant2": 69
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 576,
+    "fields": {
+      "plant1": 155,
+      "plant2": 71
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 577,
+    "fields": {
+      "plant1": 155,
+      "plant2": 72
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 578,
+    "fields": {
+      "plant1": 155,
+      "plant2": 93
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 579,
+    "fields": {
+      "plant1": 155,
+      "plant2": 98
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 580,
+    "fields": {
+      "plant1": 155,
+      "plant2": 70
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 581,
+    "fields": {
+      "plant1": 155,
+      "plant2": 77
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 582,
+    "fields": {
+      "plant1": 155,
+      "plant2": 78
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 583,
+    "fields": {
+      "plant1": 155,
+      "plant2": 38
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 584,
+    "fields": {
+      "plant1": 156,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 585,
+    "fields": {
+      "plant1": 156,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 586,
+    "fields": {
+      "plant1": 156,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 587,
+    "fields": {
+      "plant1": 156,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 588,
+    "fields": {
+      "plant1": 156,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 589,
+    "fields": {
+      "plant1": 156,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 590,
+    "fields": {
+      "plant1": 156,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 591,
+    "fields": {
+      "plant1": 156,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 592,
+    "fields": {
+      "plant1": 156,
+      "plant2": 79
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 593,
+    "fields": {
+      "plant1": 156,
+      "plant2": 85
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 594,
+    "fields": {
+      "plant1": 156,
+      "plant2": 68
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 595,
+    "fields": {
+      "plant1": 156,
+      "plant2": 69
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 596,
+    "fields": {
+      "plant1": 156,
+      "plant2": 71
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 597,
+    "fields": {
+      "plant1": 156,
+      "plant2": 72
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 598,
+    "fields": {
+      "plant1": 156,
+      "plant2": 93
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 599,
+    "fields": {
+      "plant1": 156,
+      "plant2": 98
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 600,
+    "fields": {
+      "plant1": 156,
+      "plant2": 70
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 601,
+    "fields": {
+      "plant1": 156,
+      "plant2": 77
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 602,
+    "fields": {
+      "plant1": 156,
+      "plant2": 78
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 603,
+    "fields": {
+      "plant1": 156,
+      "plant2": 38
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 604,
+    "fields": {
+      "plant1": 157,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 605,
+    "fields": {
+      "plant1": 157,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 606,
+    "fields": {
+      "plant1": 157,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 607,
+    "fields": {
+      "plant1": 157,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 608,
+    "fields": {
+      "plant1": 157,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 609,
+    "fields": {
+      "plant1": 157,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 610,
+    "fields": {
+      "plant1": 157,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 611,
+    "fields": {
+      "plant1": 157,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 612,
+    "fields": {
+      "plant1": 157,
+      "plant2": 79
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 613,
+    "fields": {
+      "plant1": 157,
+      "plant2": 85
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 614,
+    "fields": {
+      "plant1": 157,
+      "plant2": 68
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 615,
+    "fields": {
+      "plant1": 157,
+      "plant2": 69
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 616,
+    "fields": {
+      "plant1": 157,
+      "plant2": 71
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 617,
+    "fields": {
+      "plant1": 157,
+      "plant2": 72
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 618,
+    "fields": {
+      "plant1": 157,
+      "plant2": 93
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 619,
+    "fields": {
+      "plant1": 157,
+      "plant2": 98
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 620,
+    "fields": {
+      "plant1": 157,
+      "plant2": 70
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 621,
+    "fields": {
+      "plant1": 157,
+      "plant2": 77
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 622,
+    "fields": {
+      "plant1": 157,
+      "plant2": 78
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 623,
+    "fields": {
+      "plant1": 157,
+      "plant2": 38
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 624,
+    "fields": {
+      "plant1": 158,
+      "plant2": 191
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 625,
+    "fields": {
+      "plant1": 158,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 626,
+    "fields": {
+      "plant1": 158,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 627,
+    "fields": {
+      "plant1": 158,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 628,
+    "fields": {
+      "plant1": 158,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 629,
+    "fields": {
+      "plant1": 158,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 630,
+    "fields": {
+      "plant1": 158,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 631,
+    "fields": {
+      "plant1": 158,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 632,
+    "fields": {
+      "plant1": 158,
+      "plant2": 79
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 633,
+    "fields": {
+      "plant1": 158,
+      "plant2": 85
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 634,
+    "fields": {
+      "plant1": 158,
+      "plant2": 68
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 635,
+    "fields": {
+      "plant1": 158,
+      "plant2": 69
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 636,
+    "fields": {
+      "plant1": 158,
+      "plant2": 71
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 637,
+    "fields": {
+      "plant1": 158,
+      "plant2": 72
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 638,
+    "fields": {
+      "plant1": 158,
+      "plant2": 93
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 639,
+    "fields": {
+      "plant1": 158,
+      "plant2": 98
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 640,
+    "fields": {
+      "plant1": 158,
+      "plant2": 70
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 641,
+    "fields": {
+      "plant1": 158,
+      "plant2": 77
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 642,
+    "fields": {
+      "plant1": 158,
+      "plant2": 78
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 643,
+    "fields": {
+      "plant1": 158,
+      "plant2": 38
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 672,
+    "fields": {
+      "plant1": 167,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 673,
+    "fields": {
+      "plant1": 167,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 674,
+    "fields": {
+      "plant1": 167,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 675,
+    "fields": {
+      "plant1": 167,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 676,
+    "fields": {
+      "plant1": 167,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 677,
+    "fields": {
+      "plant1": 167,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 678,
+    "fields": {
+      "plant1": 167,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 679,
+    "fields": {
+      "plant1": 167,
+      "plant2": 171
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 680,
+    "fields": {
+      "plant1": 167,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 681,
+    "fields": {
+      "plant1": 167,
+      "plant2": 15
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 682,
+    "fields": {
+      "plant1": 167,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 683,
+    "fields": {
+      "plant1": 167,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 684,
+    "fields": {
+      "plant1": 167,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 685,
+    "fields": {
+      "plant1": 167,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 686,
+    "fields": {
+      "plant1": 167,
+      "plant2": 228
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 687,
+    "fields": {
+      "plant1": 168,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 688,
+    "fields": {
+      "plant1": 168,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 689,
+    "fields": {
+      "plant1": 168,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 690,
+    "fields": {
+      "plant1": 168,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 691,
+    "fields": {
+      "plant1": 168,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 692,
+    "fields": {
+      "plant1": 168,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 693,
+    "fields": {
+      "plant1": 168,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 694,
+    "fields": {
+      "plant1": 168,
+      "plant2": 171
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 695,
+    "fields": {
+      "plant1": 168,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 696,
+    "fields": {
+      "plant1": 168,
+      "plant2": 15
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 697,
+    "fields": {
+      "plant1": 168,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 698,
+    "fields": {
+      "plant1": 168,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 699,
+    "fields": {
+      "plant1": 168,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 700,
+    "fields": {
+      "plant1": 168,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 701,
+    "fields": {
+      "plant1": 168,
+      "plant2": 228
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 702,
+    "fields": {
+      "plant1": 169,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 703,
+    "fields": {
+      "plant1": 169,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 704,
+    "fields": {
+      "plant1": 169,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 705,
+    "fields": {
+      "plant1": 169,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 706,
+    "fields": {
+      "plant1": 169,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 707,
+    "fields": {
+      "plant1": 169,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 708,
+    "fields": {
+      "plant1": 169,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 709,
+    "fields": {
+      "plant1": 169,
+      "plant2": 171
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 710,
+    "fields": {
+      "plant1": 169,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 711,
+    "fields": {
+      "plant1": 169,
+      "plant2": 15
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 712,
+    "fields": {
+      "plant1": 169,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 713,
+    "fields": {
+      "plant1": 169,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 714,
+    "fields": {
+      "plant1": 169,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 715,
+    "fields": {
+      "plant1": 169,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 716,
+    "fields": {
+      "plant1": 169,
+      "plant2": 228
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 717,
+    "fields": {
+      "plant1": 170,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 718,
+    "fields": {
+      "plant1": 170,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 719,
+    "fields": {
+      "plant1": 170,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 720,
+    "fields": {
+      "plant1": 170,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 721,
+    "fields": {
+      "plant1": 170,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 722,
+    "fields": {
+      "plant1": 170,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 723,
+    "fields": {
+      "plant1": 170,
+      "plant2": 213
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 724,
+    "fields": {
+      "plant1": 170,
+      "plant2": 214
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 725,
+    "fields": {
+      "plant1": 170,
+      "plant2": 215
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 726,
+    "fields": {
+      "plant1": 170,
+      "plant2": 138
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 727,
+    "fields": {
+      "plant1": 170,
+      "plant2": 197
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 728,
+    "fields": {
+      "plant1": 170,
+      "plant2": 205
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 729,
+    "fields": {
+      "plant1": 171,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 730,
+    "fields": {
+      "plant1": 171,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 731,
+    "fields": {
+      "plant1": 171,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 732,
+    "fields": {
+      "plant1": 171,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 733,
+    "fields": {
+      "plant1": 171,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 734,
+    "fields": {
+      "plant1": 171,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 735,
+    "fields": {
+      "plant1": 171,
+      "plant2": 167
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 736,
+    "fields": {
+      "plant1": 171,
+      "plant2": 100
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 737,
+    "fields": {
+      "plant1": 171,
+      "plant2": 197
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 738,
+    "fields": {
+      "plant1": 171,
+      "plant2": 199
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 739,
+    "fields": {
+      "plant1": 171,
+      "plant2": 212
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 740,
+    "fields": {
+      "plant1": 172,
+      "plant2": 83
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 741,
+    "fields": {
+      "plant1": 172,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 742,
+    "fields": {
+      "plant1": 172,
+      "plant2": 63
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 743,
+    "fields": {
+      "plant1": 172,
+      "plant2": 118
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 744,
+    "fields": {
+      "plant1": 172,
+      "plant2": 193
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 745,
+    "fields": {
+      "plant1": 173,
+      "plant2": 213
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 746,
+    "fields": {
+      "plant1": 173,
+      "plant2": 214
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 747,
+    "fields": {
+      "plant1": 173,
+      "plant2": 215
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 748,
+    "fields": {
+      "plant1": 173,
+      "plant2": 118
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 749,
+    "fields": {
+      "plant1": 174,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 750,
+    "fields": {
+      "plant1": 174,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 751,
+    "fields": {
+      "plant1": 174,
+      "plant2": 216
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 752,
+    "fields": {
+      "plant1": 174,
+      "plant2": 217
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 753,
+    "fields": {
+      "plant1": 174,
+      "plant2": 218
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 754,
+    "fields": {
+      "plant1": 174,
+      "plant2": 219
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 755,
+    "fields": {
+      "plant1": 174,
+      "plant2": 229
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 756,
+    "fields": {
+      "plant1": 174,
+      "plant2": 230
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 757,
+    "fields": {
+      "plant1": 174,
+      "plant2": 175
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 758,
+    "fields": {
+      "plant1": 174,
+      "plant2": 118
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 759,
+    "fields": {
+      "plant1": 174,
+      "plant2": 134
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 760,
+    "fields": {
+      "plant1": 174,
+      "plant2": 165
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 761,
+    "fields": {
+      "plant1": 174,
+      "plant2": 177
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 762,
+    "fields": {
+      "plant1": 174,
+      "plant2": 199
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 763,
+    "fields": {
+      "plant1": 175,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 764,
+    "fields": {
+      "plant1": 175,
+      "plant2": 41
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 765,
+    "fields": {
+      "plant1": 175,
+      "plant2": 83
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 766,
+    "fields": {
+      "plant1": 175,
+      "plant2": 205
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 767,
+    "fields": {
+      "plant1": 176,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 768,
+    "fields": {
+      "plant1": 176,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 769,
+    "fields": {
+      "plant1": 176,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 770,
+    "fields": {
+      "plant1": 176,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 771,
+    "fields": {
+      "plant1": 176,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 772,
+    "fields": {
+      "plant1": 176,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 773,
+    "fields": {
+      "plant1": 176,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 774,
+    "fields": {
+      "plant1": 176,
+      "plant2": 171
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 775,
+    "fields": {
+      "plant1": 176,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 776,
+    "fields": {
+      "plant1": 176,
+      "plant2": 15
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 777,
+    "fields": {
+      "plant1": 176,
+      "plant2": 159
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 778,
+    "fields": {
+      "plant1": 176,
+      "plant2": 160
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 779,
+    "fields": {
+      "plant1": 176,
+      "plant2": 162
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 780,
+    "fields": {
+      "plant1": 176,
+      "plant2": 163
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 781,
+    "fields": {
+      "plant1": 176,
+      "plant2": 228
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 782,
+    "fields": {
+      "plant1": 178,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 783,
+    "fields": {
+      "plant1": 178,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 784,
+    "fields": {
+      "plant1": 178,
+      "plant2": 216
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 785,
+    "fields": {
+      "plant1": 178,
+      "plant2": 217
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 786,
+    "fields": {
+      "plant1": 178,
+      "plant2": 218
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 787,
+    "fields": {
+      "plant1": 178,
+      "plant2": 219
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 788,
+    "fields": {
+      "plant1": 178,
+      "plant2": 229
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 789,
+    "fields": {
+      "plant1": 178,
+      "plant2": 230
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 790,
+    "fields": {
+      "plant1": 178,
+      "plant2": 175
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 791,
+    "fields": {
+      "plant1": 178,
+      "plant2": 118
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 792,
+    "fields": {
+      "plant1": 178,
+      "plant2": 134
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 793,
+    "fields": {
+      "plant1": 178,
+      "plant2": 165
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 794,
+    "fields": {
+      "plant1": 178,
+      "plant2": 177
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 795,
+    "fields": {
+      "plant1": 178,
+      "plant2": 199
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 796,
+    "fields": {
+      "plant1": 179,
+      "plant2": 135
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 797,
+    "fields": {
+      "plant1": 179,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 798,
+    "fields": {
+      "plant1": 179,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 799,
+    "fields": {
+      "plant1": 179,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 800,
+    "fields": {
+      "plant1": 179,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 801,
+    "fields": {
+      "plant1": 179,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 802,
+    "fields": {
+      "plant1": 179,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 803,
+    "fields": {
+      "plant1": 179,
+      "plant2": 216
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 804,
+    "fields": {
+      "plant1": 179,
+      "plant2": 217
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 805,
+    "fields": {
+      "plant1": 179,
+      "plant2": 218
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 806,
+    "fields": {
+      "plant1": 179,
+      "plant2": 219
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 807,
+    "fields": {
+      "plant1": 179,
+      "plant2": 230
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 809,
+    "fields": {
+      "plant1": 179,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 810,
+    "fields": {
+      "plant1": 179,
+      "plant2": 220
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 811,
+    "fields": {
+      "plant1": 179,
+      "plant2": 196
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 812,
+    "fields": {
+      "plant1": 182,
+      "plant2": 207
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 813,
+    "fields": {
+      "plant1": 182,
+      "plant2": 212
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 814,
+    "fields": {
+      "plant1": 183,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 815,
+    "fields": {
+      "plant1": 183,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 816,
+    "fields": {
+      "plant1": 183,
+      "plant2": 83
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 817,
+    "fields": {
+      "plant1": 183,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 818,
+    "fields": {
+      "plant1": 183,
+      "plant2": 63
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 819,
+    "fields": {
+      "plant1": 183,
+      "plant2": 192
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 820,
+    "fields": {
+      "plant1": 183,
+      "plant2": 220
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 821,
+    "fields": {
+      "plant1": 184,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 822,
+    "fields": {
+      "plant1": 184,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 823,
+    "fields": {
+      "plant1": 184,
+      "plant2": 83
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 824,
+    "fields": {
+      "plant1": 184,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 825,
+    "fields": {
+      "plant1": 184,
+      "plant2": 63
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 826,
+    "fields": {
+      "plant1": 184,
+      "plant2": 192
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 827,
+    "fields": {
+      "plant1": 185,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 828,
+    "fields": {
+      "plant1": 185,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 829,
+    "fields": {
+      "plant1": 185,
+      "plant2": 83
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 830,
+    "fields": {
+      "plant1": 185,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 831,
+    "fields": {
+      "plant1": 185,
+      "plant2": 63
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 832,
+    "fields": {
+      "plant1": 186,
+      "plant2": 165
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 833,
+    "fields": {
+      "plant1": 186,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 834,
+    "fields": {
+      "plant1": 186,
+      "plant2": 197
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 835,
+    "fields": {
+      "plant1": 186,
+      "plant2": 212
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 836,
+    "fields": {
+      "plant1": 188,
+      "plant2": 100
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 837,
+    "fields": {
+      "plant1": 188,
+      "plant2": 118
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 838,
+    "fields": {
+      "plant1": 188,
+      "plant2": 135
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 839,
+    "fields": {
+      "plant1": 190,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 840,
+    "fields": {
+      "plant1": 190,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 841,
+    "fields": {
+      "plant1": 190,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 842,
+    "fields": {
+      "plant1": 190,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 843,
+    "fields": {
+      "plant1": 190,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 844,
+    "fields": {
+      "plant1": 190,
+      "plant2": 167
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 845,
+    "fields": {
+      "plant1": 190,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 846,
+    "fields": {
+      "plant1": 190,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 847,
+    "fields": {
+      "plant1": 190,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 848,
+    "fields": {
+      "plant1": 190,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 849,
+    "fields": {
+      "plant1": 190,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 850,
+    "fields": {
+      "plant1": 190,
+      "plant2": 115
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 851,
+    "fields": {
+      "plant1": 190,
+      "plant2": 212
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 852,
+    "fields": {
+      "plant1": 191,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 853,
+    "fields": {
+      "plant1": 191,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 854,
+    "fields": {
+      "plant1": 191,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 855,
+    "fields": {
+      "plant1": 191,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 856,
+    "fields": {
+      "plant1": 191,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 857,
+    "fields": {
+      "plant1": 191,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 858,
+    "fields": {
+      "plant1": 191,
+      "plant2": 112
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 859,
+    "fields": {
+      "plant1": 192,
+      "plant2": 112
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 860,
+    "fields": {
+      "plant1": 194,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 861,
+    "fields": {
+      "plant1": 194,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 862,
+    "fields": {
+      "plant1": 194,
+      "plant2": 5
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 863,
+    "fields": {
+      "plant1": 194,
+      "plant2": 60
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 864,
+    "fields": {
+      "plant1": 194,
+      "plant2": 115
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 865,
+    "fields": {
+      "plant1": 195,
+      "plant2": 121
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 866,
+    "fields": {
+      "plant1": 195,
+      "plant2": 139
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 867,
+    "fields": {
+      "plant1": 195,
+      "plant2": 145
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 868,
+    "fields": {
+      "plant1": 195,
+      "plant2": 171
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 869,
+    "fields": {
+      "plant1": 195,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 870,
+    "fields": {
+      "plant1": 195,
+      "plant2": 83
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 871,
+    "fields": {
+      "plant1": 195,
+      "plant2": 167
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 872,
+    "fields": {
+      "plant1": 195,
+      "plant2": 168
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 873,
+    "fields": {
+      "plant1": 195,
+      "plant2": 169
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 874,
+    "fields": {
+      "plant1": 195,
+      "plant2": 176
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 875,
+    "fields": {
+      "plant1": 195,
+      "plant2": 84
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 876,
+    "fields": {
+      "plant1": 195,
+      "plant2": 87
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 877,
+    "fields": {
+      "plant1": 195,
+      "plant2": 213
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 878,
+    "fields": {
+      "plant1": 195,
+      "plant2": 214
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 879,
+    "fields": {
+      "plant1": 195,
+      "plant2": 215
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 880,
+    "fields": {
+      "plant1": 196,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 881,
+    "fields": {
+      "plant1": 196,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 882,
+    "fields": {
+      "plant1": 196,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 883,
+    "fields": {
+      "plant1": 196,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 884,
+    "fields": {
+      "plant1": 196,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 885,
+    "fields": {
+      "plant1": 196,
+      "plant2": 121
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 886,
+    "fields": {
+      "plant1": 196,
+      "plant2": 139
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 887,
+    "fields": {
+      "plant1": 196,
+      "plant2": 145
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 888,
+    "fields": {
+      "plant1": 196,
+      "plant2": 213
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 889,
+    "fields": {
+      "plant1": 196,
+      "plant2": 214
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 890,
+    "fields": {
+      "plant1": 196,
+      "plant2": 215
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 891,
+    "fields": {
+      "plant1": 196,
+      "plant2": 115
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 892,
+    "fields": {
+      "plant1": 196,
+      "plant2": 182
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 893,
+    "fields": {
+      "plant1": 200,
+      "plant2": 197
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 894,
+    "fields": {
+      "plant1": 200,
+      "plant2": 205
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 895,
+    "fields": {
+      "plant1": 200,
+      "plant2": 207
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 896,
+    "fields": {
+      "plant1": 200,
+      "plant2": 223
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 897,
+    "fields": {
+      "plant1": 201,
+      "plant2": 197
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 898,
+    "fields": {
+      "plant1": 201,
+      "plant2": 205
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 899,
+    "fields": {
+      "plant1": 201,
+      "plant2": 207
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 900,
+    "fields": {
+      "plant1": 201,
+      "plant2": 223
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 901,
+    "fields": {
+      "plant1": 202,
+      "plant2": 197
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 902,
+    "fields": {
+      "plant1": 202,
+      "plant2": 205
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 903,
+    "fields": {
+      "plant1": 202,
+      "plant2": 207
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 904,
+    "fields": {
+      "plant1": 202,
+      "plant2": 223
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 905,
+    "fields": {
+      "plant1": 203,
+      "plant2": 197
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 906,
+    "fields": {
+      "plant1": 203,
+      "plant2": 205
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 907,
+    "fields": {
+      "plant1": 203,
+      "plant2": 207
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 908,
+    "fields": {
+      "plant1": 203,
+      "plant2": 223
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 909,
+    "fields": {
+      "plant1": 204,
+      "plant2": 197
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 910,
+    "fields": {
+      "plant1": 204,
+      "plant2": 205
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 911,
+    "fields": {
+      "plant1": 204,
+      "plant2": 207
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 912,
+    "fields": {
+      "plant1": 204,
+      "plant2": 223
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 913,
+    "fields": {
+      "plant1": 206,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 914,
+    "fields": {
+      "plant1": 206,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 915,
+    "fields": {
+      "plant1": 206,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 916,
+    "fields": {
+      "plant1": 206,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 917,
+    "fields": {
+      "plant1": 206,
+      "plant2": 121
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 918,
+    "fields": {
+      "plant1": 206,
+      "plant2": 139
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 919,
+    "fields": {
+      "plant1": 206,
+      "plant2": 145
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 920,
+    "fields": {
+      "plant1": 206,
+      "plant2": 74
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 921,
+    "fields": {
+      "plant1": 206,
+      "plant2": 95
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 922,
+    "fields": {
+      "plant1": 206,
+      "plant2": 171
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 923,
+    "fields": {
+      "plant1": 206,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 924,
+    "fields": {
+      "plant1": 206,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 925,
+    "fields": {
+      "plant1": 206,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 926,
+    "fields": {
+      "plant1": 206,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 927,
+    "fields": {
+      "plant1": 206,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 928,
+    "fields": {
+      "plant1": 206,
+      "plant2": 140
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 929,
+    "fields": {
+      "plant1": 208,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 930,
+    "fields": {
+      "plant1": 208,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 931,
+    "fields": {
+      "plant1": 208,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 932,
+    "fields": {
+      "plant1": 208,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 933,
+    "fields": {
+      "plant1": 208,
+      "plant2": 121
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 934,
+    "fields": {
+      "plant1": 208,
+      "plant2": 139
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 935,
+    "fields": {
+      "plant1": 208,
+      "plant2": 145
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 936,
+    "fields": {
+      "plant1": 208,
+      "plant2": 74
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 937,
+    "fields": {
+      "plant1": 208,
+      "plant2": 95
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 938,
+    "fields": {
+      "plant1": 208,
+      "plant2": 171
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 939,
+    "fields": {
+      "plant1": 208,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 940,
+    "fields": {
+      "plant1": 208,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 941,
+    "fields": {
+      "plant1": 208,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 942,
+    "fields": {
+      "plant1": 208,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 943,
+    "fields": {
+      "plant1": 208,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 944,
+    "fields": {
+      "plant1": 208,
+      "plant2": 140
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 945,
+    "fields": {
+      "plant1": 209,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 946,
+    "fields": {
+      "plant1": 209,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 947,
+    "fields": {
+      "plant1": 209,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 948,
+    "fields": {
+      "plant1": 209,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 949,
+    "fields": {
+      "plant1": 209,
+      "plant2": 121
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 950,
+    "fields": {
+      "plant1": 209,
+      "plant2": 139
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 951,
+    "fields": {
+      "plant1": 209,
+      "plant2": 145
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 952,
+    "fields": {
+      "plant1": 209,
+      "plant2": 74
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 953,
+    "fields": {
+      "plant1": 209,
+      "plant2": 95
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 954,
+    "fields": {
+      "plant1": 209,
+      "plant2": 171
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 955,
+    "fields": {
+      "plant1": 209,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 956,
+    "fields": {
+      "plant1": 209,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 957,
+    "fields": {
+      "plant1": 209,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 958,
+    "fields": {
+      "plant1": 209,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 959,
+    "fields": {
+      "plant1": 209,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 960,
+    "fields": {
+      "plant1": 209,
+      "plant2": 140
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 961,
+    "fields": {
+      "plant1": 210,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 962,
+    "fields": {
+      "plant1": 210,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 963,
+    "fields": {
+      "plant1": 210,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 964,
+    "fields": {
+      "plant1": 210,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 965,
+    "fields": {
+      "plant1": 210,
+      "plant2": 121
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 966,
+    "fields": {
+      "plant1": 210,
+      "plant2": 139
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 967,
+    "fields": {
+      "plant1": 210,
+      "plant2": 145
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 968,
+    "fields": {
+      "plant1": 210,
+      "plant2": 74
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 969,
+    "fields": {
+      "plant1": 210,
+      "plant2": 95
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 970,
+    "fields": {
+      "plant1": 210,
+      "plant2": 171
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 971,
+    "fields": {
+      "plant1": 210,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 972,
+    "fields": {
+      "plant1": 210,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 973,
+    "fields": {
+      "plant1": 210,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 974,
+    "fields": {
+      "plant1": 210,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 975,
+    "fields": {
+      "plant1": 210,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 976,
+    "fields": {
+      "plant1": 210,
+      "plant2": 140
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 977,
+    "fields": {
+      "plant1": 211,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 978,
+    "fields": {
+      "plant1": 211,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 979,
+    "fields": {
+      "plant1": 211,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 980,
+    "fields": {
+      "plant1": 211,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 981,
+    "fields": {
+      "plant1": 211,
+      "plant2": 121
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 982,
+    "fields": {
+      "plant1": 211,
+      "plant2": 139
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 983,
+    "fields": {
+      "plant1": 211,
+      "plant2": 145
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 984,
+    "fields": {
+      "plant1": 211,
+      "plant2": 74
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 985,
+    "fields": {
+      "plant1": 211,
+      "plant2": 95
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 986,
+    "fields": {
+      "plant1": 211,
+      "plant2": 171
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 987,
+    "fields": {
+      "plant1": 211,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 988,
+    "fields": {
+      "plant1": 211,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 989,
+    "fields": {
+      "plant1": 211,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 990,
+    "fields": {
+      "plant1": 211,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 991,
+    "fields": {
+      "plant1": 211,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 992,
+    "fields": {
+      "plant1": 211,
+      "plant2": 140
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 993,
+    "fields": {
+      "plant1": 213,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 994,
+    "fields": {
+      "plant1": 213,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 995,
+    "fields": {
+      "plant1": 213,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 996,
+    "fields": {
+      "plant1": 213,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 997,
+    "fields": {
+      "plant1": 213,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 998,
+    "fields": {
+      "plant1": 213,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 999,
+    "fields": {
+      "plant1": 213,
+      "plant2": 91
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1000,
+    "fields": {
+      "plant1": 213,
+      "plant2": 116
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1001,
+    "fields": {
+      "plant1": 213,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1002,
+    "fields": {
+      "plant1": 213,
+      "plant2": 193
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1003,
+    "fields": {
+      "plant1": 214,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1004,
+    "fields": {
+      "plant1": 214,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1005,
+    "fields": {
+      "plant1": 214,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1006,
+    "fields": {
+      "plant1": 214,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1007,
+    "fields": {
+      "plant1": 214,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1008,
+    "fields": {
+      "plant1": 214,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1009,
+    "fields": {
+      "plant1": 214,
+      "plant2": 91
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1010,
+    "fields": {
+      "plant1": 214,
+      "plant2": 116
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1011,
+    "fields": {
+      "plant1": 214,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1012,
+    "fields": {
+      "plant1": 214,
+      "plant2": 193
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1013,
+    "fields": {
+      "plant1": 215,
+      "plant2": 170
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1014,
+    "fields": {
+      "plant1": 215,
+      "plant2": 200
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1015,
+    "fields": {
+      "plant1": 215,
+      "plant2": 201
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1016,
+    "fields": {
+      "plant1": 215,
+      "plant2": 202
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1017,
+    "fields": {
+      "plant1": 215,
+      "plant2": 203
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1018,
+    "fields": {
+      "plant1": 215,
+      "plant2": 204
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1019,
+    "fields": {
+      "plant1": 215,
+      "plant2": 91
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1020,
+    "fields": {
+      "plant1": 215,
+      "plant2": 116
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1021,
+    "fields": {
+      "plant1": 215,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1022,
+    "fields": {
+      "plant1": 215,
+      "plant2": 193
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1023,
+    "fields": {
+      "plant1": 216,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1024,
+    "fields": {
+      "plant1": 216,
+      "plant2": 41
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1025,
+    "fields": {
+      "plant1": 216,
+      "plant2": 15
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1026,
+    "fields": {
+      "plant1": 216,
+      "plant2": 83
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1027,
+    "fields": {
+      "plant1": 217,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1028,
+    "fields": {
+      "plant1": 217,
+      "plant2": 41
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1029,
+    "fields": {
+      "plant1": 217,
+      "plant2": 15
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1030,
+    "fields": {
+      "plant1": 217,
+      "plant2": 83
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1031,
+    "fields": {
+      "plant1": 218,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1032,
+    "fields": {
+      "plant1": 218,
+      "plant2": 41
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1033,
+    "fields": {
+      "plant1": 218,
+      "plant2": 15
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1034,
+    "fields": {
+      "plant1": 218,
+      "plant2": 83
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1035,
+    "fields": {
+      "plant1": 219,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1036,
+    "fields": {
+      "plant1": 219,
+      "plant2": 105
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1037,
+    "fields": {
+      "plant1": 219,
+      "plant2": 118
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1038,
+    "fields": {
+      "plant1": 221,
+      "plant2": 183
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1039,
+    "fields": {
+      "plant1": 221,
+      "plant2": 184
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1040,
+    "fields": {
+      "plant1": 221,
+      "plant2": 185
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1041,
+    "fields": {
+      "plant1": 221,
+      "plant2": 194
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1042,
+    "fields": {
+      "plant1": 221,
+      "plant2": 198
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1043,
+    "fields": {
+      "plant1": 222,
+      "plant2": 32
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1044,
+    "fields": {
+      "plant1": 222,
+      "plant2": 116
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1045,
+    "fields": {
+      "plant1": 222,
+      "plant2": 226
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1046,
+    "fields": {
+      "plant1": 227,
+      "plant2": 187
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1047,
+    "fields": {
+      "plant1": 227,
+      "plant2": 164
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1048,
+    "fields": {
+      "plant1": 229,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1049,
+    "fields": {
+      "plant1": 229,
+      "plant2": 41
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1050,
+    "fields": {
+      "plant1": 229,
+      "plant2": 15
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1051,
+    "fields": {
+      "plant1": 229,
+      "plant2": 83
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1052,
+    "fields": {
+      "plant1": 230,
+      "plant2": 180
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1053,
+    "fields": {
+      "plant1": 230,
+      "plant2": 41
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1054,
+    "fields": {
+      "plant1": 230,
+      "plant2": 15
+    }
+  },
+  {
+    "model": "gardenapi.companionpairing",
+    "pk": 1055,
+    "fields": {
+      "plant1": 230,
+      "plant2": 83
     }
   }
 ]
