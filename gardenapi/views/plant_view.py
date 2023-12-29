@@ -66,6 +66,12 @@ class PlantSerializer(serializers.ModelSerializer):
         # Serialize the companions
         companion_serializer = PlantCompanionSerializer(companions, many=True)
         return companion_serializer.data
+    
+class PlantListSerializer(serializers.ModelSerializer):
+    type = PlantTypeSerializer(many=False)
+    class Meta:
+        model = Plant
+        fields = ['id', 'name', 'description', 'type', 'veggie_cat', 'annual', 'image']
 
 
 class PlantViewSet(ViewSet):
@@ -80,7 +86,7 @@ class PlantViewSet(ViewSet):
 
     def list(self, request):
         plants = Plant.objects.all()
-        serializer = PlantSerializer(plants, many=True, context={"request": request})
+        serializer = PlantListSerializer(plants, many=True, context={"request": request})
         return Response(serializer.data)
 
     def create(self, request):

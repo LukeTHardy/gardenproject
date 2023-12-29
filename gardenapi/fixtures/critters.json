@@ -4,13 +4,13 @@
     "pk": 1,
     "fields": {
       "user": 1,
-      "name": "Aphid",
-      "image": "images/critters/aphid.png",
-      "description": "A description of my critter",
-      "size": 0.1,
+      "name": "Tomato Hornworm",
+      "image": "images/critters/tomato_hornworm.png",
+      "description": "The Tomato Hornworm is a large green caterpillar that can be detrimental to tomato plants. Identified by its horn-like protrusion, it feeds on tomato leaves and fruit. Regular inspection of tomato plants is advised to control and remove these pests manually.",
+      "size": 4,
       "type": 1,
       "insect": true,
-      "management": "Management details"
+      "management": "Regularly inspect plants and handpick the caterpillars. Remove from plant and fling that funky little bitch into the next zipcode. Encourage natural predators like parasitic wasps to control their population."
     }
   },
   {
@@ -18,13 +18,13 @@
     "pk": 2,
     "fields": {
       "user": 1,
-      "name": "Ladybug",
-      "image": "images/critters/ladybug.jpeg",
-      "description": "A description of my critter",
-      "size": 0.5,
+      "name": "Tobacco Hornworm",
+      "image": "images/critters/tobacco_hornworm.webp",
+      "description": "Similar in appearance to the Tomato Hornworm, the Tobacco Hornworm is another caterpillar species that can damage tomato and tobacco plants. These pests consume foliage and can be controlled through vigilant monitoring and manual removal.",
+      "size": 4,
       "type": 1,
       "insect": true,
-      "management": "Management details"
+      "management": "Chuck it in the neighbor's yard, or feed it to your chickens. Control tobacco hornworms by manually removing them from plants and using Bacillus thuringiensis (Bt) for effective natural control."
     }
   },
   {
@@ -32,13 +32,13 @@
     "pk": 3,
     "fields": {
       "user": 1,
-      "name": "Black Swallowtail Butterfly",
-      "image": "images/critters/black_swallowtail_butterfly.png",
-      "description": "A description of my critter",
-      "size": 0.5,
-      "type": 2,
+      "name": "Monarch Caterpillar",
+      "image": "images/critters/monarch_caterpillar.png",
+      "description": "The Monarch Caterpillar is a beneficial insect that feeds exclusively on milkweed plants. As a crucial stage in the life cycle of Monarch butterflies, encouraging the presence of these caterpillars by planting milkweed supports butterfly populations in the garden.",
+      "size": 2.5,
+      "type": 3,
       "insect": true,
-      "management": "Management details"
+      "management": "Attract monarch caterpillars by avoiding pesticide use and providing milkweed plants. These are your new best friends.  You will do everything you can to give them a good life. If they say jump you say how high. If they eat all your milkweed, you drive around until you find more in someone's yard and you bring it home for them, no questions asked."
     }
   },
   {
@@ -46,13 +46,13 @@
     "pk": 4,
     "fields": {
       "user": 1,
-      "name": "Boxelder Bug",
-      "image": "images/critters/boxelder_bug.png",
-      "description": "A description of my critter",
-      "size": 0.5,
-      "type": 2,
+      "name": "Aphid",
+      "image": "images/critters/aphid.png",
+      "description": "Aphids are small, soft-bodied insects that can be both harmful and beneficial. While they can damage plants by feeding on sap, they also attract natural predators like ladybugs and parasitic wasps. Regularly inspecting plants for aphid infestations helps maintain a balanced garden ecosystem.",
+      "size": 0.1,
+      "type": 1,
       "insect": true,
-      "management": "Management details"
+      "management": "Combat aphids by using insecticidal soap, neem oil, or introducing natural predators such as ladybugs, lacewings, and parasitic wasps."
     }
   },
   {
@@ -60,13 +60,13 @@
     "pk": 5,
     "fields": {
       "user": 1,
-      "name": "Braconid Wasp",
-      "image": "images/critters/braconid_wasp.png",
-      "description": "A description of my critter",
+      "name": "Cucumber Beetle",
+      "image": "images/critters/cucumber_beetle.jpeg",
+      "description": "Cucumber Beetles are pests that can damage cucumber and squash plants by feeding on leaves and transmitting bacterial wilt. Employing companion planting strategies, such as planting radishes or marigolds, can help deter these beetles and protect vulnerable crops.",
       "size": 0.5,
-      "type": 3,
+      "type": 1,
       "insect": true,
-      "management": "Management details"
+      "management": "Implement the use of row covers, crop rotation, and beneficial nematodes. Attract predators with companion planting, such as dill."
     }
   },
   {
@@ -74,13 +74,1189 @@
     "pk": 6,
     "fields": {
       "user": 1,
-      "name": "Bumblebee",
-      "image": "images/critters/bumblebee.png",
-      "description": "A description of my critter",
+      "name": "Slug",
+      "image": "images/critters/slug.png",
+      "description": "Slugs are mollusks that feed on a variety of plants, particularly those with tender foliage. They are notorious for eating new seedlings and sprouts. Applying physical barriers like copper tape or using beer traps can help control slug populations in the garden.",
+      "size": 1,
+      "type": 1,
+      "insect": true,
+      "management": "Manage slugs through methods like diatomaceous earth, copper barriers, and manual removal. Create habitats for ground beetles and toads to encourage natural predation."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 7,
+    "fields": {
+      "user": 1,
+      "name": "Japanese Beetle",
+      "image": "images/critters/japanese_beetle.jpeg",
+      "description": "Japanese Beetles are destructive pests that feed on a wide range of plants, including roses and grapes. Handpicking and applying neem oil can help manage Japanese Beetle populations, while planting resistant species can reduce the risk of infestation.",
+      "size": 0.5,
+      "type": 1,
+      "insect": true,
+      "management": "Control Japanese beetles by handpicking, using traps, and applying neem oil. Attract birds that feed on beetles to enhance natural control."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 8,
+    "fields": {
+      "user": 1,
+      "name": "June Bug",
+      "image": "images/critters/june_bug.png",
+      "description": "June Bugs, also known as May beetles, are nocturnal beetles that can feed on foliage, flowers, and fruits. While they can be a nuisance, they generally do not cause significant damage to plants. Attracting natural predators, such as birds, can help control their numbers.",
+      "size": 0.5,
+      "type": 1,
+      "insect": true,
+      "management": "Employ pheromone traps, handpicking, and beneficial nematodes to manage June bugs. Attract birds to the garden for natural control."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 9,
+    "fields": {
+      "user": 1,
+      "name": "Green June Beetle",
+      "image": "images/critters/green_june_beetle.png",
+      "description": "Green June Beetles are large beetles that can damage turfgrass and ripe fruits like peaches and figs. Using pheromone traps and practicing good garden hygiene can help manage these beetles and protect vulnerable crops.",
+      "size": 1,
+      "type": 1,
+      "insect": true,
+      "management": "Handpick adult green June beetles, use traps, and apply beneficial nematodes for larvae control. Attract birds to aid in natural control."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 10,
+    "fields": {
+      "user": 1,
+      "name": "Earwig",
+      "image": "images/critters/earwig.png",
+      "description": "Earwigs are omnivorous insects that can feed on both harmful and beneficial garden pests. While they may damage young seedlings, they are also known to consume aphids and mites. Providing shelter, such as overturned flowerpots, can attract earwigs to specific areas.",
+      "size": 0.75,
+      "type": 2,
+      "insect": true,
+      "management": "Use oil-filled traps, reduce hiding spots, and apply diatomaceous earth to manage earwigs. Create damp areas and provide mulch for natural predator habitats."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 11,
+    "fields": {
+      "user": 1,
+      "name": "Snail",
+      "image": "images/critters/snail.png",
+      "description": "Snails are mollusks that can be harmful to plants by feeding on leaves and stems. Their feeding habits can lead to damage, particularly in moist conditions. Using physical barriers like copper tape or diatomaceous earth can help control snail populations.",
+      "size": 2,
+      "type": 1,
+      "insect": true,
+      "management": "Control snails by handpicking, using barriers, and applying iron phosphate bait. Attract natural predators like birds and ground beetles."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 12,
+    "fields": {
+      "user": 1,
+      "name": "Ladybug",
+      "image": "images/critters/ladybug.jpeg",
+      "description": "Ladybugs are beneficial insects that prey on aphids and other harmful pests. Encouraging ladybugs in the garden can be achieved by planting nectar-rich flowers and avoiding the use of broad-spectrum pesticides that may harm these natural predators.",
+      "size": 0.25,
+      "type": 3,
+      "insect": true,
+      "management": "Encourage ladybugs in the garden by avoiding pesticides, releasing ladybugs, and planting pollen-rich flowers."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 13,
+    "fields": {
+      "user": 1,
+      "name": "Ladybug Larva",
+      "image": "images/critters/ladybug_larva.png",
+      "description": "The larval stage of ladybugs is equally beneficial in controlling aphid populations. Ladybug larvae resemble small, spiky alligators and can consume large numbers of aphids daily. Identifying and protecting ladybug larvae helps ensure their contribution to natural pest control.",
+      "size": 0.375,
+      "type": 3,
+      "insect": true,
+      "management": "Support ladybug larvae by providing diverse plantings and avoiding the use of pesticides."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 14,
+    "fields": {
+      "user": 1,
+      "name": "Praying Mantis",
+      "image": "images/critters/praying_mantis.png",
+      "description": "Praying Mantises are predatory insects that feed on a variety of garden pests. Considered beneficial for natural pest control, these insects are attracted to gardens with diverse plantings and can help keep populations of harmful insects in check.",
+      "size": 4,
+      "type": 3,
+      "insect": true,
+      "management": "Attract praying mantises by avoiding broad-spectrum pesticides, releasing mantis egg cases, and planting diverse flowers and herbs."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 15,
+    "fields": {
+      "user": 1,
+      "name": "Leafhopper",
+      "image": "images/critters/leafhopper.png",
+      "description": "Leafhoppers are small, jumping insects that can transmit plant diseases by feeding on plant sap. They are attracted to a wide range of plants, and controlling them may involve using reflective mulches or introducing natural predators.",
+      "size": 0.25,
+      "type": 1,
+      "insect": true,
+      "management": "Attract beneficial insects like lacewings and control leafhoppers by planting flowers such as marigolds and daisies."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 16,
+    "fields": {
+      "user": 1,
+      "name": "Little Black Ant",
+      "image": "images/critters/little_black_ant.png",
+      "description": "Little Black Ants can be both beneficial and invasive, depending on the context. While they are generally not harmful to plants, they may protect honeydew-producing insects like aphids. Controlling ant colonies near plants vulnerable to honeydew-related issues may be necessary.",
+      "size": 0.0625,
+      "type": 2,
+      "insect": true,
+      "management": "Manage little black ants with bait traps, sealing entry points, and removing food sources."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 17,
+    "fields": {
+      "user": 1,
+      "name": "Carpenter Ant",
+      "image": "images/critters/carpenter_ant.png",
+      "description": "Carpenter Ants are primarily wood-damaging insects that do not feed on plants. However, they can nest in decaying wood in the garden. Identifying and addressing conditions that promote decay can help prevent carpenter ant-related damage.",
+      "size": 0.375,
+      "type": 3,
+      "insect": true,
+      "management": "Locate and remove carpenter ant nests, use bait traps, and reduce moisture to control their population."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 18,
+    "fields": {
+      "user": 1,
+      "name": "Fire Ant",
+      "image": "images/critters/fire_ant.png",
+      "description": "Fire Ants are aggressive stinging insects that can pose a threat to gardeners. While they do not directly damage plants, their presence can be a concern for those working in the garden. Applying ant baits or using biological controls can help manage fire ant colonies.",
+      "size": 0.2,
+      "type": 1,
+      "insect": true,
+      "management": "Control fire ants with bait treatments, insecticidal soap, and diatomaceous earth. Minimize open food sources in the garden."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 19,
+    "fields": {
+      "user": 1,
+      "name": "Grasshopper",
+      "image": "images/critters/grasshopper.png",
+      "description": "Grasshoppers are herbivorous insects that can consume large amounts of foliage, posing a threat to crops. Implementing physical barriers, such as row covers, and introducing natural predators like birds can help control grasshopper populations.",
+      "size": 2,
+      "type": 1,
+      "insect": true,
+      "management": "Use barriers, handpick nymphs, and attract birds with bird feeders to manage grasshopper populations."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 20,
+    "fields": {
+      "user": 1,
+      "name": "Tomato Fruitworm",
+      "image": "images/critters/tomato_fruitworm.png",
+      "description": "The Tomato Fruitworm, also known as the Corn Earworm, is a caterpillar that can damage tomato fruits and other crops. Monitoring plants regularly and applying organic insecticides can help manage fruitworm infestations and protect garden produce.",
+      "size": 1.25,
+      "type": 1,
+      "insect": true,
+      "management": "Control tomato fruitworms through handpicking, using row covers, and applying Bacillus thuringiensis (Bt). Attract predators with companion planting."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 21,
+    "fields": {
+      "user": 1,
+      "name": "Cutworm",
+      "image": "images/critters/cutworm.png",
+      "description": "Cutworms are moth larvae that can cut through young seedlings near the soil surface, causing damage to various plants such as tomatoes and cabbage. Protective measures, such as collars around young plants, can help prevent cutworm damage in the garden.",
+      "size": 1.5,
+      "type": 1,
+      "insect": true,
+      "management": "Control cutworms by implementing preventive measures such as using collars around young plants and applying biological insecticides."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 22,
+    "fields": {
+      "user": 1,
+      "name": "Soldier Fly",
+      "image": "images/critters/soldier_fly.png",
+      "description": "Soldier flies are beneficial insects that aid in composting by breaking down organic matter. They are not harmful to plants and can be considered allies in maintaining a healthy garden ecosystem. Encouraging composting practices can attract soldier flies to the garden.",
+      "size": 0.75,
+      "type": 3,
+      "insect": true,
+      "management": "Attract soldier flies by maintaining compost piles and organic matter, contributing to natural decomposition processes in the garden."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 23,
+    "fields": {
+      "user": 1,
+      "name": "Thrip",
+      "image": "images/critters/thrip.webp",
+      "description": "Thrips are small, slender insects that feed on plant sap and can damage leaves, flowers, and fruits. They may be found on a variety of plants, and controlling their population may involve using insecticidal soap or introducing natural predators like predatory mites.",
+      "size": 0.1,
+      "type": 1,
+      "insect": true,
+      "management": "Manage thrips with strategies like introducing predatory insects, using neem oil, and applying insecticidal soap to control infestations."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 24,
+    "fields": {
+      "user": 1,
+      "name": "Spider Mite",
+      "image": "images/critters/spider_mite.png",
+      "description": "Spider mites are tiny arachnids that can infest the undersides of leaves, causing stippling and discoloration. They are harmful to a wide range of plants, and managing their populations may involve regular monitoring, pruning affected leaves, and using neem oil.",
+      "size": 0.015,
+      "type": 1,
+      "insect": true,
+      "management": "Control spider mites by spraying plants with a strong stream of water, applying insecticidal soap, and introducing predatory mites."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 25,
+    "fields": {
+      "user": 1,
+      "name": "Scale",
+      "image": "images/critters/scale.png",
+      "description": "Scales are small, immobile insects that attach themselves to plant stems and branches, sucking sap and causing damage. They can be found on various plants, and controlling scale insects may involve using horticultural oils or introducing natural predators like ladybugs.",
+      "size": 0.25,
+      "type": 1,
+      "insect": true,
+      "management": "Manage scale insects by pruning infested branches, applying horticultural oil, and introducing natural predators like ladybugs."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 26,
+    "fields": {
+      "user": 1,
+      "name": "Whitefly",
+      "image": "images/critters/whitefly.png",
+      "description": "Whiteflies are small, flying insects that feed on plant sap, leading to yellowing and distortion of leaves. They can be problematic for many plants, and controlling whiteflies may involve using insecticidal soap, neem oil, or introducing natural predators like parasitic wasps.",
+      "size": 0.125,
+      "type": 1,
+      "insect": true,
+      "management": "Control whiteflies using insecticidal soap, releasing natural enemies like parasitic wasps, and using reflective mulches to deter them."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 27,
+    "fields": {
+      "user": 1,
+      "name": "Fungus Gnat",
+      "image": "images/critters/fungus_gnat.png",
+      "description": "Fungus gnats are small flying insects that can be found around damp soil and can harm seedlings and young plants. Yellow sticky traps and allowing the soil to dry out between waterings can help control fungus gnat populations in the garden.",
+      "size": 0.1,
+      "type": 1,
+      "insect": true,
+      "management": "Manage fungus gnats by allowing the soil to dry between watering, using yellow sticky traps, and applying beneficial nematodes to control larvae."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 28,
+    "fields": {
+      "user": 1,
+      "name": "Mealybug",
+      "image": "images/critters/mealybug.png",
+      "description": "Mealybugs are soft-bodied insects that feed on plant sap and can cause stunted growth and yellowing of leaves. They may be found on a variety of plants, and controlling mealybugs may involve using insecticidal soap or introducing natural predators like ladybugs.",
+      "size": 0.125,
+      "type": 1,
+      "insect": true,
+      "management": "Control mealybugs with a solution of water and dish soap, introducing natural predators like ladybugs, and pruning infested plant parts."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 29,
+    "fields": {
+      "user": 1,
+      "name": "Lacewing",
+      "image": "images/critters/lacewing.png",
+      "description": "Lacewings are beneficial insects that prey on aphids, thrips, and other harmful pests. They are attracted to gardens with diverse plantings and can help maintain a balanced ecosystem. Planting nectar-rich flowers can encourage lacewings to inhabit the garden.",
+      "size": 0.75,
+      "type": 3,
+      "insect": true,
+      "management": "Attract lacewings by planting nectar-rich flowers and avoid using broad-spectrum pesticides that harm beneficial insects."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 30,
+    "fields": {
+      "user": 1,
+      "name": "Lacewing Larva",
+      "image": "images/critters/lacewing_larva.webp",
+      "description": "The larval stage of lacewings is particularly voracious, consuming aphids and other soft-bodied pests. Recognizing and protecting lacewing larvae contributes to natural pest control in the garden, helping to manage harmful insects.",
       "size": 0.5,
       "type": 3,
       "insect": true,
-      "management": "Management details"
+      "management": "Support lacewing larvae by avoiding pesticide use and providing diverse plantings that attract their prey."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 31,
+    "fields": {
+      "user": 1,
+      "name": "Bumblebee",
+      "image": "images/critters/bumblebee.png",
+      "description": "Bumblebees are important pollinators that visit a variety of flowers, enhancing fruit and seed production. They are not harmful to plants and contribute significantly to the garden ecosystem. Providing nectar-rich flowers supports bumblebees and other pollinators.",
+      "size": 0.8,
+      "type": 3,
+      "insect": true,
+      "management": "Attract bumblebees by planting a variety of flowers, especially those with tubular shapes, and avoiding the use of pesticides harmful to bees."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 32,
+    "fields": {
+      "user": 1,
+      "name": "Honeybee",
+      "image": "images/critters/honeybee.png",
+      "description": "Honeybees are crucial pollinators that visit a wide range of flowers, contributing to the production of fruits, vegetables, and seeds. They play a vital role in the garden ecosystem, and creating a bee-friendly garden with diverse blooms helps support honeybee populations.",
+      "size": 0.5,
+      "type": 3,
+      "insect": true,
+      "management": "Support honeybees by planting bee-friendly flowers, avoiding pesticides, and providing a water source for them."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 33,
+    "fields": {
+      "user": 1,
+      "name": "Yellowjacket",
+      "image": "images/critters/yellowjacket.png",
+      "description": "Yellow jackets are aggressive wasps that may scavenge for food around plants but are generally not harmful to garden plants. However, they can become a nuisance, especially in late summer. Proper waste management and avoiding sweet baits can help minimize their presence.",
+      "size": 0.5,
+      "type": 2,
+      "insect": true,
+      "management": "Control yellow jackets by removing food sources, using traps, and sealing entry points to nests."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 34,
+    "fields": {
+      "user": 1,
+      "name": "Carpenter Bee",
+      "image": "images/critters/carpenter_bee.png",
+      "description": "Carpenter bees are solitary pollinators that may nest in wood structures but are not harmful to garden plants. They are important contributors to pollination and can be encouraged by providing untreated wood for nesting.",
+      "size": 0.8,
+      "type": 3,
+      "insect": true,
+      "management": "Manage carpenter bees by filling or sealing their nesting holes and using residual insecticidal dust."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 35,
+    "fields": {
+      "user": 1,
+      "name": "Hornet",
+      "image": "images/critters/hornet.png",
+      "description": "Hornets are aggressive wasps that can be territorial but are not harmful to garden plants. While they may pose a threat to humans, their impact on the garden ecosystem is limited. Nest removal may be necessary if their presence becomes a concern.",
+      "size": 1,
+      "type": 2,
+      "insect": true,
+      "management": "Control hornets by eliminating food sources, using traps, and addressing nest locations with professional assistance."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 36,
+    "fields": {
+      "user": 1,
+      "name": "Squash Bug",
+      "image": "images/critters/squash_bug.webp",
+      "description": "Squash bugs are pests that feed on the sap of squash and pumpkin plants, causing damage to leaves and fruits. Regular inspection, handpicking, and the use of insecticidal soap can help manage squash bug populations in the garden.",
+      "size": 0.625,
+      "type": 1,
+      "insect": true,
+      "management": "Manage squash bugs by handpicking, using row covers, and planting companion plants like radishes to deter them."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 37,
+    "fields": {
+      "user": 1,
+      "name": "Stink Bug",
+      "image": "images/critters/stink_bug.png",
+      "description": "Stink bugs are pests that can damage fruits, vegetables, and ornamental plants by piercing and sucking sap. They are attracted to a variety of crops, and controlling stink bugs may involve using insecticidal soap or introducing natural predators.",
+      "size": 0.625,
+      "type": 1,
+      "insect": true,
+      "management": "Control stink bugs by handpicking, using neem oil, and releasing natural predators like parasitic wasps."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 38,
+    "fields": {
+      "user": 1,
+      "name": "Mason Bee",
+      "image": "images/critters/mason_bee.png",
+      "description": "Mason bees are solitary pollinators that nest in pre-existing holes or tubes. They are not harmful to plants and contribute to pollination. Providing mason bee houses and protecting their nesting sites can encourage these beneficial insects.",
+      "size": 0.5,
+      "type": 3,
+      "insect": true,
+      "management": "Support mason bees by providing nesting materials and constructing or purchasing bee houses."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 39,
+    "fields": {
+      "user": 1,
+      "name": "Hover Fly",
+      "image": "images/critters/hover_fly.png",
+      "description": "Hover flies, also known as syrphid flies, are beneficial insects that feed on aphids and other harmful pests. They are important pollinators and can be attracted to the garden by planting nectar-rich flowers.",
+      "size": 0.5,
+      "type": 3,
+      "insect": true,
+      "management": "Attract hover flies by planting a diverse range of flowers, especially those with flat-topped clusters."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 40,
+    "fields": {
+      "user": 1,
+      "name": "Sweat Bee",
+      "image": "images/critters/sweat_bee.png",
+      "description": "Sweat bees are pollinators that are attracted to human sweat but are not harmful to garden plants. They contribute to the pollination of various flowers, and providing a diverse array of blooms can attract and support sweat bee populations in the garden.",
+      "size": 0.375,
+      "type": 3,
+      "insect": true,
+      "management": "Support sweat bees by providing a variety of flowers and avoiding the use of broad-spectrum pesticides harmful to pollinators."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 41,
+    "fields": {
+      "user": 1,
+      "name": "Soldier Beetle",
+      "image": "images/critters/soldier_beetle.png",
+      "description": "Soldier beetles are beneficial insects that feed on harmful pests like aphids and caterpillars. They are not harmful to plants and can be considered allies in pest control. Attracting soldier beetles to the garden can help maintain a balanced ecosystem.",
+      "size": 0.5,
+      "type": 3,
+      "insect": true,
+      "management": "Attract soldier beetles by planting nectar-rich flowers and provide habitats for their larvae, which feed on harmful insects."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 42,
+    "fields": {
+      "user": 1,
+      "name": "Firefly",
+      "image": "images/critters/firefly.png",
+      "description": "Fireflies, or lightning bugs, are harmless insects that contribute to the garden's enchanting atmosphere with their bioluminescent glow. They do not harm plants and are appreciated for their beauty. Providing a habitat with tall grasses and avoiding pesticide use helps support firefly populations.",
+      "size": 0.75,
+      "type": 3,
+      "insect": true,
+      "management": "Attract fireflies by reducing light pollution, preserving natural habitats, and avoiding the use of pesticides harmful to these beneficial insects."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 43,
+    "fields": {
+      "user": 1,
+      "name": "Braconid Wasp",
+      "image": "images/critters/braconid_wasp.png",
+      "description": "Braconid wasps are parasitic insects that lay their eggs on harmful caterpillars, helping to control their populations. They are beneficial to gardens and are attracted to nectar-rich flowers. Encouraging a diverse range of flowering plants can attract and support braconid wasps.",
+      "size": 0.25,
+      "type": 3,
+      "insect": true,
+      "management": "Attract braconid wasps by planting nectar-rich flowers and support their role in biological control by avoiding broad-spectrum pesticides."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 44,
+    "fields": {
+      "user": 1,
+      "name": "Wolf Spider",
+      "image": "images/critters/wolf_spider.png",
+      "description": "Wolf spiders are ground-dwelling predators that feed on insects in the garden. They are not harmful to plants and contribute to natural pest control. Maintaining a diverse garden habitat with ground cover and avoiding excessive pesticide use can encourage wolf spiders.",
+      "size": 1,
+      "type": 3,
+      "insect": true,
+      "management": "Encourage wolf spiders in the garden by maintaining a diverse habitat with ground cover and avoiding excessive pesticide use."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 45,
+    "fields": {
+      "user": 1,
+      "name": "Grass Spider",
+      "image": "images/critters/grass_spider.png",
+      "description": "Grass spiders are beneficial predators that build funnel-shaped webs to catch insects. They do not harm plants and contribute to controlling garden pests. Encouraging these spiders by providing suitable vegetation and avoiding chemical pesticides can enhance garden biodiversity.",
+      "size": 0.75,
+      "type": 3,
+      "insect": true,
+      "management": "Attract grass spiders by providing diverse vegetation and avoiding the use of pesticides that may harm these beneficial insects."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 46,
+    "fields": {
+      "user": 1,
+      "name": "Yellow Garden Spider",
+      "image": "images/critters/yellow_garden_spider.png",
+      "description": "Yellow garden spiders, also known as orb-weavers, construct intricate webs to catch flying insects. They are not harmful to plants and contribute to natural pest control. Creating a garden habitat with a variety of plants and avoiding broad-spectrum pesticides can attract yellow garden spiders.",
+      "size": 2,
+      "type": 3,
+      "insect": true,
+      "management": "Support yellow garden spiders by maintaining a variety of plants and avoiding the use of broad-spectrum pesticides."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 47,
+    "fields": {
+      "user": 1,
+      "name": "Lynx Spider",
+      "image": "images/critters/lynx_spider.png",
+      "description": "Lynx spiders are agile hunters that do not construct webs. They feed on various insects and are not harmful to plants. Maintaining a diverse garden with ample vegetation provides a suitable habitat for lynx spiders.",
+      "size": 0.75,
+      "type": 3,
+      "insect": true,
+      "management": "Support lynx spiders by maintaining a diverse garden with ample vegetation to provide hiding spots and hunting opportunities."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 48,
+    "fields": {
+      "user": 1,
+      "name": "Jumping Spider",
+      "image": "images/critters/jumping_spider.png",
+      "description": "Jumping spiders are small, agile hunters known for their impressive leaps. They feed on insects and are not harmful to plants. Creating a garden environment with diverse vegetation and avoiding excessive pesticide use can attract jumping spiders.",
+      "size": 0.375,
+      "type": 3,
+      "insect": true,
+      "management": "Attract jumping spiders by creating a garden environment with diverse vegetation and avoiding the use of broad-spectrum pesticides."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 49,
+    "fields": {
+      "user": 1,
+      "name": "Spotted Orb Weaver",
+      "image": "images/critters/spotted_orbweaver.png",
+      "description": "Spotted orb weavers are colorful spiders that build orb-shaped webs to catch flying insects. They are not harmful to plants and contribute to natural pest control. Providing a garden habitat with diverse plants and avoiding broad-spectrum pesticides can attract spotted orb weavers.",
+      "size": 0.75,
+      "type": 3,
+      "insect": true,
+      "management": "Attract spotted orb weavers by maintaining a garden with diverse plants and providing suitable structures for web-building."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 50,
+    "fields": {
+      "user": 1,
+      "name": "Wheel Bug",
+      "image": "images/critters/wheel_bug.png",
+      "description": "Wheel bugs are predatory insects that feed on harmful pests like caterpillars and beetles. They are beneficial to gardens and do not harm plants. Encouraging a diverse garden with suitable habitats can attract and support wheel bugs.",
+      "size": 1.5,
+      "type": 3,
+      "insect": true,
+      "management": "Attract wheel bugs by maintaining a diverse garden with suitable habitats and avoiding the use of broad-spectrum pesticides."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 51,
+    "fields": {
+      "user": 1,
+      "name": "Assassin Bug",
+      "image": "images/critters/assassin_bug.png",
+      "description": "Assassin bugs are predatory insects that feed on a variety of garden pests. They are beneficial for natural pest control and do not harm plants. Providing diverse vegetation and avoiding excessive pesticide use can attract assassin bugs to the garden.",
+      "size": 0.5,
+      "type": 3,
+      "insect": true,
+      "management": "Support assassin bugs by maintaining a diverse garden with varied vegetation to provide suitable hunting grounds."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 52,
+    "fields": {
+      "user": 1,
+      "name": "Kissing Bug",
+      "image": "images/critters/kissing_bug.png",
+      "description": "Kissing bugs are blood-feeding insects that can transmit diseases to humans and animals. While they do not harm plants directly, their presence can be a concern for human health. Addressing potential entry points and practicing proper pest management is essential in areas where kissing bugs are found.",
+      "size": 0.75,
+      "type": 1,
+      "insect": true,
+      "management": "Control kissing bugs by sealing entry points into homes and using insecticides around dwellings, especially in endemic regions."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 53,
+    "fields": {
+      "user": 1,
+      "name": "Ground Beetle",
+      "image": "images/critters/ground_beetle.png",
+      "description": "Ground beetles are beneficial predators that feed on various insects, including caterpillars and slugs. They are not harmful to plants and contribute to natural pest control. Maintaining garden diversity and avoiding broad-spectrum pesticides can attract ground beetles.",
+      "size": 0.5,
+      "type": 3,
+      "insect": true,
+      "management": "Attract ground beetles by maintaining a diverse garden with various plants, providing suitable hiding spots, and avoiding excessive pesticide use."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 54,
+    "fields": {
+      "user": 1,
+      "name": "Robber Fly",
+      "image": "images/critters/robber_fly.png",
+      "description": "Robber flies are predatory insects that catch flying insects in mid-air. They are beneficial for controlling pest populations and do not harm plants. Creating a garden environment with diverse vegetation can attract robber flies.",
+      "size": 1,
+      "type": 3,
+      "insect": true,
+      "management": "Attract robber flies by maintaining diverse vegetation in the garden, as they feed on other insects."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 55,
+    "fields": {
+      "user": 1,
+      "name": "Potato Beetle",
+      "image": "images/critters/potato_beetle.png",
+      "description": "Potato beetles, such as the Colorado potato beetle, can be harmful to potato plants and related crops. They feed on foliage, leading to defoliation. Monitoring plants regularly and using organic control methods can help manage potato beetle populations.",
+      "size": 0.375,
+      "type": 1,
+      "insect": true,
+      "management": "Control potato beetles by handpicking, using neem oil, and rotating crops to reduce infestation."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 56,
+    "fields": {
+      "user": 1,
+      "name": "Earthworm",
+      "image": "images/critters/earthworm.webp",
+      "description": "Earthworms are beneficial soil organisms that improve soil structure and nutrient availability. They are not harmful to plants and contribute to overall soil health. Practices like composting and avoiding chemical pesticides support earthworm populations.",
+      "size": 4,
+      "type": 3,
+      "insect": false,
+      "management": "Support earthworms by avoiding the use of harmful chemicals and maintaining organic matter in the soil."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 57,
+    "fields": {
+      "user": 1,
+      "name": "White Grub",
+      "image": "images/critters/white_grub.png",
+      "description": "White grubs are the larvae of various beetles and can be harmful to lawns and plant roots. They feed on grassroots, leading to brown patches in the lawn. Biological control methods, such as beneficial nematodes, can help manage white grub populations.",
+      "size": 1.5,
+      "type": 1,
+      "insect": true,
+      "management": "Control white grubs by using beneficial nematodes, applying milky spore, and maintaining a healthy lawn."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 58,
+    "fields": {
+      "user": 1,
+      "name": "Leaf Miner",
+      "image": "images/critters/leaf_miner.png",
+      "description": "Leaf miners are insects that tunnel between leaf layers, causing damage to plant foliage. While they can be harmful to plants, biological controls like parasitic wasps and proper plant hygiene can help manage leaf miner infestations.",
+      "size": 0.0625,
+      "type": 1,
+      "insect": true,
+      "management": "Control leaf miners by using sticky traps, removing affected leaves, and applying insecticides if necessary."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 59,
+    "fields": {
+      "user": 1,
+      "name": "Woodlouse",
+      "image": "images/critters/woodlouse.png",
+      "description": "Woodlice, or sowbugs, are crustaceans that feed on decaying plant matter. They are not harmful to live plants and contribute to organic matter decomposition. Woodlice thrive in moist conditions, and providing suitable habitats can support their presence.",
+      "size": 0.25,
+      "type": 3,
+      "insect": false,
+      "management": "Manage woodlice by reducing moisture around structures and eliminating decaying plant matter."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 60,
+    "fields": {
+      "user": 1,
+      "name": "Walking Stick",
+      "image": "images/critters/walking_stick.png",
+      "description": "Walking sticks are herbivorous insects that resemble twigs, providing them with camouflage. They feed on plant foliage but are not typically harmful in moderate numbers. Ensuring plant diversity and monitoring for excessive feeding can help manage walking stick populations.",
+      "size": 5,
+      "type": 2,
+      "insect": true,
+      "management": "Attract walking sticks by maintaining a diverse garden with various plant species and avoiding excessive pesticide use."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 61,
+    "fields": {
+      "user": 1,
+      "name": "Mosquito",
+      "image": "images/critters/mosquito.png",
+      "description": "Mosquitoes are blood-feeding insects that can be a nuisance to humans and animals. While they are not harmful to plants, their presence can impact outdoor activities. Implementing mosquito control measures, such as removing standing water, can help manage their populations.",
+      "size": 0.375,
+      "type": 1,
+      "insect": true,
+      "management": "Control mosquitoes by eliminating standing water, using mosquito repellents, and installing screens on windows and doors."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 62,
+    "fields": {
+      "user": 1,
+      "name": "Hummingbird Moth",
+      "image": "images/critters/hummingbird_moth.png",
+      "description": "Hummingbird moths, also known as hawk moths, mimic the flight and feeding behavior of hummingbirds. They are not harmful to plants and contribute to pollination. Planting nectar-rich flowers can attract hummingbird moths to the garden.",
+      "size": 1.5,
+      "type": 3,
+      "insect": true,
+      "management": "Attract hummingbird moths by planting nectar-rich flowers and avoid using pesticides harmful to pollinators."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 63,
+    "fields": {
+      "user": 1,
+      "name": "Cicada",
+      "image": "images/critters/cicada.png",
+      "description": "Cicadas are large, noisy insects that emerge periodically, and their loud calls are a familiar sound in many regions. While they do not harm plants, the feeding habits of nymphs can affect tree roots. Cicadas are part of the natural ecosystem and play a role in nutrient cycling.",
+      "size": 2,
+      "type": 2,
+      "insect": true,
+      "management": "Manage cicadas by protecting young trees with netting, and tolerate their presence as they don't cause significant harm to established trees."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 64,
+    "fields": {
+      "user": 1,
+      "name": "Cicada Killer",
+      "image": "images/critters/cicada_killer.png",
+      "description": "Cicada killers are large solitary wasps that prey on cicadas to provision their nests. They are not harmful to plants and can be beneficial in controlling cicada populations. Providing suitable nesting sites and avoiding unnecessary disturbance can support cicada killers.",
+      "size": 2,
+      "type": 2,
+      "insect": true,
+      "management": "Control cicada killers by maintaining a healthy lawn, using insecticidal dust in burrows, and avoiding disturbing nesting sites."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 65,
+    "fields": {
+      "user": 1,
+      "name": "Cricket",
+      "image": "images/critters/cricket.png",
+      "description": "Crickets are nocturnal insects known for their distinctive chirping sounds. They are not harmful to plants and play a role in breaking down organic matter. Crickets are generally beneficial in the garden and can be attracted by providing shelter and avoiding excessive pesticide use.",
+      "size": 1,
+      "type": 2,
+      "insect": true,
+      "management": "Manage crickets by sealing entry points, reducing outdoor lighting, and using insecticidal sprays if necessary."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 66,
+    "fields": {
+      "user": 1,
+      "name": "Monarch Butterfly",
+      "image": "images/critters/monarch_butterfly.png",
+      "description": "Monarch butterflies are iconic pollinators that feed on nectar from various flowers. They are not harmful to plants and are crucial for the pollination of many garden flowers. Planting milkweed, the larval host plant for monarchs, helps support their life cycle.",
+      "size": 4,
+      "type": 3,
+      "insect": true,
+      "management": "Support monarch butterflies by planting milkweed and nectar-rich flowers, and avoid pesticide use that harms caterpillars and adults."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 67,
+    "fields": {
+      "user": 1,
+      "name": "Painted Lady Butterfly",
+      "image": "images/critters/painted_lady_butterfly.png",
+      "description": "Painted lady butterflies are widespread and feed on nectar from a variety of flowers. They are not harmful to plants and contribute to pollination. Maintaining a garden with diverse flowering plants attracts painted lady butterflies.",
+      "size": 2.5,
+      "type": 3,
+      "insect": true,
+      "management": "Attract painted lady butterflies by planting a variety of flowers and providing host plants for caterpillars."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 68,
+    "fields": {
+      "user": 1,
+      "name": "Diana Fritillary Butterfly",
+      "image": "images/critters/diana_fritillary_butterfly.png",
+      "description": "The Diana fritillary is a large butterfly that primarily feeds on nectar from flowers. It is not harmful to plants and contributes to pollination. Creating a garden with native plants can attract the Diana fritillary and support its lifecycle.",
+      "size": 4,
+      "type": 3,
+      "insect": true,
+      "management": "Support Diana fritillary butterflies by planting host plants like violets and maintaining a diverse garden habitat."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 69,
+    "fields": {
+      "user": 1,
+      "name": "Black Swallowtail Butterfly",
+      "image": "images/critters/black_swallowtail_butterfly.png",
+      "description": "Black swallowtail butterflies are common pollinators that feed on the nectar of flowers. They are not harmful to plants and contribute to garden biodiversity. Planting host plants like parsley and dill supports the development of black swallowtail larvae.",
+      "size": 3.5,
+      "type": 3,
+      "insect": true,
+      "management": "Attract black swallowtail butterflies by planting host plants like parsley and avoiding the use of pesticides harmful to caterpillars."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 70,
+    "fields": {
+      "user": 1,
+      "name": "Zebra Swallowtail Butterfly",
+      "image": "images/critters/zebra_swallowtail_butterfly.png",
+      "description": "Zebra swallowtail butterflies are distinctive in appearance and feed on the nectar of various flowers. They are not harmful to plants and play a role in pollination. Providing a garden with diverse flowering plants attracts zebra swallowtails.",
+      "size": 3.5,
+      "type": 3,
+      "insect": true,
+      "management": "Support zebra swallowtail butterflies by planting pawpaw trees and providing a diverse garden habitat."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 71,
+    "fields": {
+      "user": 1,
+      "name": "Tiger Swallowtail Butterfly",
+      "image": "images/critters/tiger_swallowtail_butterfly.png",
+      "description": "Tiger swallowtail butterflies are large and colorful pollinators. They are not harmful to plants and contribute to the pollination of various flowers. Maintaining a garden with a mix of nectar-rich blooms attracts tiger swallowtails.",
+      "size": 3.5,
+      "type": 3,
+      "insect": true,
+      "management": "Attract tiger swallowtail butterflies by planting host plants like cherry and providing nectar-rich flowers."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 72,
+    "fields": {
+      "user": 1,
+      "name": "Common Buckeye Butterfly",
+      "image": "images/critters/common_buckeye_butterfly.png",
+      "description": "Common buckeye butterflies are widespread and feed on flower nectar. They are not harmful to plants and contribute to pollination. Planting a variety of flowers supports common buckeyes in the garden.",
+      "size": 2.5,
+      "type": 3,
+      "insect": true,
+      "management": "Support common buckeye butterflies by planting host plants like snapdragon and providing sunny areas for basking."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 73,
+    "fields": {
+      "user": 1,
+      "name": "Red Admiral Butterfly",
+      "image": "images/critters/red_admiral_butterfly.png",
+      "description": "Red admiral butterflies are known for their striking red and black patterns. They feed on flower nectar and are not harmful to plants. Planting a variety of nectar-rich flowers attracts red admiral butterflies.",
+      "size": 2,
+      "type": 3,
+      "insect": true,
+      "management": "Attract red admiral butterflies by planting host plants like nettles and providing nectar-rich flowers."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 74,
+    "fields": {
+      "user": 1,
+      "name": "Tawny Emperor Butterfly",
+      "image": "images/critters/tawny_emperor_butterfly.png",
+      "description": "Tawny emperor butterflies feed on flower nectar and are not harmful to plants. They contribute to pollination and can be attracted to gardens with diverse flowering plants.",
+      "size": 2.25,
+      "type": 3,
+      "insect": true,
+      "management": "Support tawny emperor butterflies by providing host plants like hackberry and maintaining a diverse garden."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 75,
+    "fields": {
+      "user": 1,
+      "name": "Orange Tip Butterfly",
+      "image": "images/critters/orange-tip_butterfly.png",
+      "description": "Falcate orange tip butterflies are characterized by their orange-tipped wings. They feed on flower nectar and are not harmful to plants. Maintaining a garden with diverse blooms attracts falcate orange tips.",
+      "size": 1.5,
+      "type": 3,
+      "insect": true,
+      "management": "Attract falcate orange tip butterflies by planting host plants like mustard and providing open areas for flying."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 76,
+    "fields": {
+      "user": 1,
+      "name": "Question Mark Butterfly",
+      "image": "images/critters/question_mark_butterfly.png",
+      "description": "Question mark butterflies have distinctive wing markings and feed on flower nectar. They are not harmful to plants and contribute to pollination. Planting a variety of flowering plants attracts question mark butterflies.",
+      "size": 2.25,
+      "type": 3,
+      "insect": true,
+      "management": "Support question mark butterflies by planting host plants like elm and providing rotting fruit for feeding."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 77,
+    "fields": {
+      "user": 1,
+      "name": "Luna Moth",
+      "image": "images/critters/luna_moth.png",
+      "description": "Luna moths are large, pale-green moths that are attracted to nighttime flowers. They are not harmful to plants and do not feed as adults. Maintaining a garden with night-blooming flowers can attract Luna moths.",
+      "size": 4,
+      "type": 2,
+      "insect": true,
+      "management": "Attract Luna moths by providing a diverse garden with host plants like walnut and avoiding excessive pesticide use."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 78,
+    "fields": {
+      "user": 1,
+      "name": "Dragonfly",
+      "image": "images/critters/dragonfly.jpeg",
+      "description": "Dragonflies are predatory insects that feed on mosquitoes and other flying insects. They are not harmful to plants and play a role in controlling pest populations. Dragonflies are attracted to water features in the garden.",
+      "size": 4,
+      "type": 3,
+      "insect": true,
+      "management": "Attract dragonflies by providing a water feature and maintaining a diverse garden with suitable perching spots."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 79,
+    "fields": {
+      "user": 1,
+      "name": "Red Paper Wasp",
+      "image": "images/critters/red_paper_wasp.png",
+      "description": "Red paper wasps are beneficial predators that feed on caterpillars and insects. They are not harmful to plants and contribute to natural pest control. Providing suitable nesting sites and avoiding disturbance supports red paper wasps.",
+      "size": 1,
+      "type": 3,
+      "insect": true,
+      "management": "Control red paper wasps by removing nests, sealing entry points, and using insecticidal sprays if necessary."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 80,
+    "fields": {
+      "user": 1,
+      "name": "Boxelder Bug",
+      "image": "images/critters/boxelder_bug.png",
+      "description": "Boxelder bugs feed on the seeds of boxelder trees. They are often seen in gardens, but their presence is merely incidental to proximity near a maple tree. While they are not harmful to the tree, their presence in large numbers can be bothersome. Sealing entry points and removing potential hiding places can help manage boxelder bug populations.",
+      "size": 0.5,
+      "type": 2,
+      "insect": true,
+      "management": "Control boxelder bugs by sealing entry points, removing host trees, and using insecticidal sprays if infestations are severe."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 81,
+    "fields": {
+      "user": 1,
+      "name": "Cicada Nymph",
+      "image": "images/critters/cicada_nymph.png",
+      "description": "Cicada nymphs are the immature stages of cicadas that live underground and feed on tree root sap. While they do not harm garden plants directly, their emergence as adults can impact certain trees. Planting a diverse range of trees and shrubs helps mitigate potential cicada-related damage.",
+      "size": 1,
+      "type": 2,
+      "insect": true,
+      "management": "Tolerate cicada nymphs as they play a crucial role in nutrient cycling and serve as a food source for various wildlife."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 82,
+    "fields": {
+      "user": 1,
+      "name": "Centipede",
+      "image": "images/critters/centipede.png",
+      "description": "Centipedes are beneficial arthropods that feed on small insects and pests. They are not harmful to plants and contribute to natural pest control in the garden. Maintaining a diverse garden ecosystem and avoiding excessive pesticide use can encourage centipede populations.",
+      "size": 2,
+      "type": 3,
+      "insect": true,
+      "management": "Allow centipedes in the garden, as they are beneficial predators that feed on other insects and contribute to pest control."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 83,
+    "fields": {
+      "user": 1,
+      "name": "Millipede",
+      "image": "images/critters/millipede.png",
+      "description": "Millipedes are decomposers that feed on decaying plant matter. They are not harmful to live plants and play a role in breaking down organic material. Millipedes are generally beneficial in the garden and thrive in moist conditions.",
+      "size": 3,
+      "type": 3,
+      "insect": true,
+      "management": "Tolerate millipedes as they primarily feed on decaying plant matter and contribute to the decomposition process."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 84,
+    "fields": {
+      "user": 1,
+      "name": "Deer",
+      "image": "images/critters/deer.png",
+      "description": "Don't be deceived by that innocent face; deer will eat your precious flowers and seedlings faster than any bug. To prevent overnight devastation at the hands of grazing deer, use physical barriers, repellents, and select deer-resistant plant varieties.",
+      "size": 72,
+      "type": 1,
+      "insect": false,
+      "management": "Implement deer-resistant plantings, use fencing, and apply deer repellents to protect plants from deer browsing."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 85,
+    "fields": {
+      "user": 1,
+      "name": "Rabbit",
+      "image": "images/critters/rabbit.png",
+      "description": "Don't be deceived by that cute face; rabbits will eat your flowers and seedlings faster than any bug. To prevent overnight devastation at the hands of hungry rabbits, use fencing, apply repellents, and choose plants that are less attractive to rabbits.",
+      "size": 12,
+      "type": 1,
+      "insect": false,
+      "management": "Implement fencing, use repellents, and choose rabbit-resistant plants to prevent rabbit damage in the garden."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 86,
+    "fields": {
+      "user": 1,
+      "name": "Groundhog",
+      "image": "images/critters/groundhog.png",
+      "description": "Groundhogs, also known as woodchucks, are herbivores that can burrow and feed on garden vegetation. Fencing and exclusion methods are effective in preventing groundhog damage, and selecting plants that are less appealing to them is advisable.",
+      "size": 25,
+      "type": 1,
+      "insect": false,
+      "management": "Control groundhog damage by using fencing, trapping, and removing attractants like food sources."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 87,
+    "fields": {
+      "user": 1,
+      "name": "Squirrel",
+      "image": "images/critters/squirrel.png",
+      "description": "Squirrels are omnivores that may feed on nuts, fruits, and young shoots in the garden. While they are not harmful to most plants, they can be a nuisance. Protecting bird feeders and using squirrel-resistant feeders can help manage their presence.",
+      "size": 18,
+      "type": 1,
+      "insect": false,
+      "management": "Manage squirrel damage by using barriers like netting, providing alternative food sources, and using squirrel-resistant bird feeders."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 88,
+    "fields": {
+      "user": 1,
+      "name": "Mole",
+      "image": "images/critters/mole.png",
+      "description": "Moles are insectivores that tunnel underground in search of insects and earthworms. While they are not harmful to plants, their tunneling can disturb garden beds. Implementing physical barriers and promoting a healthy soil ecosystem can help manage mole-related issues.",
+      "size": 6,
+      "type": 1,
+      "insect": false,
+      "management": "Implementing physical barriers and promoting a healthy soil ecosystem can help manage mole-related issues."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 89,
+    "fields": {
+      "user": 1,
+      "name": "Vole",
+      "image": "images/critters/vole.png",
+      "description": "Voles are small rodents that can damage plants by feeding on roots and bark. Protective measures such as fencing and using vole-resistant plants can help prevent vole damage in the garden.",
+      "size": 5,
+      "type": 1,
+      "insect": false,
+      "management": "Protective measures such as fencing and using vole-resistant plants can help prevent vole damage in the garden."
+    }
+  },
+  {
+    "model": "gardenapi.critter",
+    "pk": 90,
+    "fields": {
+      "user": 1,
+      "name": "Chipmunk",
+      "image": "images/critters/chipmunk.png",
+      "description": "Chipmunks are omnivores that may feed on seeds, fruits, and bulbs in the garden. While they will leave most plants alone, they can eat the bulbs of some spring-blooming flowers and be a nuisance. Protective measures, such as using mesh barriers, can help mitigate chipmunk-related issues in the garden.",
+      "size": 8,
+      "type": 1,
+      "insect": false,
+      "management": "Protective measures, such as using mesh barriers, can help mitigate chipmunk-related issues in the garden."
     }
   }
 ]

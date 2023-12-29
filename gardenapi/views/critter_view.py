@@ -23,6 +23,12 @@ class CritterSerializer(serializers.ModelSerializer):
         model = Critter
         fields = '__all__'
 
+class CritterListSerializer(serializers.ModelSerializer):
+    type = CritterTypeSerializer(many=False)
+    class Meta:
+        model = Critter
+        fields = ['id', 'name', 'type', 'image', 'description', 'insect']
+
     
 class CritterViewSet(ViewSet):
 
@@ -36,7 +42,7 @@ class CritterViewSet(ViewSet):
 
     def list(self, request):
         critters = Critter.objects.all()
-        serializer = CritterSerializer(critters, many=True, context={"request": request})
+        serializer = CritterListSerializer(critters, many=True, context={"request": request})
         return Response(serializer.data)
 
     def create(self, request):
