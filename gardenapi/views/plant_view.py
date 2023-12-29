@@ -11,6 +11,7 @@ from gardenapi.views.water_view import WaterSerializer
 from gardenapi.views.light_view import LightSerializer
 import base64
 from django.core.files.base import ContentFile
+from urllib.parse import urljoin
 
 class PlantCompanionSerializer(serializers.ModelSerializer):
     type = PlantTypeSerializer(many=False)
@@ -64,8 +65,21 @@ class PlantSerializer(serializers.ModelSerializer):
         companions = Plant.objects.filter(id__in=companions_ids)
 
         # Serialize the companions
-        companion_serializer = PlantCompanionSerializer(companions, many=True)
+        companion_serializer = PlantCompanionSerializer(companions, many=True, context={"request": self.context.get('request')})
+        for companion_data in companion_serializer.data:
+            companion_data['image'] = self.add_base_url(companion_data['image'])
+
         return companion_serializer.data
+    
+    
+    def add_base_url(self, image_path):
+        # Add the base URL to the image path
+        request = self.context.get('request', None)
+        if request is not None:
+            base_url = request.build_absolute_uri('/')
+            return urljoin(base_url, image_path)
+
+        return image_path
     
 class PlantListSerializer(serializers.ModelSerializer):
     type = PlantTypeSerializer(many=False)
