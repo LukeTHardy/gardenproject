@@ -3,24 +3,6880 @@
     "model": "gardenapi.plantcritterpairing",
     "pk": 1,
     "fields": {
-      "plant": 1,
-      "critter": 1
+      "critter": 1,
+      "plant": 149
     }
   },
   {
     "model": "gardenapi.plantcritterpairing",
     "pk": 2,
     "fields": {
-      "plant": 2,
-      "critter": 2
+      "critter": 1,
+      "plant": 150
     }
   },
   {
     "model": "gardenapi.plantcritterpairing",
     "pk": 3,
     "fields": {
-      "plant": 3,
-      "critter": 2
+      "critter": 1,
+      "plant": 151
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 4,
+    "fields": {
+      "critter": 1,
+      "plant": 152
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 5,
+    "fields": {
+      "critter": 1,
+      "plant": 153
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 6,
+    "fields": {
+      "critter": 1,
+      "plant": 154
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 7,
+    "fields": {
+      "critter": 1,
+      "plant": 155
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 8,
+    "fields": {
+      "critter": 1,
+      "plant": 156
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 9,
+    "fields": {
+      "critter": 1,
+      "plant": 157
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 10,
+    "fields": {
+      "critter": 1,
+      "plant": 158
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 11,
+    "fields": {
+      "critter": 2,
+      "plant": 149
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 12,
+    "fields": {
+      "critter": 2,
+      "plant": 150
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 13,
+    "fields": {
+      "critter": 2,
+      "plant": 151
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 14,
+    "fields": {
+      "critter": 2,
+      "plant": 152
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 15,
+    "fields": {
+      "critter": 2,
+      "plant": 153
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 16,
+    "fields": {
+      "critter": 2,
+      "plant": 154
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 17,
+    "fields": {
+      "critter": 2,
+      "plant": 155
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 18,
+    "fields": {
+      "critter": 2,
+      "plant": 156
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 19,
+    "fields": {
+      "critter": 2,
+      "plant": 157
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 20,
+    "fields": {
+      "critter": 2,
+      "plant": 158
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 21,
+    "fields": {
+      "critter": 3,
+      "plant": 20
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 22,
+    "fields": {
+      "critter": 4,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 23,
+    "fields": {
+      "critter": 4,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 24,
+    "fields": {
+      "critter": 4,
+      "plant": 25
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 25,
+    "fields": {
+      "critter": 4,
+      "plant": 1
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 26,
+    "fields": {
+      "critter": 4,
+      "plant": 200
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 27,
+    "fields": {
+      "critter": 4,
+      "plant": 201
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 28,
+    "fields": {
+      "critter": 4,
+      "plant": 202
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 29,
+    "fields": {
+      "critter": 4,
+      "plant": 203
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 30,
+    "fields": {
+      "critter": 4,
+      "plant": 204
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 31,
+    "fields": {
+      "critter": 4,
+      "plant": 206
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 32,
+    "fields": {
+      "critter": 4,
+      "plant": 208
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 33,
+    "fields": {
+      "critter": 4,
+      "plant": 209
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 34,
+    "fields": {
+      "critter": 4,
+      "plant": 210
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 35,
+    "fields": {
+      "critter": 4,
+      "plant": 211
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 36,
+    "fields": {
+      "critter": 4,
+      "plant": 213
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 37,
+    "fields": {
+      "critter": 4,
+      "plant": 214
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 38,
+    "fields": {
+      "critter": 4,
+      "plant": 215
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 39,
+    "fields": {
+      "critter": 4,
+      "plant": 195
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 40,
+    "fields": {
+      "critter": 4,
+      "plant": 149
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 41,
+    "fields": {
+      "critter": 4,
+      "plant": 150
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 42,
+    "fields": {
+      "critter": 5,
+      "plant": 164
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 43,
+    "fields": {
+      "critter": 5,
+      "plant": 165
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 44,
+    "fields": {
+      "critter": 5,
+      "plant": 134
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 45,
+    "fields": {
+      "critter": 5,
+      "plant": 135
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 46,
+    "fields": {
+      "critter": 5,
+      "plant": 216
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 47,
+    "fields": {
+      "critter": 5,
+      "plant": 217
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 48,
+    "fields": {
+      "critter": 5,
+      "plant": 218
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 49,
+    "fields": {
+      "critter": 5,
+      "plant": 219
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 50,
+    "fields": {
+      "critter": 5,
+      "plant": 175
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 51,
+    "fields": {
+      "critter": 6,
+      "plant": 121
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 52,
+    "fields": {
+      "critter": 6,
+      "plant": 70
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 53,
+    "fields": {
+      "critter": 6,
+      "plant": 71
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 54,
+    "fields": {
+      "critter": 6,
+      "plant": 73
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 55,
+    "fields": {
+      "critter": 6,
+      "plant": 76
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 56,
+    "fields": {
+      "critter": 6,
+      "plant": 77
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 57,
+    "fields": {
+      "critter": 6,
+      "plant": 79
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 58,
+    "fields": {
+      "critter": 6,
+      "plant": 80
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 59,
+    "fields": {
+      "critter": 6,
+      "plant": 81
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 60,
+    "fields": {
+      "critter": 6,
+      "plant": 195
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 61,
+    "fields": {
+      "critter": 6,
+      "plant": 196
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 62,
+    "fields": {
+      "critter": 6,
+      "plant": 197
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 63,
+    "fields": {
+      "critter": 6,
+      "plant": 198
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 64,
+    "fields": {
+      "critter": 6,
+      "plant": 187
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 65,
+    "fields": {
+      "critter": 6,
+      "plant": 188
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 66,
+    "fields": {
+      "critter": 6,
+      "plant": 190
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 67,
+    "fields": {
+      "critter": 6,
+      "plant": 194
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 68,
+    "fields": {
+      "critter": 7,
+      "plant": 123
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 69,
+    "fields": {
+      "critter": 7,
+      "plant": 129
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 70,
+    "fields": {
+      "critter": 7,
+      "plant": 206
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 71,
+    "fields": {
+      "critter": 7,
+      "plant": 208
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 72,
+    "fields": {
+      "critter": 7,
+      "plant": 209
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 73,
+    "fields": {
+      "critter": 7,
+      "plant": 210
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 74,
+    "fields": {
+      "critter": 7,
+      "plant": 211
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 75,
+    "fields": {
+      "critter": 7,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 76,
+    "fields": {
+      "critter": 7,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 77,
+    "fields": {
+      "critter": 7,
+      "plant": 25
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 78,
+    "fields": {
+      "critter": 8,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 79,
+    "fields": {
+      "critter": 8,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 80,
+    "fields": {
+      "critter": 8,
+      "plant": 25
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 81,
+    "fields": {
+      "critter": 8,
+      "plant": 179
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 82,
+    "fields": {
+      "critter": 8,
+      "plant": 121
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 83,
+    "fields": {
+      "critter": 8,
+      "plant": 206
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 84,
+    "fields": {
+      "critter": 8,
+      "plant": 208
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 85,
+    "fields": {
+      "critter": 8,
+      "plant": 209
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 86,
+    "fields": {
+      "critter": 8,
+      "plant": 210
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 87,
+    "fields": {
+      "critter": 8,
+      "plant": 211
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 88,
+    "fields": {
+      "critter": 9,
+      "plant": 129
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 89,
+    "fields": {
+      "critter": 9,
+      "plant": 134
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 90,
+    "fields": {
+      "critter": 9,
+      "plant": 135
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 91,
+    "fields": {
+      "critter": 9,
+      "plant": 136
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 92,
+    "fields": {
+      "critter": 9,
+      "plant": 137
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 93,
+    "fields": {
+      "critter": 9,
+      "plant": 140
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 94,
+    "fields": {
+      "critter": 9,
+      "plant": 124
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 95,
+    "fields": {
+      "critter": 9,
+      "plant": 125
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 96,
+    "fields": {
+      "critter": 9,
+      "plant": 126
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 97,
+    "fields": {
+      "critter": 9,
+      "plant": 127
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 98,
+    "fields": {
+      "critter": 11,
+      "plant": 121
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 99,
+    "fields": {
+      "critter": 11,
+      "plant": 70
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 100,
+    "fields": {
+      "critter": 11,
+      "plant": 71
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 101,
+    "fields": {
+      "critter": 11,
+      "plant": 73
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 102,
+    "fields": {
+      "critter": 11,
+      "plant": 76
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 103,
+    "fields": {
+      "critter": 11,
+      "plant": 77
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 104,
+    "fields": {
+      "critter": 11,
+      "plant": 79
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 105,
+    "fields": {
+      "critter": 11,
+      "plant": 80
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 106,
+    "fields": {
+      "critter": 11,
+      "plant": 81
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 107,
+    "fields": {
+      "critter": 11,
+      "plant": 195
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 108,
+    "fields": {
+      "critter": 11,
+      "plant": 196
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 109,
+    "fields": {
+      "critter": 11,
+      "plant": 197
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 110,
+    "fields": {
+      "critter": 11,
+      "plant": 198
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 111,
+    "fields": {
+      "critter": 11,
+      "plant": 187
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 112,
+    "fields": {
+      "critter": 11,
+      "plant": 188
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 113,
+    "fields": {
+      "critter": 11,
+      "plant": 190
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 114,
+    "fields": {
+      "critter": 11,
+      "plant": 194
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 115,
+    "fields": {
+      "critter": 12,
+      "plant": 85
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 116,
+    "fields": {
+      "critter": 12,
+      "plant": 91
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 117,
+    "fields": {
+      "critter": 12,
+      "plant": 73
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 118,
+    "fields": {
+      "critter": 12,
+      "plant": 80
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 119,
+    "fields": {
+      "critter": 12,
+      "plant": 41
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 120,
+    "fields": {
+      "critter": 12,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 121,
+    "fields": {
+      "critter": 12,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 122,
+    "fields": {
+      "critter": 13,
+      "plant": 85
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 123,
+    "fields": {
+      "critter": 13,
+      "plant": 91
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 124,
+    "fields": {
+      "critter": 13,
+      "plant": 73
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 125,
+    "fields": {
+      "critter": 13,
+      "plant": 80
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 126,
+    "fields": {
+      "critter": 13,
+      "plant": 41
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 127,
+    "fields": {
+      "critter": 13,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 128,
+    "fields": {
+      "critter": 13,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 129,
+    "fields": {
+      "critter": 13,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 130,
+    "fields": {
+      "critter": 13,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 131,
+    "fields": {
+      "critter": 13,
+      "plant": 25
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 132,
+    "fields": {
+      "critter": 13,
+      "plant": 1
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 133,
+    "fields": {
+      "critter": 13,
+      "plant": 200
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 134,
+    "fields": {
+      "critter": 13,
+      "plant": 206
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 135,
+    "fields": {
+      "critter": 13,
+      "plant": 208
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 136,
+    "fields": {
+      "critter": 13,
+      "plant": 213
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 137,
+    "fields": {
+      "critter": 13,
+      "plant": 214
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 138,
+    "fields": {
+      "critter": 13,
+      "plant": 195
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 139,
+    "fields": {
+      "critter": 13,
+      "plant": 149
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 140,
+    "fields": {
+      "critter": 13,
+      "plant": 150
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 141,
+    "fields": {
+      "critter": 14,
+      "plant": 99
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 142,
+    "fields": {
+      "critter": 14,
+      "plant": 2
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 143,
+    "fields": {
+      "critter": 14,
+      "plant": 3
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 144,
+    "fields": {
+      "critter": 14,
+      "plant": 4
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 145,
+    "fields": {
+      "critter": 14,
+      "plant": 5
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 146,
+    "fields": {
+      "critter": 14,
+      "plant": 7
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 147,
+    "fields": {
+      "critter": 14,
+      "plant": 10
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 148,
+    "fields": {
+      "critter": 14,
+      "plant": 12
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 149,
+    "fields": {
+      "critter": 14,
+      "plant": 13
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 150,
+    "fields": {
+      "critter": 14,
+      "plant": 14
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 151,
+    "fields": {
+      "critter": 14,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 152,
+    "fields": {
+      "critter": 14,
+      "plant": 16
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 153,
+    "fields": {
+      "critter": 14,
+      "plant": 17
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 154,
+    "fields": {
+      "critter": 14,
+      "plant": 18
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 155,
+    "fields": {
+      "critter": 14,
+      "plant": 19
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 156,
+    "fields": {
+      "critter": 14,
+      "plant": 20
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 157,
+    "fields": {
+      "critter": 14,
+      "plant": 22
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 158,
+    "fields": {
+      "critter": 14,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 159,
+    "fields": {
+      "critter": 14,
+      "plant": 25
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 160,
+    "fields": {
+      "critter": 14,
+      "plant": 26
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 161,
+    "fields": {
+      "critter": 15,
+      "plant": 43
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 162,
+    "fields": {
+      "critter": 15,
+      "plant": 46
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 163,
+    "fields": {
+      "critter": 15,
+      "plant": 52
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 164,
+    "fields": {
+      "critter": 15,
+      "plant": 58
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 165,
+    "fields": {
+      "critter": 15,
+      "plant": 64
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 166,
+    "fields": {
+      "critter": 15,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 167,
+    "fields": {
+      "critter": 15,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 168,
+    "fields": {
+      "critter": 15,
+      "plant": 25
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 169,
+    "fields": {
+      "critter": 15,
+      "plant": 82
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 170,
+    "fields": {
+      "critter": 15,
+      "plant": 90
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 171,
+    "fields": {
+      "critter": 15,
+      "plant": 94
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 172,
+    "fields": {
+      "critter": 15,
+      "plant": 104
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 173,
+    "fields": {
+      "critter": 15,
+      "plant": 118
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 174,
+    "fields": {
+      "critter": 15,
+      "plant": 136
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 175,
+    "fields": {
+      "critter": 15,
+      "plant": 140
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 176,
+    "fields": {
+      "critter": 15,
+      "plant": 144
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 177,
+    "fields": {
+      "critter": 15,
+      "plant": 148
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 178,
+    "fields": {
+      "critter": 15,
+      "plant": 156
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 179,
+    "fields": {
+      "critter": 15,
+      "plant": 166
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 180,
+    "fields": {
+      "critter": 15,
+      "plant": 172
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 181,
+    "fields": {
+      "critter": 16,
+      "plant": 38
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 182,
+    "fields": {
+      "critter": 16,
+      "plant": 41
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 183,
+    "fields": {
+      "critter": 16,
+      "plant": 46
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 184,
+    "fields": {
+      "critter": 16,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 185,
+    "fields": {
+      "critter": 16,
+      "plant": 56
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 186,
+    "fields": {
+      "critter": 16,
+      "plant": 64
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 187,
+    "fields": {
+      "critter": 16,
+      "plant": 66
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 188,
+    "fields": {
+      "critter": 16,
+      "plant": 74
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 189,
+    "fields": {
+      "critter": 16,
+      "plant": 82
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 190,
+    "fields": {
+      "critter": 16,
+      "plant": 88
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 191,
+    "fields": {
+      "critter": 16,
+      "plant": 98
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 192,
+    "fields": {
+      "critter": 16,
+      "plant": 106
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 193,
+    "fields": {
+      "critter": 16,
+      "plant": 112
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 194,
+    "fields": {
+      "critter": 16,
+      "plant": 120
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 195,
+    "fields": {
+      "critter": 16,
+      "plant": 122
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 196,
+    "fields": {
+      "critter": 16,
+      "plant": 124
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 197,
+    "fields": {
+      "critter": 16,
+      "plant": 128
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 198,
+    "fields": {
+      "critter": 16,
+      "plant": 134
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 199,
+    "fields": {
+      "critter": 16,
+      "plant": 138
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 200,
+    "fields": {
+      "critter": 16,
+      "plant": 142
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 201,
+    "fields": {
+      "critter": 17,
+      "plant": 19
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 202,
+    "fields": {
+      "critter": 17,
+      "plant": 26
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 203,
+    "fields": {
+      "critter": 17,
+      "plant": 28
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 204,
+    "fields": {
+      "critter": 17,
+      "plant": 30
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 205,
+    "fields": {
+      "critter": 17,
+      "plant": 37
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 206,
+    "fields": {
+      "critter": 17,
+      "plant": 39
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 207,
+    "fields": {
+      "critter": 17,
+      "plant": 46
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 208,
+    "fields": {
+      "critter": 17,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 209,
+    "fields": {
+      "critter": 17,
+      "plant": 56
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 210,
+    "fields": {
+      "critter": 17,
+      "plant": 64
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 211,
+    "fields": {
+      "critter": 17,
+      "plant": 70
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 212,
+    "fields": {
+      "critter": 17,
+      "plant": 74
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 213,
+    "fields": {
+      "critter": 17,
+      "plant": 80
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 214,
+    "fields": {
+      "critter": 17,
+      "plant": 88
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 215,
+    "fields": {
+      "critter": 17,
+      "plant": 94
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 216,
+    "fields": {
+      "critter": 17,
+      "plant": 98
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 217,
+    "fields": {
+      "critter": 17,
+      "plant": 106
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 218,
+    "fields": {
+      "critter": 17,
+      "plant": 112
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 219,
+    "fields": {
+      "critter": 17,
+      "plant": 120
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 220,
+    "fields": {
+      "critter": 17,
+      "plant": 122
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 221,
+    "fields": {
+      "critter": 18,
+      "plant": 38
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 222,
+    "fields": {
+      "critter": 18,
+      "plant": 39
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 223,
+    "fields": {
+      "critter": 18,
+      "plant": 46
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 224,
+    "fields": {
+      "critter": 18,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 225,
+    "fields": {
+      "critter": 18,
+      "plant": 56
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 226,
+    "fields": {
+      "critter": 18,
+      "plant": 64
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 227,
+    "fields": {
+      "critter": 18,
+      "plant": 66
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 228,
+    "fields": {
+      "critter": 18,
+      "plant": 74
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 229,
+    "fields": {
+      "critter": 18,
+      "plant": 80
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 230,
+    "fields": {
+      "critter": 18,
+      "plant": 82
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 231,
+    "fields": {
+      "critter": 18,
+      "plant": 88
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 232,
+    "fields": {
+      "critter": 18,
+      "plant": 94
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 233,
+    "fields": {
+      "critter": 18,
+      "plant": 98
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 234,
+    "fields": {
+      "critter": 18,
+      "plant": 106
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 235,
+    "fields": {
+      "critter": 18,
+      "plant": 112
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 236,
+    "fields": {
+      "critter": 18,
+      "plant": 120
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 237,
+    "fields": {
+      "critter": 18,
+      "plant": 122
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 238,
+    "fields": {
+      "critter": 18,
+      "plant": 124
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 239,
+    "fields": {
+      "critter": 18,
+      "plant": 128
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 240,
+    "fields": {
+      "critter": 18,
+      "plant": 134
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 241,
+    "fields": {
+      "critter": 19,
+      "plant": 160
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 242,
+    "fields": {
+      "critter": 19,
+      "plant": 162
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 243,
+    "fields": {
+      "critter": 19,
+      "plant": 166
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 244,
+    "fields": {
+      "critter": 19,
+      "plant": 170
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 245,
+    "fields": {
+      "critter": 19,
+      "plant": 172
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 246,
+    "fields": {
+      "critter": 19,
+      "plant": 174
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 247,
+    "fields": {
+      "critter": 19,
+      "plant": 178
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 248,
+    "fields": {
+      "critter": 19,
+      "plant": 180
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 249,
+    "fields": {
+      "critter": 19,
+      "plant": 182
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 250,
+    "fields": {
+      "critter": 19,
+      "plant": 184
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 251,
+    "fields": {
+      "critter": 19,
+      "plant": 186
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 252,
+    "fields": {
+      "critter": 19,
+      "plant": 190
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 253,
+    "fields": {
+      "critter": 19,
+      "plant": 192
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 254,
+    "fields": {
+      "critter": 19,
+      "plant": 194
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 255,
+    "fields": {
+      "critter": 19,
+      "plant": 198
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 256,
+    "fields": {
+      "critter": 19,
+      "plant": 202
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 257,
+    "fields": {
+      "critter": 19,
+      "plant": 204
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 258,
+    "fields": {
+      "critter": 19,
+      "plant": 206
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 259,
+    "fields": {
+      "critter": 19,
+      "plant": 208
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 260,
+    "fields": {
+      "critter": 19,
+      "plant": 210
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 261,
+    "fields": {
+      "critter": 20,
+      "plant": 148
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 262,
+    "fields": {
+      "critter": 20,
+      "plant": 149
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 263,
+    "fields": {
+      "critter": 20,
+      "plant": 150
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 264,
+    "fields": {
+      "critter": 20,
+      "plant": 151
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 265,
+    "fields": {
+      "critter": 20,
+      "plant": 152
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 266,
+    "fields": {
+      "critter": 20,
+      "plant": 153
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 267,
+    "fields": {
+      "critter": 20,
+      "plant": 154
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 268,
+    "fields": {
+      "critter": 20,
+      "plant": 155
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 269,
+    "fields": {
+      "critter": 20,
+      "plant": 156
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 270,
+    "fields": {
+      "critter": 20,
+      "plant": 157
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 271,
+    "fields": {
+      "critter": 20,
+      "plant": 158
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 272,
+    "fields": {
+      "critter": 20,
+      "plant": 159
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 273,
+    "fields": {
+      "critter": 20,
+      "plant": 160
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 274,
+    "fields": {
+      "critter": 20,
+      "plant": 161
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 275,
+    "fields": {
+      "critter": 20,
+      "plant": 162
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 276,
+    "fields": {
+      "critter": 20,
+      "plant": 163
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 277,
+    "fields": {
+      "critter": 20,
+      "plant": 164
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 278,
+    "fields": {
+      "critter": 20,
+      "plant": 165
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 279,
+    "fields": {
+      "critter": 20,
+      "plant": 166
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 280,
+    "fields": {
+      "critter": 20,
+      "plant": 167
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 281,
+    "fields": {
+      "critter": 24,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 282,
+    "fields": {
+      "critter": 24,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 283,
+    "fields": {
+      "critter": 24,
+      "plant": 25
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 284,
+    "fields": {
+      "critter": 24,
+      "plant": 31
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 285,
+    "fields": {
+      "critter": 24,
+      "plant": 121
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 286,
+    "fields": {
+      "critter": 24,
+      "plant": 131
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 287,
+    "fields": {
+      "critter": 24,
+      "plant": 139
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 288,
+    "fields": {
+      "critter": 24,
+      "plant": 206
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 289,
+    "fields": {
+      "critter": 24,
+      "plant": 208
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 290,
+    "fields": {
+      "critter": 24,
+      "plant": 209
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 291,
+    "fields": {
+      "critter": 24,
+      "plant": 210
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 292,
+    "fields": {
+      "critter": 24,
+      "plant": 211
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 293,
+    "fields": {
+      "critter": 24,
+      "plant": 149
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 294,
+    "fields": {
+      "critter": 24,
+      "plant": 150
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 295,
+    "fields": {
+      "critter": 24,
+      "plant": 151
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 296,
+    "fields": {
+      "critter": 24,
+      "plant": 152
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 297,
+    "fields": {
+      "critter": 24,
+      "plant": 153
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 298,
+    "fields": {
+      "critter": 24,
+      "plant": 154
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 299,
+    "fields": {
+      "critter": 24,
+      "plant": 155
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 300,
+    "fields": {
+      "critter": 24,
+      "plant": 156
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 301,
+    "fields": {
+      "critter": 24,
+      "plant": 157
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 302,
+    "fields": {
+      "critter": 24,
+      "plant": 158
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 303,
+    "fields": {
+      "critter": 25,
+      "plant": 31
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 304,
+    "fields": {
+      "critter": 25,
+      "plant": 44
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 305,
+    "fields": {
+      "critter": 25,
+      "plant": 1
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 306,
+    "fields": {
+      "critter": 25,
+      "plant": 10
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 307,
+    "fields": {
+      "critter": 25,
+      "plant": 54
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 308,
+    "fields": {
+      "critter": 26,
+      "plant": 149
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 309,
+    "fields": {
+      "critter": 26,
+      "plant": 150
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 310,
+    "fields": {
+      "critter": 26,
+      "plant": 151
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 311,
+    "fields": {
+      "critter": 26,
+      "plant": 152
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 312,
+    "fields": {
+      "critter": 26,
+      "plant": 153
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 313,
+    "fields": {
+      "critter": 26,
+      "plant": 154
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 314,
+    "fields": {
+      "critter": 26,
+      "plant": 155
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 315,
+    "fields": {
+      "critter": 26,
+      "plant": 156
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 316,
+    "fields": {
+      "critter": 26,
+      "plant": 157
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 317,
+    "fields": {
+      "critter": 26,
+      "plant": 158
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 318,
+    "fields": {
+      "critter": 26,
+      "plant": 182
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 319,
+    "fields": {
+      "critter": 26,
+      "plant": 164
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 320,
+    "fields": {
+      "critter": 26,
+      "plant": 165
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 321,
+    "fields": {
+      "critter": 26,
+      "plant": 159
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 322,
+    "fields": {
+      "critter": 26,
+      "plant": 160
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 323,
+    "fields": {
+      "critter": 26,
+      "plant": 161
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 324,
+    "fields": {
+      "critter": 26,
+      "plant": 162
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 325,
+    "fields": {
+      "critter": 26,
+      "plant": 163
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 326,
+    "fields": {
+      "critter": 26,
+      "plant": 35
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 327,
+    "fields": {
+      "critter": 26,
+      "plant": 36
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 328,
+    "fields": {
+      "critter": 26,
+      "plant": 64
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 329,
+    "fields": {
+      "critter": 26,
+      "plant": 121
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 330,
+    "fields": {
+      "critter": 26,
+      "plant": 134
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 331,
+    "fields": {
+      "critter": 26,
+      "plant": 135
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 332,
+    "fields": {
+      "critter": 26,
+      "plant": 33
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 333,
+    "fields": {
+      "critter": 26,
+      "plant": 68
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 334,
+    "fields": {
+      "critter": 26,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 335,
+    "fields": {
+      "critter": 26,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 336,
+    "fields": {
+      "critter": 26,
+      "plant": 25
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 337,
+    "fields": {
+      "critter": 26,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 338,
+    "fields": {
+      "critter": 29,
+      "plant": 85
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 339,
+    "fields": {
+      "critter": 29,
+      "plant": 91
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 340,
+    "fields": {
+      "critter": 29,
+      "plant": 73
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 341,
+    "fields": {
+      "critter": 29,
+      "plant": 79
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 342,
+    "fields": {
+      "critter": 29,
+      "plant": 80
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 343,
+    "fields": {
+      "critter": 29,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 344,
+    "fields": {
+      "critter": 29,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 345,
+    "fields": {
+      "critter": 29,
+      "plant": 170
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 346,
+    "fields": {
+      "critter": 29,
+      "plant": 20
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 347,
+    "fields": {
+      "critter": 29,
+      "plant": 1
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 348,
+    "fields": {
+      "critter": 29,
+      "plant": 99
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 349,
+    "fields": {
+      "critter": 30,
+      "plant": 85
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 350,
+    "fields": {
+      "critter": 30,
+      "plant": 91
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 351,
+    "fields": {
+      "critter": 30,
+      "plant": 73
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 352,
+    "fields": {
+      "critter": 30,
+      "plant": 79
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 353,
+    "fields": {
+      "critter": 30,
+      "plant": 80
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 354,
+    "fields": {
+      "critter": 30,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 355,
+    "fields": {
+      "critter": 30,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 356,
+    "fields": {
+      "critter": 30,
+      "plant": 170
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 357,
+    "fields": {
+      "critter": 30,
+      "plant": 20
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 358,
+    "fields": {
+      "critter": 30,
+      "plant": 1
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 359,
+    "fields": {
+      "critter": 30,
+      "plant": 99
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 360,
+    "fields": {
+      "critter": 31,
+      "plant": 1
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 361,
+    "fields": {
+      "critter": 31,
+      "plant": 2
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 362,
+    "fields": {
+      "critter": 31,
+      "plant": 3
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 363,
+    "fields": {
+      "critter": 31,
+      "plant": 4
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 364,
+    "fields": {
+      "critter": 31,
+      "plant": 5
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 365,
+    "fields": {
+      "critter": 31,
+      "plant": 7
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 366,
+    "fields": {
+      "critter": 31,
+      "plant": 11
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 367,
+    "fields": {
+      "critter": 31,
+      "plant": 12
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 368,
+    "fields": {
+      "critter": 31,
+      "plant": 13
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 369,
+    "fields": {
+      "critter": 31,
+      "plant": 14
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 370,
+    "fields": {
+      "critter": 31,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 371,
+    "fields": {
+      "critter": 31,
+      "plant": 16
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 372,
+    "fields": {
+      "critter": 31,
+      "plant": 17
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 373,
+    "fields": {
+      "critter": 31,
+      "plant": 18
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 374,
+    "fields": {
+      "critter": 31,
+      "plant": 19
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 375,
+    "fields": {
+      "critter": 31,
+      "plant": 21
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 376,
+    "fields": {
+      "critter": 31,
+      "plant": 22
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 377,
+    "fields": {
+      "critter": 31,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 378,
+    "fields": {
+      "critter": 31,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 379,
+    "fields": {
+      "critter": 31,
+      "plant": 25
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 380,
+    "fields": {
+      "critter": 32,
+      "plant": 1
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 381,
+    "fields": {
+      "critter": 32,
+      "plant": 2
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 382,
+    "fields": {
+      "critter": 32,
+      "plant": 3
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 383,
+    "fields": {
+      "critter": 32,
+      "plant": 4
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 384,
+    "fields": {
+      "critter": 32,
+      "plant": 5
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 385,
+    "fields": {
+      "critter": 32,
+      "plant": 7
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 386,
+    "fields": {
+      "critter": 32,
+      "plant": 11
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 387,
+    "fields": {
+      "critter": 32,
+      "plant": 12
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 388,
+    "fields": {
+      "critter": 32,
+      "plant": 13
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 389,
+    "fields": {
+      "critter": 32,
+      "plant": 14
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 390,
+    "fields": {
+      "critter": 32,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 391,
+    "fields": {
+      "critter": 32,
+      "plant": 16
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 392,
+    "fields": {
+      "critter": 32,
+      "plant": 17
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 393,
+    "fields": {
+      "critter": 32,
+      "plant": 18
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 394,
+    "fields": {
+      "critter": 32,
+      "plant": 19
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 395,
+    "fields": {
+      "critter": 32,
+      "plant": 21
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 396,
+    "fields": {
+      "critter": 32,
+      "plant": 22
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 397,
+    "fields": {
+      "critter": 32,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 398,
+    "fields": {
+      "critter": 32,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 399,
+    "fields": {
+      "critter": 32,
+      "plant": 25
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 400,
+    "fields": {
+      "critter": 33,
+      "plant": 134
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 401,
+    "fields": {
+      "critter": 33,
+      "plant": 135
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 402,
+    "fields": {
+      "critter": 33,
+      "plant": 136
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 403,
+    "fields": {
+      "critter": 33,
+      "plant": 137
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 404,
+    "fields": {
+      "critter": 33,
+      "plant": 138
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 405,
+    "fields": {
+      "critter": 33,
+      "plant": 141
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 406,
+    "fields": {
+      "critter": 33,
+      "plant": 142
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 407,
+    "fields": {
+      "critter": 33,
+      "plant": 146
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 408,
+    "fields": {
+      "critter": 33,
+      "plant": 147
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 409,
+    "fields": {
+      "critter": 33,
+      "plant": 148
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 410,
+    "fields": {
+      "critter": 33,
+      "plant": 149
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 411,
+    "fields": {
+      "critter": 33,
+      "plant": 150
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 412,
+    "fields": {
+      "critter": 33,
+      "plant": 151
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 413,
+    "fields": {
+      "critter": 33,
+      "plant": 152
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 414,
+    "fields": {
+      "critter": 33,
+      "plant": 153
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 415,
+    "fields": {
+      "critter": 33,
+      "plant": 154
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 416,
+    "fields": {
+      "critter": 33,
+      "plant": 155
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 417,
+    "fields": {
+      "critter": 33,
+      "plant": 156
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 418,
+    "fields": {
+      "critter": 33,
+      "plant": 157
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 419,
+    "fields": {
+      "critter": 33,
+      "plant": 158
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 420,
+    "fields": {
+      "critter": 34,
+      "plant": 1
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 421,
+    "fields": {
+      "critter": 34,
+      "plant": 2
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 422,
+    "fields": {
+      "critter": 34,
+      "plant": 3
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 423,
+    "fields": {
+      "critter": 34,
+      "plant": 4
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 424,
+    "fields": {
+      "critter": 34,
+      "plant": 5
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 425,
+    "fields": {
+      "critter": 34,
+      "plant": 7
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 426,
+    "fields": {
+      "critter": 34,
+      "plant": 11
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 427,
+    "fields": {
+      "critter": 34,
+      "plant": 12
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 428,
+    "fields": {
+      "critter": 34,
+      "plant": 13
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 429,
+    "fields": {
+      "critter": 34,
+      "plant": 14
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 430,
+    "fields": {
+      "critter": 34,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 431,
+    "fields": {
+      "critter": 34,
+      "plant": 16
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 432,
+    "fields": {
+      "critter": 34,
+      "plant": 17
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 433,
+    "fields": {
+      "critter": 34,
+      "plant": 18
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 434,
+    "fields": {
+      "critter": 34,
+      "plant": 19
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 435,
+    "fields": {
+      "critter": 34,
+      "plant": 21
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 436,
+    "fields": {
+      "critter": 34,
+      "plant": 22
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 437,
+    "fields": {
+      "critter": 34,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 438,
+    "fields": {
+      "critter": 34,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 439,
+    "fields": {
+      "critter": 34,
+      "plant": 25
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 440,
+    "fields": {
+      "critter": 35,
+      "plant": 134
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 441,
+    "fields": {
+      "critter": 35,
+      "plant": 135
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 442,
+    "fields": {
+      "critter": 35,
+      "plant": 136
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 443,
+    "fields": {
+      "critter": 35,
+      "plant": 137
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 444,
+    "fields": {
+      "critter": 35,
+      "plant": 138
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 445,
+    "fields": {
+      "critter": 35,
+      "plant": 141
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 446,
+    "fields": {
+      "critter": 35,
+      "plant": 142
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 447,
+    "fields": {
+      "critter": 35,
+      "plant": 146
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 448,
+    "fields": {
+      "critter": 35,
+      "plant": 147
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 449,
+    "fields": {
+      "critter": 35,
+      "plant": 148
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 450,
+    "fields": {
+      "critter": 35,
+      "plant": 149
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 451,
+    "fields": {
+      "critter": 35,
+      "plant": 150
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 452,
+    "fields": {
+      "critter": 35,
+      "plant": 151
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 453,
+    "fields": {
+      "critter": 35,
+      "plant": 152
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 454,
+    "fields": {
+      "critter": 35,
+      "plant": 153
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 455,
+    "fields": {
+      "critter": 35,
+      "plant": 154
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 456,
+    "fields": {
+      "critter": 35,
+      "plant": 155
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 457,
+    "fields": {
+      "critter": 35,
+      "plant": 156
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 458,
+    "fields": {
+      "critter": 35,
+      "plant": 157
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 459,
+    "fields": {
+      "critter": 35,
+      "plant": 158
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 460,
+    "fields": {
+      "critter": 36,
+      "plant": 165
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 461,
+    "fields": {
+      "critter": 36,
+      "plant": 166
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 462,
+    "fields": {
+      "critter": 36,
+      "plant": 167
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 463,
+    "fields": {
+      "critter": 36,
+      "plant": 168
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 464,
+    "fields": {
+      "critter": 36,
+      "plant": 169
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 465,
+    "fields": {
+      "critter": 36,
+      "plant": 170
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 466,
+    "fields": {
+      "critter": 36,
+      "plant": 171
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 467,
+    "fields": {
+      "critter": 36,
+      "plant": 172
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 468,
+    "fields": {
+      "critter": 36,
+      "plant": 173
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 469,
+    "fields": {
+      "critter": 36,
+      "plant": 174
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 470,
+    "fields": {
+      "critter": 36,
+      "plant": 175
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 471,
+    "fields": {
+      "critter": 36,
+      "plant": 176
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 472,
+    "fields": {
+      "critter": 36,
+      "plant": 177
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 473,
+    "fields": {
+      "critter": 36,
+      "plant": 178
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 474,
+    "fields": {
+      "critter": 36,
+      "plant": 179
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 475,
+    "fields": {
+      "critter": 36,
+      "plant": 180
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 476,
+    "fields": {
+      "critter": 36,
+      "plant": 181
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 477,
+    "fields": {
+      "critter": 36,
+      "plant": 182
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 478,
+    "fields": {
+      "critter": 36,
+      "plant": 183
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 479,
+    "fields": {
+      "critter": 36,
+      "plant": 184
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 480,
+    "fields": {
+      "critter": 37,
+      "plant": 179
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 481,
+    "fields": {
+      "critter": 37,
+      "plant": 180
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 482,
+    "fields": {
+      "critter": 37,
+      "plant": 181
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 483,
+    "fields": {
+      "critter": 37,
+      "plant": 182
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 484,
+    "fields": {
+      "critter": 37,
+      "plant": 183
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 485,
+    "fields": {
+      "critter": 37,
+      "plant": 184
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 486,
+    "fields": {
+      "critter": 37,
+      "plant": 205
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 487,
+    "fields": {
+      "critter": 37,
+      "plant": 206
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 488,
+    "fields": {
+      "critter": 37,
+      "plant": 207
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 489,
+    "fields": {
+      "critter": 37,
+      "plant": 209
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 490,
+    "fields": {
+      "critter": 37,
+      "plant": 211
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 491,
+    "fields": {
+      "critter": 37,
+      "plant": 212
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 492,
+    "fields": {
+      "critter": 37,
+      "plant": 213
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 493,
+    "fields": {
+      "critter": 37,
+      "plant": 214
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 494,
+    "fields": {
+      "critter": 37,
+      "plant": 215
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 495,
+    "fields": {
+      "critter": 37,
+      "plant": 216
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 496,
+    "fields": {
+      "critter": 37,
+      "plant": 220
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 497,
+    "fields": {
+      "critter": 37,
+      "plant": 221
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 498,
+    "fields": {
+      "critter": 37,
+      "plant": 222
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 499,
+    "fields": {
+      "critter": 37,
+      "plant": 223
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 500,
+    "fields": {
+      "critter": 38,
+      "plant": 2
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 501,
+    "fields": {
+      "critter": 38,
+      "plant": 3
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 502,
+    "fields": {
+      "critter": 38,
+      "plant": 5
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 503,
+    "fields": {
+      "critter": 38,
+      "plant": 11
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 504,
+    "fields": {
+      "critter": 38,
+      "plant": 13
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 505,
+    "fields": {
+      "critter": 38,
+      "plant": 14
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 506,
+    "fields": {
+      "critter": 38,
+      "plant": 18
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 507,
+    "fields": {
+      "critter": 38,
+      "plant": 19
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 508,
+    "fields": {
+      "critter": 38,
+      "plant": 22
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 509,
+    "fields": {
+      "critter": 38,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 510,
+    "fields": {
+      "critter": 38,
+      "plant": 27
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 511,
+    "fields": {
+      "critter": 38,
+      "plant": 29
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 512,
+    "fields": {
+      "critter": 38,
+      "plant": 32
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 513,
+    "fields": {
+      "critter": 38,
+      "plant": 36
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 514,
+    "fields": {
+      "critter": 38,
+      "plant": 39
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 515,
+    "fields": {
+      "critter": 38,
+      "plant": 43
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 516,
+    "fields": {
+      "critter": 38,
+      "plant": 46
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 517,
+    "fields": {
+      "critter": 38,
+      "plant": 53
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 518,
+    "fields": {
+      "critter": 38,
+      "plant": 56
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 519,
+    "fields": {
+      "critter": 38,
+      "plant": 58
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 520,
+    "fields": {
+      "critter": 39,
+      "plant": 5
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 521,
+    "fields": {
+      "critter": 39,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 522,
+    "fields": {
+      "critter": 39,
+      "plant": 28
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 523,
+    "fields": {
+      "critter": 39,
+      "plant": 29
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 524,
+    "fields": {
+      "critter": 39,
+      "plant": 34
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 525,
+    "fields": {
+      "critter": 39,
+      "plant": 37
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 526,
+    "fields": {
+      "critter": 39,
+      "plant": 41
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 527,
+    "fields": {
+      "critter": 39,
+      "plant": 43
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 528,
+    "fields": {
+      "critter": 39,
+      "plant": 44
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 529,
+    "fields": {
+      "critter": 39,
+      "plant": 46
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 530,
+    "fields": {
+      "critter": 39,
+      "plant": 51
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 531,
+    "fields": {
+      "critter": 39,
+      "plant": 52
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 532,
+    "fields": {
+      "critter": 39,
+      "plant": 55
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 533,
+    "fields": {
+      "critter": 39,
+      "plant": 56
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 534,
+    "fields": {
+      "critter": 39,
+      "plant": 57
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 535,
+    "fields": {
+      "critter": 39,
+      "plant": 60
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 536,
+    "fields": {
+      "critter": 39,
+      "plant": 63
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 537,
+    "fields": {
+      "critter": 39,
+      "plant": 67
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 538,
+    "fields": {
+      "critter": 39,
+      "plant": 68
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 539,
+    "fields": {
+      "critter": 39,
+      "plant": 70
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 540,
+    "fields": {
+      "critter": 40,
+      "plant": 8
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 541,
+    "fields": {
+      "critter": 40,
+      "plant": 16
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 542,
+    "fields": {
+      "critter": 40,
+      "plant": 20
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 543,
+    "fields": {
+      "critter": 40,
+      "plant": 26
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 544,
+    "fields": {
+      "critter": 40,
+      "plant": 27
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 545,
+    "fields": {
+      "critter": 40,
+      "plant": 30
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 546,
+    "fields": {
+      "critter": 40,
+      "plant": 31
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 547,
+    "fields": {
+      "critter": 40,
+      "plant": 35
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 548,
+    "fields": {
+      "critter": 40,
+      "plant": 39
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 549,
+    "fields": {
+      "critter": 40,
+      "plant": 40
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 550,
+    "fields": {
+      "critter": 40,
+      "plant": 42
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 551,
+    "fields": {
+      "critter": 40,
+      "plant": 47
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 552,
+    "fields": {
+      "critter": 40,
+      "plant": 48
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 553,
+    "fields": {
+      "critter": 40,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 554,
+    "fields": {
+      "critter": 40,
+      "plant": 54
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 555,
+    "fields": {
+      "critter": 40,
+      "plant": 58
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 556,
+    "fields": {
+      "critter": 40,
+      "plant": 61
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 557,
+    "fields": {
+      "critter": 40,
+      "plant": 65
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 558,
+    "fields": {
+      "critter": 40,
+      "plant": 66
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 559,
+    "fields": {
+      "critter": 40,
+      "plant": 68
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 560,
+    "fields": {
+      "critter": 41,
+      "plant": 21
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 561,
+    "fields": {
+      "critter": 41,
+      "plant": 17
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 562,
+    "fields": {
+      "critter": 41,
+      "plant": 100
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 563,
+    "fields": {
+      "critter": 41,
+      "plant": 20
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 564,
+    "fields": {
+      "critter": 41,
+      "plant": 195
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 565,
+    "fields": {
+      "critter": 41,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 566,
+    "fields": {
+      "critter": 41,
+      "plant": 55
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 567,
+    "fields": {
+      "critter": 41,
+      "plant": 57
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 568,
+    "fields": {
+      "critter": 41,
+      "plant": 60
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 569,
+    "fields": {
+      "critter": 41,
+      "plant": 67
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 570,
+    "fields": {
+      "critter": 41,
+      "plant": 69
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 571,
+    "fields": {
+      "critter": 41,
+      "plant": 70
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 572,
+    "fields": {
+      "critter": 41,
+      "plant": 72
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 573,
+    "fields": {
+      "critter": 41,
+      "plant": 83
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 574,
+    "fields": {
+      "critter": 42,
+      "plant": 1
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 575,
+    "fields": {
+      "critter": 42,
+      "plant": 6
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 576,
+    "fields": {
+      "critter": 42,
+      "plant": 7
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 577,
+    "fields": {
+      "critter": 42,
+      "plant": 14
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 578,
+    "fields": {
+      "critter": 42,
+      "plant": 21
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 579,
+    "fields": {
+      "critter": 42,
+      "plant": 37
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 580,
+    "fields": {
+      "critter": 42,
+      "plant": 47
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 581,
+    "fields": {
+      "critter": 42,
+      "plant": 58
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 582,
+    "fields": {
+      "critter": 42,
+      "plant": 59
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 583,
+    "fields": {
+      "critter": 42,
+      "plant": 60
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 584,
+    "fields": {
+      "critter": 42,
+      "plant": 61
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 585,
+    "fields": {
+      "critter": 42,
+      "plant": 63
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 586,
+    "fields": {
+      "critter": 42,
+      "plant": 67
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 587,
+    "fields": {
+      "critter": 42,
+      "plant": 75
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 588,
+    "fields": {
+      "critter": 42,
+      "plant": 86
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 589,
+    "fields": {
+      "critter": 42,
+      "plant": 87
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 590,
+    "fields": {
+      "critter": 42,
+      "plant": 88
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 591,
+    "fields": {
+      "critter": 42,
+      "plant": 95
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 592,
+    "fields": {
+      "critter": 42,
+      "plant": 100
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 593,
+    "fields": {
+      "critter": 42,
+      "plant": 136
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 594,
+    "fields": {
+      "critter": 55,
+      "plant": 168
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 595,
+    "fields": {
+      "critter": 55,
+      "plant": 149
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 596,
+    "fields": {
+      "critter": 55,
+      "plant": 150
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 597,
+    "fields": {
+      "critter": 55,
+      "plant": 151
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 598,
+    "fields": {
+      "critter": 55,
+      "plant": 152
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 599,
+    "fields": {
+      "critter": 55,
+      "plant": 153
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 600,
+    "fields": {
+      "critter": 55,
+      "plant": 154
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 601,
+    "fields": {
+      "critter": 55,
+      "plant": 155
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 602,
+    "fields": {
+      "critter": 55,
+      "plant": 156
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 603,
+    "fields": {
+      "critter": 55,
+      "plant": 157
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 604,
+    "fields": {
+      "critter": 55,
+      "plant": 158
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 605,
+    "fields": {
+      "critter": 55,
+      "plant": 159
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 606,
+    "fields": {
+      "critter": 55,
+      "plant": 160
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 607,
+    "fields": {
+      "critter": 55,
+      "plant": 161
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 608,
+    "fields": {
+      "critter": 55,
+      "plant": 162
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 609,
+    "fields": {
+      "critter": 55,
+      "plant": 163
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 610,
+    "fields": {
+      "critter": 55,
+      "plant": 164
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 611,
+    "fields": {
+      "critter": 55,
+      "plant": 166
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 612,
+    "fields": {
+      "critter": 55,
+      "plant": 168
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 613,
+    "fields": {
+      "critter": 55,
+      "plant": 178
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 614,
+    "fields": {
+      "critter": 55,
+      "plant": 200
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 615,
+    "fields": {
+      "critter": 55,
+      "plant": 201
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 616,
+    "fields": {
+      "critter": 55,
+      "plant": 202
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 617,
+    "fields": {
+      "critter": 55,
+      "plant": 203
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 618,
+    "fields": {
+      "critter": 55,
+      "plant": 204
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 619,
+    "fields": {
+      "critter": 55,
+      "plant": 182
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 620,
+    "fields": {
+      "critter": 55,
+      "plant": 138
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 621,
+    "fields": {
+      "critter": 58,
+      "plant": 31
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 622,
+    "fields": {
+      "critter": 58,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 623,
+    "fields": {
+      "critter": 58,
+      "plant": 187
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 624,
+    "fields": {
+      "critter": 58,
+      "plant": 188
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 625,
+    "fields": {
+      "critter": 58,
+      "plant": 189
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 626,
+    "fields": {
+      "critter": 58,
+      "plant": 190
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 627,
+    "fields": {
+      "critter": 58,
+      "plant": 196
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 628,
+    "fields": {
+      "critter": 58,
+      "plant": 197
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 629,
+    "fields": {
+      "critter": 58,
+      "plant": 198
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 630,
+    "fields": {
+      "critter": 58,
+      "plant": 150
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 631,
+    "fields": {
+      "critter": 58,
+      "plant": 151
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 632,
+    "fields": {
+      "critter": 58,
+      "plant": 152
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 633,
+    "fields": {
+      "critter": 62,
+      "plant": 104
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 634,
+    "fields": {
+      "critter": 62,
+      "plant": 36
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 635,
+    "fields": {
+      "critter": 62,
+      "plant": 45
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 636,
+    "fields": {
+      "critter": 62,
+      "plant": 75
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 637,
+    "fields": {
+      "critter": 62,
+      "plant": 90
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 638,
+    "fields": {
+      "critter": 62,
+      "plant": 3
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 639,
+    "fields": {
+      "critter": 62,
+      "plant": 1
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 640,
+    "fields": {
+      "critter": 62,
+      "plant": 2
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 641,
+    "fields": {
+      "critter": 66,
+      "plant": 14
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 642,
+    "fields": {
+      "critter": 66,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 643,
+    "fields": {
+      "critter": 66,
+      "plant": 21
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 644,
+    "fields": {
+      "critter": 66,
+      "plant": 42
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 645,
+    "fields": {
+      "critter": 66,
+      "plant": 43
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 646,
+    "fields": {
+      "critter": 66,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 647,
+    "fields": {
+      "critter": 66,
+      "plant": 51
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 648,
+    "fields": {
+      "critter": 66,
+      "plant": 52
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 649,
+    "fields": {
+      "critter": 66,
+      "plant": 53
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 650,
+    "fields": {
+      "critter": 66,
+      "plant": 54
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 651,
+    "fields": {
+      "critter": 66,
+      "plant": 57
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 652,
+    "fields": {
+      "critter": 66,
+      "plant": 58
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 653,
+    "fields": {
+      "critter": 66,
+      "plant": 59
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 654,
+    "fields": {
+      "critter": 66,
+      "plant": 61
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 655,
+    "fields": {
+      "critter": 66,
+      "plant": 62
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 656,
+    "fields": {
+      "critter": 66,
+      "plant": 63
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 657,
+    "fields": {
+      "critter": 66,
+      "plant": 64
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 658,
+    "fields": {
+      "critter": 66,
+      "plant": 65
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 659,
+    "fields": {
+      "critter": 66,
+      "plant": 72
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 660,
+    "fields": {
+      "critter": 66,
+      "plant": 20
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 661,
+    "fields": {
+      "critter": 67,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 662,
+    "fields": {
+      "critter": 67,
+      "plant": 51
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 663,
+    "fields": {
+      "critter": 67,
+      "plant": 3
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 664,
+    "fields": {
+      "critter": 67,
+      "plant": 20
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 665,
+    "fields": {
+      "critter": 68,
+      "plant": 51
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 666,
+    "fields": {
+      "critter": 68,
+      "plant": 52
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 667,
+    "fields": {
+      "critter": 68,
+      "plant": 53
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 668,
+    "fields": {
+      "critter": 68,
+      "plant": 54
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 669,
+    "fields": {
+      "critter": 68,
+      "plant": 57
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 670,
+    "fields": {
+      "critter": 68,
+      "plant": 58
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 671,
+    "fields": {
+      "critter": 68,
+      "plant": 59
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 672,
+    "fields": {
+      "critter": 68,
+      "plant": 61
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 673,
+    "fields": {
+      "critter": 68,
+      "plant": 62
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 674,
+    "fields": {
+      "critter": 68,
+      "plant": 63
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 675,
+    "fields": {
+      "critter": 68,
+      "plant": 64
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 676,
+    "fields": {
+      "critter": 68,
+      "plant": 65
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 677,
+    "fields": {
+      "critter": 68,
+      "plant": 72
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 678,
+    "fields": {
+      "critter": 69,
+      "plant": 3
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 679,
+    "fields": {
+      "critter": 69,
+      "plant": 20
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 680,
+    "fields": {
+      "critter": 69,
+      "plant": 62
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 681,
+    "fields": {
+      "critter": 69,
+      "plant": 63
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 682,
+    "fields": {
+      "critter": 69,
+      "plant": 64
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 683,
+    "fields": {
+      "critter": 69,
+      "plant": 65
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 684,
+    "fields": {
+      "critter": 69,
+      "plant": 72
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 685,
+    "fields": {
+      "critter": 69,
+      "plant": 73
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 686,
+    "fields": {
+      "critter": 69,
+      "plant": 77
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 687,
+    "fields": {
+      "critter": 70,
+      "plant": 3
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 688,
+    "fields": {
+      "critter": 70,
+      "plant": 20
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 689,
+    "fields": {
+      "critter": 70,
+      "plant": 62
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 690,
+    "fields": {
+      "critter": 70,
+      "plant": 63
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 691,
+    "fields": {
+      "critter": 70,
+      "plant": 64
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 692,
+    "fields": {
+      "critter": 70,
+      "plant": 65
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 693,
+    "fields": {
+      "critter": 70,
+      "plant": 72
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 694,
+    "fields": {
+      "critter": 70,
+      "plant": 73
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 695,
+    "fields": {
+      "critter": 70,
+      "plant": 77
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 696,
+    "fields": {
+      "critter": 71,
+      "plant": 4
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 697,
+    "fields": {
+      "critter": 71,
+      "plant": 11
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 698,
+    "fields": {
+      "critter": 71,
+      "plant": 15
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 699,
+    "fields": {
+      "critter": 71,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 700,
+    "fields": {
+      "critter": 71,
+      "plant": 28
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 701,
+    "fields": {
+      "critter": 71,
+      "plant": 30
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 702,
+    "fields": {
+      "critter": 71,
+      "plant": 34
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 703,
+    "fields": {
+      "critter": 71,
+      "plant": 37
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 704,
+    "fields": {
+      "critter": 71,
+      "plant": 39
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 705,
+    "fields": {
+      "critter": 71,
+      "plant": 40
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 706,
+    "fields": {
+      "critter": 71,
+      "plant": 46
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 707,
+    "fields": {
+      "critter": 71,
+      "plant": 52
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 708,
+    "fields": {
+      "critter": 71,
+      "plant": 56
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 709,
+    "fields": {
+      "critter": 71,
+      "plant": 59
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 710,
+    "fields": {
+      "critter": 71,
+      "plant": 62
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 711,
+    "fields": {
+      "critter": 71,
+      "plant": 64
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 712,
+    "fields": {
+      "critter": 71,
+      "plant": 69
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 713,
+    "fields": {
+      "critter": 71,
+      "plant": 74
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 714,
+    "fields": {
+      "critter": 71,
+      "plant": 78
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 715,
+    "fields": {
+      "critter": 71,
+      "plant": 82
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 716,
+    "fields": {
+      "critter": 72,
+      "plant": 6
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 717,
+    "fields": {
+      "critter": 72,
+      "plant": 11
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 718,
+    "fields": {
+      "critter": 72,
+      "plant": 13
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 719,
+    "fields": {
+      "critter": 72,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 720,
+    "fields": {
+      "critter": 72,
+      "plant": 32
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 721,
+    "fields": {
+      "critter": 72,
+      "plant": 38
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 722,
+    "fields": {
+      "critter": 72,
+      "plant": 43
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 723,
+    "fields": {
+      "critter": 72,
+      "plant": 44
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 724,
+    "fields": {
+      "critter": 72,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 725,
+    "fields": {
+      "critter": 72,
+      "plant": 54
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 726,
+    "fields": {
+      "critter": 72,
+      "plant": 56
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 727,
+    "fields": {
+      "critter": 72,
+      "plant": 61
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 728,
+    "fields": {
+      "critter": 72,
+      "plant": 67
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 729,
+    "fields": {
+      "critter": 72,
+      "plant": 72
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 730,
+    "fields": {
+      "critter": 72,
+      "plant": 73
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 731,
+    "fields": {
+      "critter": 72,
+      "plant": 78
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 732,
+    "fields": {
+      "critter": 72,
+      "plant": 81
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 733,
+    "fields": {
+      "critter": 72,
+      "plant": 87
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 734,
+    "fields": {
+      "critter": 72,
+      "plant": 92
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 735,
+    "fields": {
+      "critter": 72,
+      "plant": 97
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 736,
+    "fields": {
+      "critter": 73,
+      "plant": 6
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 737,
+    "fields": {
+      "critter": 73,
+      "plant": 14
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 738,
+    "fields": {
+      "critter": 73,
+      "plant": 23
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 739,
+    "fields": {
+      "critter": 73,
+      "plant": 26
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 740,
+    "fields": {
+      "critter": 73,
+      "plant": 30
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 741,
+    "fields": {
+      "critter": 73,
+      "plant": 37
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 742,
+    "fields": {
+      "critter": 73,
+      "plant": 39
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 743,
+    "fields": {
+      "critter": 73,
+      "plant": 40
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 744,
+    "fields": {
+      "critter": 73,
+      "plant": 47
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 745,
+    "fields": {
+      "critter": 73,
+      "plant": 51
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 746,
+    "fields": {
+      "critter": 73,
+      "plant": 54
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 747,
+    "fields": {
+      "critter": 73,
+      "plant": 57
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 748,
+    "fields": {
+      "critter": 73,
+      "plant": 61
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 749,
+    "fields": {
+      "critter": 73,
+      "plant": 63
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 750,
+    "fields": {
+      "critter": 73,
+      "plant": 64
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 751,
+    "fields": {
+      "critter": 73,
+      "plant": 65
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 752,
+    "fields": {
+      "critter": 73,
+      "plant": 66
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 753,
+    "fields": {
+      "critter": 73,
+      "plant": 74
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 754,
+    "fields": {
+      "critter": 73,
+      "plant": 77
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 755,
+    "fields": {
+      "critter": 73,
+      "plant": 82
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 756,
+    "fields": {
+      "critter": 74,
+      "plant": 7
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 757,
+    "fields": {
+      "critter": 74,
+      "plant": 14
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 758,
+    "fields": {
+      "critter": 74,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 759,
+    "fields": {
+      "critter": 74,
+      "plant": 31
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 760,
+    "fields": {
+      "critter": 74,
+      "plant": 39
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 761,
+    "fields": {
+      "critter": 74,
+      "plant": 41
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 762,
+    "fields": {
+      "critter": 74,
+      "plant": 44
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 763,
+    "fields": {
+      "critter": 74,
+      "plant": 45
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 764,
+    "fields": {
+      "critter": 74,
+      "plant": 49
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 765,
+    "fields": {
+      "critter": 74,
+      "plant": 53
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 766,
+    "fields": {
+      "critter": 74,
+      "plant": 56
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 767,
+    "fields": {
+      "critter": 74,
+      "plant": 62
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 768,
+    "fields": {
+      "critter": 74,
+      "plant": 67
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 769,
+    "fields": {
+      "critter": 74,
+      "plant": 73
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 770,
+    "fields": {
+      "critter": 74,
+      "plant": 76
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 771,
+    "fields": {
+      "critter": 74,
+      "plant": 80
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 772,
+    "fields": {
+      "critter": 74,
+      "plant": 86
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 773,
+    "fields": {
+      "critter": 74,
+      "plant": 91
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 774,
+    "fields": {
+      "critter": 74,
+      "plant": 93
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 775,
+    "fields": {
+      "critter": 74,
+      "plant": 97
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 776,
+    "fields": {
+      "critter": 75,
+      "plant": 121
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 777,
+    "fields": {
+      "critter": 76,
+      "plant": 115
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 778,
+    "fields": {
+      "critter": 77,
+      "plant": 8
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 779,
+    "fields": {
+      "critter": 77,
+      "plant": 13
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 780,
+    "fields": {
+      "critter": 77,
+      "plant": 18
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 781,
+    "fields": {
+      "critter": 77,
+      "plant": 28
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 782,
+    "fields": {
+      "critter": 77,
+      "plant": 29
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 783,
+    "fields": {
+      "critter": 77,
+      "plant": 30
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 784,
+    "fields": {
+      "critter": 77,
+      "plant": 31
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 785,
+    "fields": {
+      "critter": 77,
+      "plant": 32
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 786,
+    "fields": {
+      "critter": 77,
+      "plant": 36
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 787,
+    "fields": {
+      "critter": 77,
+      "plant": 37
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 788,
+    "fields": {
+      "critter": 77,
+      "plant": 38
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 789,
+    "fields": {
+      "critter": 77,
+      "plant": 42
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 790,
+    "fields": {
+      "critter": 77,
+      "plant": 43
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 791,
+    "fields": {
+      "critter": 77,
+      "plant": 45
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 792,
+    "fields": {
+      "critter": 77,
+      "plant": 48
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 793,
+    "fields": {
+      "critter": 77,
+      "plant": 55
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 794,
+    "fields": {
+      "critter": 77,
+      "plant": 57
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 795,
+    "fields": {
+      "critter": 77,
+      "plant": 58
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 796,
+    "fields": {
+      "critter": 77,
+      "plant": 59
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 797,
+    "fields": {
+      "critter": 77,
+      "plant": 67
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 798,
+    "fields": {
+      "critter": 79,
+      "plant": 9
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 799,
+    "fields": {
+      "critter": 79,
+      "plant": 12
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 800,
+    "fields": {
+      "critter": 79,
+      "plant": 14
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 801,
+    "fields": {
+      "critter": 79,
+      "plant": 19
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 802,
+    "fields": {
+      "critter": 79,
+      "plant": 22
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 803,
+    "fields": {
+      "critter": 79,
+      "plant": 24
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 804,
+    "fields": {
+      "critter": 79,
+      "plant": 27
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 805,
+    "fields": {
+      "critter": 79,
+      "plant": 30
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 806,
+    "fields": {
+      "critter": 79,
+      "plant": 35
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 807,
+    "fields": {
+      "critter": 79,
+      "plant": 38
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 808,
+    "fields": {
+      "critter": 79,
+      "plant": 44
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 809,
+    "fields": {
+      "critter": 79,
+      "plant": 47
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 810,
+    "fields": {
+      "critter": 79,
+      "plant": 50
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 811,
+    "fields": {
+      "critter": 79,
+      "plant": 51
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 812,
+    "fields": {
+      "critter": 79,
+      "plant": 56
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 813,
+    "fields": {
+      "critter": 79,
+      "plant": 63
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 814,
+    "fields": {
+      "critter": 79,
+      "plant": 66
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 815,
+    "fields": {
+      "critter": 79,
+      "plant": 72
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 816,
+    "fields": {
+      "critter": 79,
+      "plant": 78
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 817,
+    "fields": {
+      "critter": 79,
+      "plant": 86
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 818,
+    "fields": {
+      "critter": 86,
+      "plant": 172
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 819,
+    "fields": {
+      "critter": 86,
+      "plant": 173
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 820,
+    "fields": {
+      "critter": 86,
+      "plant": 174
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 821,
+    "fields": {
+      "critter": 86,
+      "plant": 175
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 822,
+    "fields": {
+      "critter": 86,
+      "plant": 176
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 823,
+    "fields": {
+      "critter": 86,
+      "plant": 178
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 824,
+    "fields": {
+      "critter": 86,
+      "plant": 180
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 825,
+    "fields": {
+      "critter": 86,
+      "plant": 182
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 826,
+    "fields": {
+      "critter": 86,
+      "plant": 183
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 827,
+    "fields": {
+      "critter": 86,
+      "plant": 184
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 828,
+    "fields": {
+      "critter": 86,
+      "plant": 187
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 829,
+    "fields": {
+      "critter": 86,
+      "plant": 192
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 830,
+    "fields": {
+      "critter": 86,
+      "plant": 196
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 831,
+    "fields": {
+      "critter": 86,
+      "plant": 197
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 832,
+    "fields": {
+      "critter": 86,
+      "plant": 198
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 833,
+    "fields": {
+      "critter": 86,
+      "plant": 199
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 834,
+    "fields": {
+      "critter": 86,
+      "plant": 200
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 835,
+    "fields": {
+      "critter": 86,
+      "plant": 201
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 836,
+    "fields": {
+      "critter": 86,
+      "plant": 202
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 837,
+    "fields": {
+      "critter": 86,
+      "plant": 203
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 838,
+    "fields": {
+      "critter": 86,
+      "plant": 204
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 839,
+    "fields": {
+      "critter": 86,
+      "plant": 205
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 840,
+    "fields": {
+      "critter": 89,
+      "plant": 84
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 841,
+    "fields": {
+      "critter": 89,
+      "plant": 87
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 842,
+    "fields": {
+      "critter": 89,
+      "plant": 167
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 843,
+    "fields": {
+      "critter": 89,
+      "plant": 168
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 844,
+    "fields": {
+      "critter": 89,
+      "plant": 169
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 845,
+    "fields": {
+      "critter": 89,
+      "plant": 176
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 846,
+    "fields": {
+      "critter": 89,
+      "plant": 171
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 847,
+    "fields": {
+      "critter": 89,
+      "plant": 173
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 848,
+    "fields": {
+      "critter": 89,
+      "plant": 200
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 849,
+    "fields": {
+      "critter": 89,
+      "plant": 201
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 850,
+    "fields": {
+      "critter": 89,
+      "plant": 202
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 851,
+    "fields": {
+      "critter": 89,
+      "plant": 203
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 852,
+    "fields": {
+      "critter": 89,
+      "plant": 204
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 853,
+    "fields": {
+      "critter": 90,
+      "plant": 7
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 854,
+    "fields": {
+      "critter": 90,
+      "plant": 22
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 855,
+    "fields": {
+      "critter": 90,
+      "plant": 8
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 856,
+    "fields": {
+      "critter": 90,
+      "plant": 121
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 857,
+    "fields": {
+      "critter": 90,
+      "plant": 132
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 858,
+    "fields": {
+      "critter": 90,
+      "plant": 123
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 859,
+    "fields": {
+      "critter": 90,
+      "plant": 195
+    }
+  },
+  {
+    "model": "gardenapi.plantcritterpairing",
+    "pk": 860,
+    "fields": {
+      "critter": 90,
+      "plant": 68
     }
   }
 ]
