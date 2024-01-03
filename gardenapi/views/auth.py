@@ -63,6 +63,7 @@ def register_user(request):
 
     # Return the token and user id to the client
     data = {
+        'valid': True,
         'token': token.key,
         'user_id': new_user_id
     }

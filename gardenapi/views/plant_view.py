@@ -83,9 +83,11 @@ class PlantSerializer(serializers.ModelSerializer):
     
 class PlantListSerializer(serializers.ModelSerializer):
     type = PlantTypeSerializer(many=False)
+    veggie_cat = VeggieCatSerializer(many=False)
+    zones = PlantZoneSerializer(many=True)
     class Meta:
         model = Plant
-        fields = ['id', 'name', 'description', 'type', 'veggie_cat', 'annual', 'image']
+        fields = ['id', 'name', 'description', 'type', 'veggie_cat', 'annual', 'image', 'zones']
 
 
 class PlantViewSet(ViewSet):
