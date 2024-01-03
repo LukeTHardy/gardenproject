@@ -17,7 +17,7 @@
     "model": "gardenapi.water",
     "pk": 3,
     "fields": {
-      "frequency": "Few times a week"
+      "frequency": "Every few days"
     }
   },
   {

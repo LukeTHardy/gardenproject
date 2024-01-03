@@ -196,7 +196,7 @@
       "annual": false,
       "spacing": 48,
       "height": 180,
-      "maturity": "3-4 years (from seed)"
+      "maturity": "3-4 years"
     }
   },
   {
@@ -236,7 +236,7 @@
       "annual": false,
       "spacing": 6,
       "height": 12,
-      "maturity": "1-2 years (from rhizomes)"
+      "maturity": "1-2 years"
     }
   },
   {
@@ -256,7 +256,7 @@
       "annual": false,
       "spacing": 12,
       "height": 36,
-      "maturity": "40-60 days (from bulbs)"
+      "maturity": "40-60 days"
     }
   },
   {
@@ -336,7 +336,7 @@
       "annual": false,
       "spacing": 60,
       "height": 60,
-      "maturity": "2-3 years (from cuttings or transplants)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -596,7 +596,7 @@
       "annual": false,
       "spacing": 36,
       "height": 36,
-      "maturity": "2-3 years (from roots or divisions)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -616,7 +616,7 @@
       "annual": false,
       "spacing": 36,
       "height": 60,
-      "maturity": "2-3 years (from cuttings or transplants)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -805,7 +805,7 @@
     "fields": {
       "user": 1,
       "name": "Calendula",
-      "description": "Calendulas, also known as marigolds, are bright and cheerful flowers with daisy-like blooms. Known for their medicinal properties and culinary uses, these versatile plants are often cultivated for their vibrant colors and ability to attract beneficial insects to the garden.",
+      "description": "Calendulas, often mistaken as marigolds, are bright and cheerful flowers with daisy-like blooms. Known for their medicinal properties and culinary uses, these versatile plants are often cultivated for their vibrant colors and ability to attract beneficial insects to the garden.",
       "image": "images/plants/calendula.png",
       "icon": "images/icons/calendula.png",
       "type": 3,
@@ -836,7 +836,7 @@
       "annual": false,
       "spacing": 36,
       "height": 120,
-      "maturity": "2-3 years (from cuttings or transplants)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -876,7 +876,7 @@
       "annual": false,
       "spacing": 72,
       "height": 72,
-      "maturity": "2-3 years (from cuttings or transplants)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -936,7 +936,7 @@
       "annual": false,
       "spacing": 24,
       "height": 36,
-      "maturity": "2-3 years (from seeds or divisions)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -956,7 +956,7 @@
       "annual": false,
       "spacing": 48,
       "height": 48,
-      "maturity": "2-3 years (from seeds or cuttings)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -1076,7 +1076,7 @@
       "annual": false,
       "spacing": 18,
       "height": 144,
-      "maturity": "2-3 years (from cuttings or transplants)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -1876,7 +1876,7 @@
       "annual": false,
       "spacing": 72,
       "height": 360,
-      "maturity": "2-3 years (from seeds or cuttings)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -2096,7 +2096,7 @@
       "annual": false,
       "spacing": 4,
       "height": 12,
-      "maturity": "6-10 weeks (from corms)"
+      "maturity": "6-10 weeks"
     }
   },
   {
@@ -2136,7 +2136,7 @@
       "annual": false,
       "spacing": 48,
       "height": 96,
-      "maturity": "2-3 years (from seeds or rhizomes)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -2316,7 +2316,7 @@
       "annual": false,
       "spacing": 6,
       "height": 36,
-      "maturity": "8-10 months (from rhizomes)"
+      "maturity": "8-10 months"
     }
   },
   {
@@ -2376,7 +2376,7 @@
       "annual": false,
       "spacing": 14,
       "height": 12,
-      "maturity": "3-5 years (from seeds or roots)"
+      "maturity": "3-5 years"
     }
   },
   {
@@ -2636,7 +2636,7 @@
       "annual": false,
       "spacing": 24,
       "height": 24,
-      "maturity": "2-3 years (from transplants)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -2656,7 +2656,7 @@
       "annual": false,
       "spacing": 60,
       "height": 120,
-      "maturity": "2-3 years (from transplants)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -2716,7 +2716,7 @@
       "annual": false,
       "spacing": 180,
       "height": 240,
-      "maturity": "3-5 years (from seeds or cuttings)"
+      "maturity": "3-5 years"
     }
   },
   {
@@ -2736,7 +2736,7 @@
       "annual": false,
       "spacing": 120,
       "height": 480,
-      "maturity": "2-5 years (from seeds or cuttings)"
+      "maturity": "2-5 years"
     }
   },
   {
@@ -2816,7 +2816,7 @@
       "annual": false,
       "spacing": 36,
       "height": 60,
-      "maturity": "2-3 years (from crowns or slips)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -3104,7 +3104,7 @@
     "pk": 156,
     "fields": {
       "user": 1,
-      "name": "Supersweet 100 Cherry Tomato",
+      "name": "Supersweet 100 Tomato",
       "description": "Supersweet 100 cherry tomatoes are small, red tomatoes with an exceptionally sweet taste. Popular in salads and as a snack, these cherry tomatoes are known for their high sugar content and burst of sweetness in every bite.",
       "image": "images/plants/supersweet_100_cherry_tomato.png",
       "icon": "images/icons/supersweet_100_cherry_tomato.png",
@@ -3816,7 +3816,7 @@
       "annual": false,
       "spacing": 18,
       "height": 48,
-      "maturity": "2-3 years (from crowns)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -3836,7 +3836,7 @@
       "annual": false,
       "spacing": 36,
       "height": 30,
-      "maturity": "2-3 years (from crowns)"
+      "maturity": "2-3 years"
     }
   },
   {
@@ -4436,7 +4436,7 @@
       "annual": false,
       "spacing": 6,
       "height": 36,
-      "maturity": "8-10 months (from rhizomes)"
+      "maturity": "8-10 months"
     }
   },
   {
