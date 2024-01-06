@@ -1,14 +1,23 @@
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from gardenapi.models import Favorite, Plant
+from gardenapi.models import Favorite, Plant, Zone
+from gardenapi.views.planttype_view import PlantTypeSerializer
+from gardenapi.views.veggiecat_view import VeggieCatSerializer
 from django.contrib.auth.models import User
 
+class PlantZoneSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Zone
+        fields = ['id', 'name']
 
 class FavoritePlantSerializer(serializers.ModelSerializer):
+    type = PlantTypeSerializer(many=False)
+    veggie_cat = VeggieCatSerializer(many=False)
+    zones = PlantZoneSerializer(many=True)
     class Meta:
         model = Plant
-        fields = ['id', 'name', 'image']
+        fields = ['id', 'name', 'description', 'type', 'veggie_cat', 'annual', 'image', 'zones']
 
 class FavoriteSerializer(serializers.ModelSerializer):
     plant = FavoritePlantSerializer(many=False)
