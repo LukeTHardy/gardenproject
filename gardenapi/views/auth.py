@@ -9,7 +9,7 @@ from rest_framework.response import Response
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def login_user(request):
-    '''Handles the authentication of a gamer
+    '''Handles the authentication of a user
 
     Method arguments:
       request -- The full HTTP request object
