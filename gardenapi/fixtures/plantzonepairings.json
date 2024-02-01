@@ -7003,5 +7003,45 @@
     "model": "gardenapi.plantzonepairing",
     "pk": 1401,
     "fields": { "plant": 230, "zone": 8 }
+  },
+  {
+    "model": "gardenapi.plantzonepairing",
+    "pk": 1402,
+    "fields": { "plant": 231, "zone": 1 }
+  },
+  {
+    "model": "gardenapi.plantzonepairing",
+    "pk": 1403,
+    "fields": { "plant": 231, "zone": 2 }
+  },
+  {
+    "model": "gardenapi.plantzonepairing",
+    "pk": 1404,
+    "fields": { "plant": 231, "zone": 3 }
+  },
+  {
+    "model": "gardenapi.plantzonepairing",
+    "pk": 1405,
+    "fields": { "plant": 231, "zone": 4 }
+  },
+  {
+    "model": "gardenapi.plantzonepairing",
+    "pk": 1406,
+    "fields": { "plant": 231, "zone": 5 }
+  },
+  {
+    "model": "gardenapi.plantzonepairing",
+    "pk": 1407,
+    "fields": { "plant": 231, "zone": 6 }
+  },
+  {
+    "model": "gardenapi.plantzonepairing",
+    "pk": 1408,
+    "fields": { "plant": 231, "zone": 7 }
+  },
+  {
+    "model": "gardenapi.plantzonepairing",
+    "pk": 1409,
+    "fields": { "plant": 231, "zone": 8 }
   }
 ]
