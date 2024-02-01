@@ -4312,7 +4312,7 @@
       "veggie_cat": 5,
       "soil": 3,
       "water": 1,
-      "light": 3,
+      "light": 1,
       "annual": true,
       "spacing": 48,
       "height": 18,
@@ -4332,7 +4332,7 @@
       "veggie_cat": 5,
       "soil": 3,
       "water": 1,
-      "light": 3,
+      "light": 1,
       "annual": true,
       "spacing": 48,
       "height": 36,
@@ -4352,7 +4352,7 @@
       "veggie_cat": 5,
       "soil": 3,
       "water": 1,
-      "light": 3,
+      "light": 1,
       "annual": true,
       "spacing": 48,
       "height": 18,
@@ -4372,7 +4372,7 @@
       "veggie_cat": 5,
       "soil": 2,
       "water": 1,
-      "light": 2,
+      "light": 1,
       "annual": true,
       "spacing": 60,
       "height": 18,
@@ -4392,7 +4392,7 @@
       "veggie_cat": 5,
       "soil": 3,
       "water": 1,
-      "light": 3,
+      "light": 1,
       "annual": true,
       "spacing": 72,
       "height": 24,
@@ -4597,6 +4597,26 @@
       "spacing": 48,
       "height": 24,
       "maturity": "80-100 days"
+    }
+  },
+  {
+    "model": "gardenapi.plant",
+    "pk": 231,
+    "fields": {
+      "user": 1,
+      "name": "Crenshaw Melon",
+      "description": "The Crenshaw melon, a type of muskmelon, is a large and oval-shaped fruit known for its sweet and juicy orange flesh. With a distinctive netted rind and vibrant aroma, Crenshaw melons are prized for their delicious flavor and are often enjoyed fresh or used in various culinary applications.",
+      "image": "images/plants/crenshaw_melon.jpg",
+      "icon": "images/icons/crenshaw_melon.jpg",
+      "type": 4,
+      "veggie_cat": 8,
+      "soil": 1,
+      "water": 3,
+      "light": 1,
+      "annual": true,
+      "spacing": 60,
+      "height": 16,
+      "maturity": "100 days"
     }
   }
 ]
